@@ -1,2 +1,2 @@
 <h1><?= $page->title() ?></h1>
-<p><?= $page->body() ?></p>
+<p><?= $page->text() ?></p>
