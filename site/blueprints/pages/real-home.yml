@@ -13,3 +13,10 @@ sections:
     type: pages
     status: listed
     templates: article
+
+  content:
+    type: fields
+    fields:
+      text:
+        label: Kurzes About
+        type: textarea
