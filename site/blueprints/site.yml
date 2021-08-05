@@ -4,4 +4,6 @@ unlisted: true
 
 options:
   delete: false
-  changeTemplate: true
+  changeTemplate:
+    - aktivitaeten
+    - real-home
