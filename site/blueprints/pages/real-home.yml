@@ -4,7 +4,7 @@ options:
 
 columns:
   left:
-    width: 1/2
+  width: 1/2
     fields:
       text:
         label: Kurzes About
