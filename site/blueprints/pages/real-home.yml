@@ -1,9 +1,9 @@
 title: Real Home
 
-tabs:
-# main content tab
-  content:
-    label: Content
+columns:
+
+  main:
+    width: 1/2
     sections:
       content:
         type: fields
@@ -12,10 +12,8 @@ tabs:
             label: Kurzes About
             type: text
             size: medium
-
-# Aktuell tab
-  aktuell:
-    label: Aktuell
+  sidebar:
+    width: 1/2
     sections:
       drafts:
         headline: Drafts
