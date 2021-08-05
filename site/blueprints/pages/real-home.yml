@@ -1,5 +1,7 @@
 title: Real Home
-
+options:
+  changeTemplate: true
+  
 sections:
 
   content:
