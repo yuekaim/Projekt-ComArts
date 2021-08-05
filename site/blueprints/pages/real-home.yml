@@ -17,14 +17,14 @@ tabs:
   aktuell:
     label: Aktuell
     sections:
-        drafts:
-          headline: Drafts
-          type: pages
-          status: draft
-          templates: projekt
+      drafts:
+        headline: Drafts
+        type: pages
+        status: draft
+        templates: projekt
 
-        published:
-          headline: Published Articles
-          type: pages
-          status: listed
-          templates: projekt
+      published:
+        headline: Published Articles
+        type: pages
+        status: listed
+        templates: projekt
