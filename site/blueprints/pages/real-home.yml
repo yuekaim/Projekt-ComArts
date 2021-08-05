@@ -10,8 +10,9 @@ columns:
         fields:
           text:
             label: Kurzes About
-            type: text
+            type: textarea
             size: medium
+
   sidebar:
     width: 1/2
     sections:
@@ -22,7 +23,7 @@ columns:
         templates: projekt
 
       published:
-        headline: Published Articles
+        headline: Aktuell
         type: pages
         status: listed
         templates: projekt
