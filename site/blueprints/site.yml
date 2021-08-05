@@ -1,6 +1,3 @@
 title: Site
 preset: pages
 unlisted: true
-
-options:
-  delete: false
