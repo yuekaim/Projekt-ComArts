@@ -1,7 +1,7 @@
 title: Real Home
 options:
   changeTemplate: true
-  
+
 sections:
 
   content:
@@ -16,10 +16,10 @@ sections:
     headline: Drafts
     type: pages
     status: draft
-    templates: article
+    templates: projekt
 
   published:
     headline: Published Articles
     type: pages
     status: listed
-    templates: article
+    templates: projekt

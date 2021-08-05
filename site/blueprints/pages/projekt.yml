@@ -1,0 +1,68 @@
+title: Projekt
+columns:
+  left:
+    width: 2/3
+    fields:
+      headline:
+        label: Headline
+        icon: headline
+        type: text
+      person:
+        label: Artist
+        type: tags
+      from:
+        label: Start
+        type: date
+        width: 1/2
+        default: today
+        display: DD.MM
+        time: false
+      fromT:
+        label: Time
+        type: time
+        width: 1/2
+
+      to:
+        label: End
+        type: date
+        width: 1/2
+        default: today + 1day
+        time: false
+        display: DD.MM
+      toT:
+        label: Time
+        type: time
+        width: 1/2
+
+      metaInfo:
+        label: Meta info
+        type: textarea
+      description:
+        label: Description
+        type: textarea
+        size: large
+  right:
+    width: 1/3
+    fields:
+      tags:
+        label: Tags
+        type: tags
+      images:
+        label: field.blocks.gallery.images.label
+        type: files
+        multiple: true
+        layout: cards
+        size: tiny
+        empty: field.blocks.gallery.images.empty
+        uploads:
+        template: blocks/image
+        image:
+        ratio: 1/1
+      videoUrl:
+        label: field.blocks.video.url.label
+        type: url
+        placeholder: field.blocks.video.url.placeholder
+        video:
+        label: Video
+        type: writer
+        inline: true
