@@ -1,12 +1,15 @@
 title: Real Home
 
 sections:
-  content:
-    type: fields
-      fields:
-        text:
-          label: Text
-          type: textarea
-          size: large
-sections:
-  pages: true
+
+  drafts:
+    headline: Drafts
+    type: pages
+    status: draft
+    templates: article
+
+  published:
+    headline: Published Articles
+    type: pages
+    status: listed
+    templates: article
