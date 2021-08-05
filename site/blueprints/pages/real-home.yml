@@ -11,19 +11,8 @@ sections:
         type: textarea
         size: medium
 
-  drafts:
-    width: 1/2
-    headline: Drafts
+  aktuell:
+    headline: Aktuell
     type: pages
-    status: draft
-    templates: projekt
-
-  published:
-    width: 1/2
-    headline: Meldungen von Veranstaltungen & Projekten, Publikationsvorschau
-    type: pages
-    status: listed
-    templates: projekt
-    sortBy: date desc
-    sortable: true
-    size: small
+    status: all
+    templates: aktuell
