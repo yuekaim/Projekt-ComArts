@@ -1,7 +1,12 @@
 title: Real Home
-preset: page
-fields:
-  text:
-    label: Text
-    type: textarea
-    size: large
+
+sections:
+  content:
+    type: fields
+      fields:
+        text:
+          label: Text
+          type: textarea
+          size: large
+sections:
+  pages: true
