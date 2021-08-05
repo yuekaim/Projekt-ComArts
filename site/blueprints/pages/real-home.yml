@@ -5,11 +5,14 @@ options:
 sections:
   content:
     type: fields
-    fields:
-      text:
-        label: Kurzes About
-        type: textarea
-        size: medium
+    columns:
+      left:
+        width: 1/2
+        fields:
+          text:
+            label: Kurzes About
+            type: textarea
+            size: medium
 
   drafts:
     headline: Drafts
