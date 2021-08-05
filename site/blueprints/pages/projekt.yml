@@ -7,6 +7,9 @@ columns:
         label: Headline
         icon: headline
         type: text
+      tags:
+        label: Tags
+        type: tags
       person:
         label: Artist
         type: tags
@@ -44,10 +47,6 @@ columns:
   right:
     width: 1/2
     fields:
-      tags:
-        label: Tags
-        type: tags
-
       images:
         label: field.blocks.gallery.images.label
         type: files
@@ -60,6 +59,14 @@ columns:
         image:
         ratio: 1/1
 
+      pdf:
+        label: PDF Files
+        type: files
+        multiple: true
+        layout: cards
+        size: tiny
+        uploads: files-upload
+
       videoUrl:
         label: field.blocks.video.url.label
         type: url
@@ -68,10 +75,3 @@ columns:
         label: Video
         type: writer
         inline: true
-      pdf:
-        label: PDF Files
-        type: files
-        multiple: true
-        layout: cards
-        size: tiny
-        uploads: files-upload
