@@ -17,9 +17,13 @@ sections:
         type: pages
         status: draft
         templates: projekt
+        layout: cards
+        width: 2/3
 
       published:
         headline: Meldungen von Veranstaltungen & Projekten, Publikationsvorschau
         type: pages
         status: listed
         templates: projekt
+        layout: cards
+        width: 2/3
