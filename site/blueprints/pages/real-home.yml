@@ -2,24 +2,26 @@ title: Real Home
 options:
   changeTemplate: true
 
-columns:
-  left:
-  width: 1/2
+sections:
+  content:
+    type: fields
     fields:
       text:
         label: Kurzes About
         type: textarea
         size: middle
 
-    right:
-    width: 1/2
-    fields:
-      drafts:
-        headline: Drafts
-        type: pages
-        status: draft
-        templates: projekt
+  drafts:
+    headline: Drafts
+    type: pages
+    status: draft
+    templates: projekt
 
+  published:
+    headline: Published Articles
+    type: pages
+    status: listed
+    templates: projekt
       published:
         headline: Meldungen von Veranstaltungen & Projekten, Publikationsvorschau
         type: pages
