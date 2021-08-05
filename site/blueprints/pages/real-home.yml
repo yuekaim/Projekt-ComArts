@@ -8,7 +8,7 @@ sections:
       text:
         label: Kurzes About
         type: textarea
-        size: large
+        size: middle
 
   drafts:
     headline: Drafts
