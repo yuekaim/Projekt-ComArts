@@ -1,18 +1,30 @@
 title: Real Home
-options:
-  changeTemplate: true
 
-sections:
+tabs:
+# main content tab
   content:
-    type: fields
-    fields:
-      text:
-        label: Kurzes About
-        type: textarea
-        size: medium
+    label: Content
+    sections:
+      content:
+        type: fields
+        fields:
+          text:
+            label: Kurzes About
+            type: text
+            size: medium
 
+# Aktuell tab
   aktuell:
-    headline: Aktuell
-    type: pages
-    status: all
-    templates: aktuell
+    label: Aktuell
+    sections:
+        drafts:
+          headline: Drafts
+          type: pages
+          status: draft
+          templates: projekt
+
+        published:
+          headline: Published Articles
+          type: pages
+          status: listed
+          templates: projekt
