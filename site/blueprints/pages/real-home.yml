@@ -9,7 +9,7 @@ sections:
       text:
         label: Kurzes About
         type: textarea
-        size: middle
+        size: medium
 
   drafts:
     headline: Drafts
@@ -22,8 +22,6 @@ sections:
     type: pages
     status: listed
     templates: projekt
-      published:
-        headline: Meldungen von Veranstaltungen & Projekten, Publikationsvorschau
-        type: pages
-        status: listed
-        templates: projekt
+    sortBy: date desc
+    sortable: true
+    size: small
