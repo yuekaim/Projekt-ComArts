@@ -3,16 +3,13 @@ options:
   changeTemplate: true
 
 sections:
-  columns:
-      left:
-        width: 1/2
-        content:
-          type: fields
-            fields:
-              text:
-                label: Kurzes About
-                type: textarea
-                size: medium
+  content:
+    type: fields
+    fields:
+      text:
+        label: Kurzes About
+        type: textarea
+        size: medium
 
   drafts:
     headline: Drafts
@@ -21,7 +18,7 @@ sections:
     templates: projekt
 
   published:
-    headline: Published Articles
+    headline: Meldungen von Veranstaltungen & Projekten, Publikationsvorschau
     type: pages
     status: listed
     templates: projekt
