@@ -2,6 +2,14 @@ title: Real Home
 
 sections:
 
+  content:
+    type: fields
+    fields:
+      text:
+        label: Kurzes About
+        type: textarea
+        size: large
+
   drafts:
     headline: Drafts
     type: pages
@@ -13,10 +21,3 @@ sections:
     type: pages
     status: listed
     templates: article
-
-  content:
-    type: fields
-    fields:
-      text:
-        label: Kurzes About
-        type: textarea
