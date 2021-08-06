@@ -1,5 +1,8 @@
 title: Landing Page
-
+options:
+  delete: false
+  changeTamplate: true
+  
 columns:
 
   main:

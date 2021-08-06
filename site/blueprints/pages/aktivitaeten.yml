@@ -1,5 +1,10 @@
 title: Aktivitäten
 preset: pages
+
+options:
+  delete: false
+  changeTamplate: true
+  
   fields:
     drafts:
       headline: Drafts
