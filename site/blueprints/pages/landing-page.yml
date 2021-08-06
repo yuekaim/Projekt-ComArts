@@ -1,8 +1,11 @@
 title: Landing Page
 options:
   delete: false
-  changeTamplate: true
-  
+  changeTamplate:
+    - Aktivitaeten
+    - landing-page
+    - projekt
+
 columns:
 
   main:
