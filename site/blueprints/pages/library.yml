@@ -1,9 +1,5 @@
-title: Aktivitaeten
+title: Library
 preset: pages
-
-options:
-  delete: false
-  changeTamplate: true
 
   fields:
     drafts:
@@ -13,7 +9,7 @@ options:
       templates: projekt
 
     published:
-      headline: Projekts
+      headline: Publikationen
       type: pages
       status: listed
       templates: projekt
