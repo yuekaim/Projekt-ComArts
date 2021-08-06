@@ -1,21 +1,3 @@
 title: Aktivitaeten
 
 preset: pages
-
-
-  drafts:
-    width: 1/2
-    headline: Drafts
-    type: pages
-    status: draft
-    templates: projekt
-
-  published:
-    width: 1/2
-    headline: Projekte
-    type: pages
-    status: listed
-    templates: projekt
-    sortBy: date desc
-    sortable: true
-    size: small
