@@ -6,9 +6,14 @@ tabs:
 
       #posts
       left:
+        title: posts
         width: 1/2
         pages:
-          aktivitaeten: pages/aktivitaeten
+          type: pages
+          create: default
+          templates:
+            - aktivitaeten
+            - library
 
 
   style:
