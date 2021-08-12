@@ -58,11 +58,14 @@ tabs:
       tags:
         label: Tags
         type: tags
+        width: 2/3
       content:
         label: content
         type: blocks
+        width: 2/3
       pdf:
         label: PDF Files
         type: files
         multiple: true
         uploads: files-upload
+        width: 2/3
