@@ -13,7 +13,7 @@ tabs:
             type: pages
             create: false
             templates:
-              - aktivitaeten
+              - activities
 
 
   style:
@@ -25,7 +25,7 @@ tabs:
 
       list:
         type: pages
-        status: all
+        status: published
 
 
 
