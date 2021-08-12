@@ -10,5 +10,4 @@ fields:
     type: blocks
   netzwerk:
     label: Netzwerk
-    type: textarea
-    size: medium
+    type: blocks
