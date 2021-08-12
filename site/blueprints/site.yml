@@ -9,11 +9,24 @@ tabs:
         title: posts
         width: 1/2
         sections:
-          pages:
+          posts:
             type: pages
             create: false
             templates:
               - activities
+              - library
+
+      right:
+        title: pages
+        width: 1/2
+        sections:
+          pages:
+            type: pages
+            create: false
+            template:
+              - landing-page
+              - community
+              - impressum
 
 
   style:
@@ -25,7 +38,7 @@ tabs:
 
       list:
         type: pages
-        status: published
+        status: all
 
 
 
