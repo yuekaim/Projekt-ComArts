@@ -6,9 +6,14 @@ tabs:
 
       #posts
       left:
+        title: posts
         width: 1/2
-        aktivitaeten:
-          album: pages/aktivitaeten
+        pages:
+          type: pages
+          create: false
+          templates:
+            - aktivitaeten
+            - library
 
 
   style:
