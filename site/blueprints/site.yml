@@ -8,17 +8,25 @@ tabs:
       left:
         title: posts
         width: 1/2
-        pages:
-          type: pages
-          create: false
-          templates:
-            - aktivitaeten
-            - library
+        sections:
+          pages:
+            type: pages
+            create: false
+            templates:
+              - aktivitaeten
 
 
   style:
 
   info:
+
+  lists:
+    sections:
+
+      list:
+        type: pages
+        status: all
+
 
 
 
