@@ -61,8 +61,8 @@ tabs:
       content:
         label: content
         type: blocks
-        pdf:
-          label: PDF Files
-          type: files
-          multiple: true
-          uploads: files-upload
+      pdf:
+        label: PDF Files
+        type: files
+        multiple: true
+        uploads: files-upload
