@@ -8,7 +8,11 @@ tabs:
       left:
         width: 1/2
         sections:
-          
+          posts:
+            headline: Posts
+            type: pages
+            album: pages/aktivitaeten
+
 
   style:
 
