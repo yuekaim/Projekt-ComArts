@@ -10,7 +10,6 @@ tabs:
         sections:
           posts:
             headline: Posts
-            type: pages
             album: pages/aktivitaeten
 
 
