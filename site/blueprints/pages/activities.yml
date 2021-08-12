@@ -1,6 +1,6 @@
 title: Activities
 
-preset: pages
+# preset: pages
 
 columns:
   left:
@@ -13,6 +13,7 @@ columns:
         templates: projekt
   right:
     width: 1/2
+    sections:
       published:
         headline:  Published activities
         type: pages
