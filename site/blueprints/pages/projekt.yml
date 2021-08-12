@@ -42,7 +42,7 @@ columns:
         type: textarea
       description:
         label: Description
-        type: textarea
+        type: blocks
         size: large
   right:
     width: 1/3
