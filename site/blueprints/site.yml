@@ -7,8 +7,8 @@ tabs:
       #posts
       left:
         width: 1/2
-        aktivitaeten:
-          album: pages/aktivitaeten
+        pages:
+          aktivitaeten: pages/aktivitaeten
 
 
   style:
