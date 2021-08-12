@@ -10,7 +10,7 @@ tabs:
         width: 1/2
         pages:
           type: pages
-          create: default
+          create: false
           templates:
             - aktivitaeten
             - library
