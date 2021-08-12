@@ -1,7 +1,21 @@
 title: Site
-preset: pages
-unlisted: true
 
-options:
-  delete: false
-  changeTamplate: true
+tabs:
+  pages:
+
+  style:
+
+  info:
+
+
+
+
+
+
+
+# preset: pages
+# unlisted: true
+#
+# options:
+#   delete: false
+#   changeTamplate: true
