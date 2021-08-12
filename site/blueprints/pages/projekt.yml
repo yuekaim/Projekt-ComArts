@@ -3,7 +3,7 @@ tabs:
   preview:
     columns:
       left:
-        width: 2/3
+        width: 1/2
         fields:
           images:
             label: Cover
@@ -22,6 +22,12 @@ tabs:
           person:
             label: Artist
             type: tags
+          metaInfo:
+            label: Meta info
+            type: textarea
+      right:
+        width: 1/2
+        fields:
           from:
             label: Start
             type: date
@@ -46,21 +52,15 @@ tabs:
             type: time
             width: 1/2
 
-          metaInfo:
-            label: Meta info
-            type: textarea
-      right:
-        width: 1/3
-        fields:
 
   main:
     fields:
       tags:
         label: Tags
         type: tags
-        content:
-          label: content
-          type: blocks
+      content:
+        label: content
+        type: blocks
         pdf:
           label: PDF Files
           type: files
