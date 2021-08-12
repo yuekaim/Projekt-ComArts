@@ -2,11 +2,11 @@ Title: test activity
 
 ----
 
-Headline: 
+Images: 
 
 ----
 
-Tags: 
+Headline: 
 
 ----
 
@@ -34,11 +34,11 @@ Metainfo:
 
 ----
 
-Description: []
+Tags: 
 
 ----
 
-Images: 
+Description: [{"content":{"level":"h2","text":"test"},"id":"42f397cc-ca05-4bff-a487-c4e6b66e7d7c","isHidden":false,"type":"heading"},{"content":{"text":"<p>testtesttest does this appear?<\/p>"},"id":"f309a896-32cb-453c-ab61-1790085608c1","isHidden":false,"type":"text"}]
 
 ----
 
