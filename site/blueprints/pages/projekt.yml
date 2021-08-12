@@ -1,7 +1,7 @@
 title: Projekt
 columns:
   left:
-    width: 1/2
+    width: 2/3
     fields:
       headline:
         label: Headline
@@ -45,13 +45,12 @@ columns:
         type: textarea
         size: large
   right:
-    width: 1/2
+    width: 1/3
     fields:
       images:
-        label: field.blocks.gallery.images.label
+        label: Cover
         type: files
-        multiple: true
-        layout: cards
+        multiple: false
         size: tiny
         empty: field.blocks.gallery.images.empty
         uploads:
@@ -66,12 +65,3 @@ columns:
         layout: cards
         size: tiny
         uploads: files-upload
-
-      videoUrl:
-        label: field.blocks.video.url.label
-        type: url
-        placeholder: field.blocks.video.url.placeholder
-        video:
-        label: Video
-        type: writer
-        inline: true
