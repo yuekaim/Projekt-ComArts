@@ -2,6 +2,13 @@ title: Site
 
 tabs:
   pages:
+    columns:
+
+      #posts
+      left:
+        width: 1/2
+        sections:
+          
 
   style:
 
