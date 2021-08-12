@@ -13,7 +13,7 @@ tabs:
             type: pages
             create: false
             templates:
-              - aktivitaeten
+              - activities
 
 
   style:
