@@ -3,13 +3,20 @@ columns:
   left:
     width: 2/3
     fields:
+      images:
+        label: Cover
+        type: files
+        multiple: false
+        size: tiny
+        empty: field.blocks.gallery.images.empty
+        uploads:
+        template: blocks/image
+        image:
+        ratio: 1/1
       headline:
         label: Headline
         icon: headline
         type: text
-      tags:
-        label: Tags
-        type: tags
       person:
         label: Artist
         type: tags
@@ -40,24 +47,16 @@ columns:
       metaInfo:
         label: Meta info
         type: textarea
+  right:
+    width: 1/3
+    fields:
+      tags:
+        label: Tags
+        type: tags
       description:
         label: Description
         type: blocks
         size: large
-  right:
-    width: 1/3
-    fields:
-      images:
-        label: Cover
-        type: files
-        multiple: false
-        size: tiny
-        empty: field.blocks.gallery.images.empty
-        uploads:
-        template: blocks/image
-        image:
-        ratio: 1/1
-
       pdf:
         label: PDF Files
         type: files
