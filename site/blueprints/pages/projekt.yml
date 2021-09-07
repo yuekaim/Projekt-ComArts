@@ -5,7 +5,7 @@ tabs:
       left:
         width: 1/2
         fields:
-          images:
+          cover:
             label: Cover
             type: files
             multiple: false
