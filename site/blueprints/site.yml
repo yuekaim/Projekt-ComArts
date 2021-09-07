@@ -1,0 +1,55 @@
+title: Site
+
+tabs:
+  pages:
+    columns:
+
+      #posts
+      left:
+        title: posts
+        width: 1/2
+        sections:
+          posts:
+            type: pages
+            create: false
+            templates:
+              - activities
+              - library
+
+      right:
+        title: pages
+        width: 1/2
+        sections:
+          pages:
+            type: pages
+            create: false
+            template:
+              - landing-page
+              - community
+              - impressum
+
+
+  style:
+
+  info:
+
+  lists:
+    sections:
+
+      list:
+        type: pages
+        status: all
+
+
+
+
+
+
+
+
+# preset: pages
+# unlisted: true
+#
+# options:
+#   delete: false
+#   changeTamplate: true

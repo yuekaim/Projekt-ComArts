@@ -1,0 +1,13 @@
+title: community
+
+fields:
+  about:
+    label: About
+    type: textarea
+    size: medium
+  team-kontakt:
+    label: Team & Kontakt
+    type: blocks
+  netzwerk:
+    label: Netzwerk
+    type: blocks

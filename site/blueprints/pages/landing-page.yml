@@ -1,0 +1,35 @@
+title: Landing Page
+options:
+  delete: false
+  changeTamplate:
+    - Aktivitaeten
+    - landing-page
+    - projekt
+
+columns:
+
+  main:
+    width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          text:
+            label: Kurzes About
+            type: textarea
+            size: medium
+
+  sidebar:
+    width: 1/2
+    sections:
+      drafts:
+        headline: Drafts
+        type: pages
+        status: draft
+        templates: projekt
+
+      published:
+        headline: Aktuell
+        type: pages
+        status: listed
+        templates: projekt

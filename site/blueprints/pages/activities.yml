@@ -1,0 +1,21 @@
+title: Activities
+
+# preset: pages
+
+columns:
+  left:
+    width: 1/2
+    sections:
+      add-new:
+        headline:  Add new activities
+        type: pages
+        status: draft
+        templates: projekt
+  right:
+    width: 1/2
+    sections:
+      published:
+        headline:  Published activities
+        type: pages
+        status: published
+        templates: projekt

@@ -1,0 +1,71 @@
+title: Projekt
+tabs:
+  preview:
+    columns:
+      left:
+        width: 1/2
+        fields:
+          images:
+            label: Cover
+            type: files
+            multiple: false
+            size: tiny
+            empty: field.blocks.gallery.images.empty
+            uploads:
+            template: blocks/image
+            image:
+            ratio: 1/1
+          headline:
+            label: Headline
+            icon: headline
+            type: text
+          person:
+            label: Artist
+            type: tags
+          metaInfo:
+            label: Meta info
+            type: textarea
+      right:
+        width: 1/2
+        fields:
+          from:
+            label: Start
+            type: date
+            width: 1/2
+            default: today
+            display: DD.MM
+            time: false
+          fromT:
+            label: Time
+            type: time
+            width: 1/2
+
+          to:
+            label: End
+            type: date
+            width: 1/2
+            default: today + 1day
+            time: false
+            display: DD.MM
+          toT:
+            label: Time
+            type: time
+            width: 1/2
+
+
+  main:
+    fields:
+      tags:
+        label: Tags
+        type: tags
+        width: 2/3
+      content:
+        label: content
+        type: blocks
+        width: 2/3
+      pdf:
+        label: PDF Files
+        type: files
+        multiple: true
+        uploads: files-upload
+        width: 2/3
