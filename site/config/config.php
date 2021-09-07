@@ -13,7 +13,7 @@
  c::set('autogit.remote.branch',  'master');
 
  c::set('autogit.webhook.secret', false);
- c::set('autogit.webhook.url',    'autogit');
+ c::set('https://comarts.suborder.center/',    'comarts');
 
  c::set('autogit.panel.user',     true);
  c::set('autogit.user.name',      'Auto Git');
