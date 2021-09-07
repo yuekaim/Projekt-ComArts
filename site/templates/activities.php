@@ -26,6 +26,7 @@
             <div id="<?= $block->id() ?>" class="block block-type-<?= $block->type() ?>">
               <?= $block ?>
               </div>
+            <?php endforeach ?>
           <div class="files">
             <?php $pdfs =  $page->pdf()->toFiles();
             foreach($pdfs as $pdf): ?>
