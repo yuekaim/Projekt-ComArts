@@ -5,7 +5,7 @@ fields:
     label: About
     type: textarea
     size: medium
-  team-kontakt:
+  teamKontakt:
     label: Team & Kontakt
     type: blocks
   netzwerk:
