@@ -1,5 +1,4 @@
-<h1><?= $page->title() ?></h1>
+<h1>ComArts</h1>
 
-<a href="<?= $pages->find('projekt')->url() ?>">PROJEKTE</a>
-<a href="<?= $pages->find('')->url() ?>">PUBLIKATIONEN</a>
-<a href="<?= $pages->find('community')->url() ?>">ABOUT</a>
+<a href="<?= $site->find('projekt')->url() ?>">PROJEKTE</a>
+<a href="<?= $site->find('community')->url() ?>">ABOUT</a>
