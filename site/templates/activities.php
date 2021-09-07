@@ -6,7 +6,6 @@
     <?php $posts = $page->children()->published() ?>
     <?php foreach ($posts as $post): ?>
       <div class="activity">
-        <h1><?= $post->title() ?></h1>
         <h1><?= $post->headline() ?></h1>
         <span><?= $post->person() ?></span>
       </div>
