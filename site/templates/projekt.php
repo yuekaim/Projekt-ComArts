@@ -1,7 +1,18 @@
-<h1><?= $page->title() ?></h1>
-<p><?= $page->description()->toBlocks() ?></p>
-<?php if($image = $page->cover()->toFile()): ?>
-  <img src="<?= $image->url() ?>" alt="">
-<?php endif ?>
+<!doctype html>
 
-<h1><?= $page->headline() ?></h1>
+  <?php snippet('header') ?>
+  <body>
+    <h1><?= $page->title() ?></h1>
+    <div class="content">
+      <div class="post-list">
+        <?php $posts = $page->findPageOrDraft()->children()->listed() ?>
+        <?php foreach ($posts as $post):?>
+        <div class="activity">
+          <h1><?= $post->headline() ?></h1>
+          <span><?= $post->person() ?></span>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
