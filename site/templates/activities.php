@@ -20,7 +20,7 @@
         </div>
         <div class="main">
           <?php $tags= $post->tags() ?>
-          <span><?= echo $tags ?></span>
+          <span><?php echo $tags ?></span>
           <div class="content">
           <?php foreach ($post->myBlocksField()->toBlocks() as $block): ?>
             <div id="<?= $block->id() ?>" class="block block-type-<?= $block->type() ?>">
