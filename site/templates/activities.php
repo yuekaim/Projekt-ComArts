@@ -22,7 +22,7 @@
           <?php $tags= $post->tags() ?>
           <span><?php echo $tags ?></span>
           <div class="content">
-            <?php foreach ($post->myBlocksField()->toBlocks() as $block): ?>
+            <?php foreach ($post->content()->toBlocks() as $block): ?>
               <div id="<?= $block->id() ?>" class="block block-type-<?= $block->type() ?>">
                 <?= $block ?>
                 </div>
@@ -32,7 +32,6 @@
               foreach($pdfs as $pdf): ?>
               <span id="download"><a href="<?= $pdf->url() ?>" download="proposed_file_name">Download PDF</a></span>
               <?php endforeach ?>
-
             </div>
           </div>
         </div>
