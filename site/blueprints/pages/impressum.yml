@@ -1,7 +1,0 @@
-title: impressum
-
-fields:
-  text:
-    label: Impressum
-    type: textarea
-    size: large
