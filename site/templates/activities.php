@@ -1,3 +1,5 @@
+<?= css('assets/css/styles.css') ?>
+
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
@@ -25,3 +27,5 @@
 
   </div>
 </div>
+
+<?php snippet('bottom') ?>
