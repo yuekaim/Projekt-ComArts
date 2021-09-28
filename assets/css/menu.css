@@ -97,8 +97,8 @@ input:checked + .slider:before {
   /* -webkit-transform: translateX(26px); */
   /* -ms-transform: translateX(26px); */
   /* transform: translateX(100%); */
-  left: auto;
-  right: 4px;
+  left: calc(100% - 36px);
+  /* right: 4px; */
   -webkit-transition: .4s;
   transition: .4s;
 }
