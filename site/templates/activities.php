@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
+<?php snippet('menu') ?>
 
-<h1><?= $page->title() ?></h1>
 <div class="content">
   <div class="post-list">
     <?php $posts = $page->children()->published() ?>
@@ -18,7 +18,7 @@
           <span><?= $post->toT() ?></span>
           <p><?= $post->metaInfo() ?></p>
         </div>
-        
+
 
       </div>
     <?php endforeach; ?>
