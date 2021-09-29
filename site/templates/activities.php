@@ -9,10 +9,10 @@
     <?php foreach ($posts as $post): ?>
       <div class="activity">
         <div class="preview">
-          <?php if($image = $page->cover()->toFile()): ?>
+          <?php if($image = $post->cover()->toFile()): ?>
             <img src="<?= $image->url() ?>" alt="">
           <?php endif ?>
-          <img src="<?= $page->cover()->url() ?>" alt="">
+          <img src="<?= $post->cover()->url() ?>" alt="">
           <h1><?= $post->headline() ?></h1>
           <span><?= $post->person() ?></span>
           <span><?= $post->from() ?></span>
