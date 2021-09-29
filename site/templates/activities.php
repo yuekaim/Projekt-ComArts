@@ -13,7 +13,7 @@
             <img class="preview-img" src="<?= $image->url() ?>" alt="">
           <?php endif ?>
           <img class="preview-img" src="<?= $post->cover()->url() ?>" alt="">
-          <h1><?= $post->headline() ?></h1>
+          <h1><a href="<?= $post->content()->url() ?> "><?= $post->headline() ?></a></h1>
           <span><?= $post->person() ?></span>
           <span><?= $post->from() ?></span>
           <span><?= $post->fromT() ?></span>
