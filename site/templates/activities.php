@@ -12,7 +12,7 @@
           <?php if($image = $page->cover()->toFile()): ?>
             <img src="<?= $image->url() ?>" alt="">
           <?php endif ?>
-          <img src="<?= $image->url() ?>" alt="">
+          <img src="<?= $page->cover()->url() ?>" alt="">
           <h1><?= $post->headline() ?></h1>
           <span><?= $post->person() ?></span>
           <span><?= $post->from() ?></span>
