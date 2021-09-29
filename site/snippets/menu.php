@@ -19,9 +19,11 @@
     </a>
     <a href="#">
       <div class="menu-item">Community</div>
+      <a href="<?= $site->find('Community')->url() ?>">
     </a>
     <a href="#">
       <div class="menu-item">Impressum</div>
+      <a href="<?= $site->find('Impressum')->url() ?>">
     </a>
     <!-- <div class="menu-item"> -->
       <label class="switch" class="menu-item">
