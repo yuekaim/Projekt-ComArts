@@ -21,6 +21,10 @@
   <!-- <link rel="stylesheet" href="css/styles.css"> -->
 
   <?= css('assets/css/styles.css') ?>
+  <?= js([
+    'assets/js/jquery-3.6.0.min.js',
+    
+    ]) ?>
 
 </head>
 
