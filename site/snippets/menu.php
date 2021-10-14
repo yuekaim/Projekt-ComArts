@@ -1,12 +1,5 @@
 <?= css('assets/css/menu.css') ?>
 
-<div class="body-flex">
-
-
-  <div class="top">
-    Kollaborative, kollektive, aktivistivi
-  </div>
-
   <div class="menu">
     <a href="#">
       <div class="menu-item">ComArts</div>

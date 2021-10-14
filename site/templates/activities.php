@@ -1,6 +1,7 @@
 <?= css('assets/css/styles.css') ?>
 
 <?php snippet('header') ?>
+<?php snippet('top') ?>
 <?php snippet('menu') ?>
 
 <div class="content">

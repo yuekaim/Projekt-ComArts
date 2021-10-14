@@ -1,9 +1,10 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
+<?php snippet('top') ?>
 
-
-<div class="info">
-  <p><?= $page->text() ?></p>
+<?= js('assets/js/paper-full.min.js') ?>
+<?= js('assets/js/home.js') ?>
+<div class="">
+  <canvas id="myCanvas" resize></canvas>
 </div>
 
 <?php snippet('bottom') ?>
