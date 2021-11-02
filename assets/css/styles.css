@@ -27,6 +27,7 @@ body {
   width: 8em;
 }
 
+<<<<<<< HEAD
 .paperjs{
 
 }
@@ -39,6 +40,10 @@ body {
 
 #canvas{
   width: 96vw;
+=======
+#canvas{
+  width: 80vw;
+>>>>>>> ba34531fade4bf01ce92aae34e25a52e5d17e9b3
   height: 80vh;
   position: fixed;
   top: 50%;

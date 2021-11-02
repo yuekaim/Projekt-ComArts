@@ -32,8 +32,8 @@ var radius = 50;
 for (var i = 0, l = ballPositions.length; i < l; i++) {
 	var circlePath = new Path.Rectangle({
 		center: ballPositions[i],
-		size: 150,
-		radius: 20,
+		size: 200,
+		radius: 50,
 		blendMode: 'destination-out'
 	});
 	circlePaths.push(circlePath);
@@ -44,7 +44,7 @@ for (var i = 0, l = ballPositions.length; i < l; i++) {
 	});
 	// text.content = letters[i];
 	text.fillColor = "black";
-	text.fontSize = 100;
+	text.fontSize = 150;
 	text.justification = 'center';
 	text.position.y += 40;
 	texts.push(text);
