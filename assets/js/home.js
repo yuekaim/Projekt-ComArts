@@ -1,11 +1,11 @@
 // Ported from original Metaball script by SATO Hiroyuki
 // http://park12.wakwak.com/~shp/lc/et/en_aics_script.html
-var rect = new Path.Rectangle({
-    point: [0, 0],
-    size: [view.size.width, view.size.height],
-});
-rect.sendToBack();
-rect.fillColor = 'white';
+// var rect = new Path.Rectangle({
+//     point: [0, 0],
+//     size: [view.size.width, view.size.height],
+// });
+// rect.sendToBack();
+// rect.fillColor = 'white';
 
 var raster = new Raster('gradient');
 raster.position = view.center;
@@ -16,10 +16,15 @@ project.currentStyle = {
 	fillColor: 'black'
 };
 
-var ballPositions = [[255, 129], [610, 73], [486, 363],
-	[117, 459], [484, 726], [843, 306], [789, 615]];
+var x = [100, 250, 400, 650, 750, 900, 1000];
+var y = [200, 350, 450, 250, 350, 450, 550];
+
+var ballPositions = [[x[0], y[0]], [x[1], y[1]], [x[2], y[2]],
+	[x[3], y[3]], [x[4], y[4]], [x[5], y[5]], [x[6], y[6]]];
 
 var letters = ['C','O','M','A','R','T','S'];
+
+var texts = [];
 
 var handle_len_rate = 2.4;
 var circlePaths = [];
@@ -32,23 +37,30 @@ for (var i = 0, l = ballPositions.length; i < l; i++) {
 		blendMode: 'destination-out'
 	});
 	circlePaths.push(circlePath);
-	var text = new PointText(ballPositions[i]);
-	text.content = letters[i];
+
+	var text = new PointText({
+		position: ballPositions[i],
+		content: letters[i]
+	});
+	// text.content = letters[i];
 	text.fillColor = "black";
 	text.fontSize = 100;
 	text.justification = 'center';
 	text.position.y += 40;
+	texts.push(text);
 }
-
-var largeCircle = new Path.Circle({
-	center: [676, 433],
-	radius: 100,
-	blendMode: 'destination-out'
-});
-circlePaths.push(largeCircle);
+//
+// var largeCircle = new Path.Circle({
+// 	center: [676, 433],
+// 	radius: 100,
+// 	blendMode: 'destination-out'
+// });
+// circlePaths.push(largeCircle);
 
 function onMouseMove(event) {
-	largeCircle.position = event.point;
+	// largeCircle.position = event.point;
+	circlePaths[0].position = event.point;
+	texts[0].position = event.point;
 	generateConnections(circlePaths);
 }
 
