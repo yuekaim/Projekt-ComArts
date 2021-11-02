@@ -21,7 +21,6 @@ var y = [200, 350, 450, 250, 350, 450, 550];
 
 var ballPositions = [[x[0], y[0]], [x[1], y[1]], [x[2], y[2]],
 	[x[3], y[3]], [x[4], y[4]], [x[5], y[5]], [x[6], y[6]]];
-
 var letters = ['C','O','M','A','R','T','S'];
 
 var texts = [];
@@ -38,16 +37,6 @@ for (var i = 0, l = ballPositions.length; i < l; i++) {
 	});
 	circlePaths.push(circlePath);
 
-	var text = new PointText({
-		position: ballPositions[i],
-		content: letters[i]
-	});
-	// text.content = letters[i];
-	text.fillColor = "black";
-	text.fontSize = 150;
-	text.justification = 'center';
-	text.position.y += 40;
-	texts.push(text);
 }
 //
 // var largeCircle = new Path.Circle({
@@ -56,11 +45,16 @@ for (var i = 0, l = ballPositions.length; i < l; i++) {
 // 	blendMode: 'destination-out'
 // });
 // circlePaths.push(largeCircle);
+var mx = 0;
+var my = 0;
 
 function onMouseMove(event) {
 	// largeCircle.position = event.point;
-	circlePaths[0].position = event.point;
-	texts[0].position = event.point;
+	circlePaths[0].position.x = (view.size.width - event.point.x) * 0.3;
+	texts[0].position.x = (view.size.width - event.point.x) * 0.3;
+
+
+
 	generateConnections(circlePaths);
 }
 
@@ -81,6 +75,19 @@ function generateConnections(paths) {
 }
 
 generateConnections(circlePaths);
+
+for (var i = 0, l = ballPositions.length; i < l; i++) {
+	var text = new PointText({
+		position: ballPositions[i],
+		content: letters[i]
+	});
+	// text.content = letters[i];
+	text.fillColor = "black";
+	text.fontSize = 150;
+	text.justification = 'center';
+	text.position.y += 40;
+	texts.push(text);
+}
 
 // ---------------------------------------------
 function metaball(ball1, ball2, v, handle_len_rate, maxDistance) {
