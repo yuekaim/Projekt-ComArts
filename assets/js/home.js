@@ -12,9 +12,10 @@ var handle_len_rate = 2.4;
 var circlePaths = [];
 var radius = 50;
 for (var i = 0, l = ballPositions.length; i < l; i++) {
-	var circlePath = new Path.Circle({
+	var circlePath = new Path.Rectangle({
 		center: ballPositions[i],
-		radius: 50
+		size: 80
+
 	});
 	circlePaths.push(circlePath);
 }

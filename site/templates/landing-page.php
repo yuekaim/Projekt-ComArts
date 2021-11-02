@@ -1,10 +1,11 @@
 <?php snippet('header') ?>
 <?php snippet('top') ?>
 
-<?= js('assets/js/paper-full.min.js') ?>
-<?= js('assets/js/home.js') ?>
+<?= js('assets/js/paper-full.js') ?>
+<!-- <?= js('assets/js/home.js') ?> -->
+<script type="text/paperscript" src="assets/js/home.js" canvas="canvas"></script>
 <div class="">
-  <canvas id="myCanvas" resize></canvas>
+  <canvas id="canvas" resize></canvas>
 </div>
 
 <?php snippet('bottom') ?>
