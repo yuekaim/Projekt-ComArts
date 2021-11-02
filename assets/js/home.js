@@ -52,7 +52,8 @@ function onMouseMove(event) {
 	// largeCircle.position = event.point;
 	circlePaths[0].position.x = (view.size.width - event.point.x) * 0.3;
 	texts[0].position.x = (view.size.width - event.point.x) * 0.3;
-
+	circlePaths[0].position.y = (view.size.width - event.point.y) * 0.3;
+	texts[0].position.y = (view.size.width - event.point.y) * 0.3;
 
 
 	generateConnections(circlePaths);
