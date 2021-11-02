@@ -1,12 +1,21 @@
 // Ported from original Metaball script by SATO Hiroyuki
 // http://park12.wakwak.com/~shp/lc/et/en_aics_script.html
+var rect = new Path.Rectangle({
+    point: [0, 0],
+    size: [view.size.width, view.size.height],
+});
+rect.sendToBack();
+rect.fillColor = 'white';
+
+
 project.currentStyle = {
 	fillColor: 'black'
 };
 
 var ballPositions = [[255, 129], [610, 73], [486, 363],
-	[117, 459], [484, 726], [843, 306], [789, 615], [1049, 82],
-	[1292, 428], [1117, 733], [1352, 86], [92, 798]];
+	[117, 459], [484, 726], [843, 306], [789, 615]];
+
+var letters = ['C','O','M','A','R','T','S'];
 
 var handle_len_rate = 2.4;
 var circlePaths = [];
@@ -14,15 +23,23 @@ var radius = 50;
 for (var i = 0, l = ballPositions.length; i < l; i++) {
 	var circlePath = new Path.Rectangle({
 		center: ballPositions[i],
-		size: 80
-
+		size: 150,
+		radius: 20,
+		blendMode: 'destination-out'
 	});
 	circlePaths.push(circlePath);
+	var text = new PointText(ballPositions[i]);
+	text.content = letters[i];
+	text.fillColor = "black";
+	text.fontSize = 100;
+	text.justification = 'center';
+	text.position.y += 40;
 }
 
 var largeCircle = new Path.Circle({
 	center: [676, 433],
-	radius: 100
+	radius: 100,
+	blendMode: 'destination-out'
 });
 circlePaths.push(largeCircle);
 
@@ -99,7 +116,8 @@ function metaball(ball1, ball2, v, handle_len_rate, maxDistance) {
 	var path = new Path({
 		segments: [p1a, p2a, p2b, p1b],
 		style: ball1.style,
-		closed: true
+		closed: true,
+		blendMode: 'destination-out'
 	});
 	var segments = path.segments;
 	segments[0].handleOut = getVector(angle1a - pi2, radius1);
