@@ -45,16 +45,62 @@ for (var i = 0, l = ballPositions.length; i < l; i++) {
 // 	blendMode: 'destination-out'
 // });
 // circlePaths.push(largeCircle);
-var mx = 0;
-var my = 0;
+
+
+var mx = 1000;
+var my = 1000;
+var dx, dy;
 
 function onMouseMove(event) {
-	// largeCircle.position = event.point;
-	circlePaths[0].position.x = (view.size.width - event.point.x) * 0.3;
-	texts[0].position.x = (view.size.width - event.point.x) * 0.3;
-	circlePaths[0].position.y = (view.size.width - event.point.y) * 0.3;
-	texts[0].position.y = (view.size.width - event.point.y) * 0.3;
+	if (event.point.x > mx){
+		dx = -1;
+	} else {
+		dx = 1;
+	}
+	if (event.point.y > my){
+		dy = -1;
+	} else {
+		dy = 1;
+	}
+	mx = event.point.x;
+	my = event.point.y;
 
+
+	// largeCircle.position = event.point;
+	circlePaths[0].position.x += dx;
+	texts[0].position.x += dx;
+	circlePaths[0].position.y -= dy;
+	texts[0].position.y -= dy;
+
+	circlePaths[1].position.x += dx * 1.5;
+	texts[1].position.x += dx * 1.5;
+	circlePaths[1].position.y -= dy;
+	texts[1].position.y -= dy;
+
+	circlePaths[2].position.x += dx;
+	texts[2].position.x += dx;
+	circlePaths[2].position.y += dy;
+	texts[2].position.y += dy;
+
+	circlePaths[3].position.x -= dx * 2.3;
+	texts[3].position.x -= dx * 2.3;
+	circlePaths[3].position.y += dy * 1.3;
+	texts[3].position.y += dy * 1.3;
+
+	circlePaths[4].position.x += dx * 2;
+	texts[4].position.x += dx * 2;
+	circlePaths[4].position.y -= dy * 2.3;
+	texts[4].position.y -= dy * 2.3;
+
+	circlePaths[5].position.x -= dx * 2;
+	texts[5].position.x -= dx * 2;
+	circlePaths[5].position.y += dy * 2;
+	texts[5].position.y += dy * 2;
+
+	circlePaths[6].position.x += dx * 3;
+	texts[6].position.x += dx * 3;
+	circlePaths[6].position.y += dy * 2;
+	texts[6].position.y += dy * 2;
 
 	generateConnections(circlePaths);
 }
