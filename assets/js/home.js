@@ -7,6 +7,10 @@ var rect = new Path.Rectangle({
 rect.sendToBack();
 rect.fillColor = 'white';
 
+var raster = new Raster('gradient');
+raster.position = view.center;
+raster.scale(0.3);
+
 
 project.currentStyle = {
 	fillColor: 'black'
