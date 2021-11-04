@@ -118,13 +118,7 @@ input:checked + .slider:before {
   flex-direction: column;
   height: 100vh;
 }
-.container{
-  width: 100%;
-  height: 7;
-  overflow: hidden;
-  line-height: 30px;
-  position:relative;
-}
+
 .top{
   /* position: absolute; */
   font-family: 'ABC';
@@ -135,6 +129,11 @@ input:checked + .slider:before {
   padding: 0.5em, 1em;
   border: 1px solid black;
   background: white;
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 7vh;
+  overflow-x: hidden;
 }
 
 .bottom{
