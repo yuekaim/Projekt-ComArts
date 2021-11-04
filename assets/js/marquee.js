@@ -1,7 +1,7 @@
 $(function(){
 
   $('#panel').hpanel({
-    marquee_class: '.track',
+    marquee_class: '.marquee',
     content_class: '.content',
     fixed_class: 0
 
