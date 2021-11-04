@@ -1,3 +1,4 @@
+<?= js('assets/js/marquee.js') ?>
 <div class="body-flex">
 
 
