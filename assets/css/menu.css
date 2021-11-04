@@ -129,6 +129,11 @@ input:checked + .slider:before {
   padding: 0.5em, 1em;
   border: 1px solid black;
   background: white;
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 200px;
+  overflow-x: hidden;
 }
 
 .bottom{
@@ -142,4 +147,16 @@ input:checked + .slider:before {
   padding: 0.5em, 1em;
   border: 1px solid black;
   background: white;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
