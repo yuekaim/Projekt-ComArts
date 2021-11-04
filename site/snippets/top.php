@@ -2,9 +2,9 @@
 <div class="body-flex">
 
 
-  <div class="container top">
-    <div class="marquee>
-      <span>&nbsp;Kollaborative, kollektive, aktivistivi</span>
+  <div id="panel" class="container top">
+    <div class="marquee">
+      <div class="content">&nbsp;Kollaborative, kollektive, aktivistivi</div>
     </div>
   </div>
 </div>
