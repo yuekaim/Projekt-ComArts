@@ -2,8 +2,5 @@
 <?= js('assets/js/marquee.js') ?>
 
   <div class="marquee bottom">
-
-      <span class="content">ANSAETZE IN KUENSTLERISCH AESTHETIS</span>
-
-
+      <span>&nbsp;ANSAETZE IN KUENSTLERISCH AESTHETIS</span>
 </div>
