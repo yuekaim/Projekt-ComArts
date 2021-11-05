@@ -4,7 +4,8 @@
 
 
 
+  <div class="container ">
     <div class="marquee top">
       <span>&nbsp;Kollaborative, kollektive, aktivistivi</span>
     </div>
-</div>
+  </div>
