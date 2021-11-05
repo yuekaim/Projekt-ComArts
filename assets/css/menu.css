@@ -129,11 +129,6 @@ input:checked + .slider:before {
   padding: 0.5em, 1em;
   border: 1px solid black;
   background: white;
-  position: relative;
-  width: 100vw;
-  max-width: 100%;
-  height: 7vh;
-  overflow-x: hidden;
 }
 
 .bottom{
@@ -148,7 +143,13 @@ input:checked + .slider:before {
   border: 1px solid black;
   background: white;
 }
-
+.marquee{
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 7vh;
+  overflow-x: hidden;
+}
 @keyframes moveLeft {
   0% {
     transform: translateX(0);
