@@ -1,8 +1,8 @@
 function makeMarquee (){
-  if(document.querySelector('.top span').innerText != null){
-    const titleTop = document.querySelector('.top span').innerText|| element.textContent
+  if(document.querySelector('#top').innerText != null){
+    const titleTop = document.querySelector('#top').innerText|| element.textContent
     const textTop = new Array(50).fill(titleTop).join('-')
-    const marqueeTop =document.querySelector('.top span')
+    const marqueeTop =document.querySelector('#top')
     marqueeTop.innerHTML = textTop
 }
 if(document.querySelector('#bottom').innerText != null){

@@ -6,6 +6,6 @@
 
   <div class="container ">
     <div class="marquee top">
-      <span>&nbsp;Kollaborative, kollektive, aktivistivi</span>
+      <span id="top">&nbsp;Kollaborative, kollektive, aktivistivi</span>
     </div>
   </div>
