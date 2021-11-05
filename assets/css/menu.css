@@ -158,7 +158,7 @@ input:checked + .slider:before {
   }
 }
 .marquee span{
-  animation: moveLeft 300s infinite;
+  animation: moveLeft 300s infinite linear;
   white-space: nowrap;
   display: block;
   position: relative;
