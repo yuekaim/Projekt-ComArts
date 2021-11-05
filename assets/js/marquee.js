@@ -1,3 +1,4 @@
+/*
 function makeMarquee (){
   if(document.querySelector('#top').innerText != null){
     const titleTop = document.querySelector('#top').innerText|| element.textContent
@@ -13,3 +14,20 @@ if(document.querySelector('#bottom').innerText != null){
   }
 }
 makeMarquee()
+*/
+$(document).ready(function(){
+
+   // 开始写 jQuery 代码...
+   function makeMarquee (){
+    const titleTop = $('.top span').text()
+   // alert(titleTop)
+
+    const textTop = new Array(50).fill(titleTop).join('-')
+     //alert(textTop)
+    $('.top span').text(textTop)
+    //const marqueeTop =$('.top span')
+    //marqueeTop.innerHTML = textTop
+
+  }
+  makeMarquee()
+});
