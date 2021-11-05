@@ -19,15 +19,14 @@ $(document).ready(function(){
 
    // 开始写 jQuery 代码...
    function makeMarquee (){
+     //top
     const titleTop = $('.top span').text()
-   // alert(titleTop)
-
     const textTop = new Array(50).fill(titleTop).join('-')
-     //alert(textTop)
     $('.top span').text(textTop)
-    //const marqueeTop =$('.top span')
-    //marqueeTop.innerHTML = textTop
-
+    //bottom
+    const titleBottom = $('.bottom span').text()
+    const textBottom = new Array(50).fill(titleBottom).join('-')
+    $('.bottom span').text(textBottom)
   }
   makeMarquee()
 });
