@@ -5,10 +5,10 @@ function makeMarquee (){
     const marqueeTop =document.querySelector('.top span')
     marqueeTop.innerHTML = textTop
 }
-if(document.querySelector('.bottom span').innerText != null){
-    const titleBottom = document.querySelector('.bottom span').innerText|| element.textContent
+if(document.querySelector('#bottom').innerText != null){
+    const titleBottom = document.querySelector('#bottom').innerText|| element.textContent
     const textBottom = new Array(50).fill(titleBottom).join('-')
-    const marqueeBottom =document.querySelector('.bottom span')
+    const marqueeBottom =document.querySelector('#bottom')
     marqueeBottom.innerHTML = textBottom
   }
 }

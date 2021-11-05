@@ -3,6 +3,6 @@
 
 <div class="container">
     <div class="marquee bottom">
-      <span>&nbsp;ANSAETZE IN KUENSTLERISCH AESTHETIS</span>
+      <span id="bottom">&nbsp;ANSAETZE IN KUENSTLERISCH AESTHETIS</span>
   </div>
 </div>
