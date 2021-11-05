@@ -149,14 +149,17 @@ input:checked + .slider:before {
   background: white;
 }
 
-.marquee {
-  position: absolute;
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee 20s linear infinite;
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-3000vw);
+  }
 }
-
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+.marquee span{
+  animation: moveLeft 300s infinite;
+  white-space: nowrap;
+  display: block;
+  position: relative;
 }

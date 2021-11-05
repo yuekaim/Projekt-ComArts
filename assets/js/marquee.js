@@ -1,17 +1,11 @@
-window.requestAnimationFrame = (function(){
-  return  window.requestAnimationFrame       ||
-          window.webkitRequestAnimationFrame ||
-          window.mozRequestAnimationFrame    ||
-          function( callback ){
-            window.setTimeout(callback, 1000 / 60);
-          };
-})();
-
-var speed = 5000;
-(function currencySlide(){
-    var currencyPairWidth = $('span:first-child').outerWidth();
-    $(".marquee").animate({marginLeft:-currencyPairWidth},speed, 'linear', function(){
-      $(this).css({marginLeft:0}).find("span:last").after($(this).find("span:first"));
-        });
-        requestAnimationFrame(currencySlide);
-})();
+function makeMarquee (){
+  const titleTop = document.querySelector('.top span').innerText
+  const textTop = new Array(50).fill(titleTop).join('-')
+  const marqueeTop =document.querySelector('.top span')
+  marqueeTop.innerHTML = textTop
+  const titleBottom = document.querySelector('.bottom span').innerText
+  const textBottom = new Array(50).fill(titleBottom).join('-')
+  const marqueeBottom =document.querySelector('.bottom span')
+  marqueeBottom.innerHTML = textBottom
+}
+makeMarquee()
