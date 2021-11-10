@@ -11,16 +11,16 @@
 </div>
 <div class="short-about">
   <div class="content">
-    <h1>PROJRKT COMARTS</h1>
-    <p><?= $page->text() ?></p>
+    <h1><span>PROJRKT COMARTS</span></h1>
+    <p><span><?= $page->text() ?></span></p>
     <button type="button">WEITER LESEN</button>
   </div>
 </div>
 <div class="headline">
-  <h1>HEADLINE</h1>
+  <h1><span>HEADLINE</span></h1>
 </div>
 <div class="news">
-  <h1>NEWS</h1>
+  <h1><span>NEWS</span></h1>
 </div>
 
 <?php snippet('bottom') ?>
