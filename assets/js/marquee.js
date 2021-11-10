@@ -30,8 +30,8 @@ $(document).ready(function(){
   }
   makeMarquee()
 //----------------------
-$('.paperjs').click(function(){
-  $(this).hide()
+$('canvas').click(function(){
+  $('div.paperjs').hide()
 })
 
 
