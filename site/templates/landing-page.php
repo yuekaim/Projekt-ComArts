@@ -17,10 +17,10 @@
   </div>
 </div>
 <div class="headline">
-  <h1>placeholder</h1>
+  <h1>HEADLINE</h1>
 </div>
 <div class="news">
-  <h1>placeholder</h1>
+  <h1>NEWS</h1>
 </div>
 
 <?php snippet('bottom') ?>

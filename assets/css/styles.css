@@ -48,6 +48,7 @@ body {
 }
 .short-about{
   display:none;
+  background-image: url("assets/img/bg.jpg");
   border: 1px solid black;
   border-radius: 2em;
   margin-left: 2vw;
@@ -56,11 +57,13 @@ body {
 }
 .headline{
   display:none;
+  background-image: url("assets/img/bg.jpg");
   border: 1px solid black;
   border-radius: 2em;
   margin-left: 2vw;
   margin-right: 2vw;
   height:20vh;
+  width:50vw;
 }
 .new{
   display:none;
@@ -69,9 +72,9 @@ body {
   margin-left: 2vw;
   margin-right: 2vw;
   height:20vh;
+  width:50vw;
 }
-.short-about .content{
-  background-image: url("assets/img/bg.jpg");
+.short-about .content, .headline h1, .news h1{
   font-size: 0.8em;
   margin:3em 7em;
 }
