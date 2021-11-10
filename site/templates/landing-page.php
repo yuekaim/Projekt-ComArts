@@ -20,12 +20,16 @@
         <button type="button">WEITER LESEN</button>
       </div>
     </div>
-    <div class="headline">
-      <h1><span>HEADLINE</span></h1>
+
+    <div class="hflex">
+        <div class="headline">
+          <h1><span>HEADLINE</span></h1>
+        </div>
+        <div class="news">
+          <h1><span>NEWS</span></h1>
+        </div>
     </div>
-    <div class="news">
-      <h1><span>NEWS</span></h1>
-    </div>
+
   </div>
 
 </div>

@@ -14,9 +14,16 @@ body {
   height: 80vh;
 }
 
+.hflex{
+  display: flex;
+  flex-direction: row;
+}
+
 .body-nomenu{
   overflow: scroll;
   height: calc(80vh - 2.5em);
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 .content{
@@ -63,8 +70,8 @@ body {
   background-image: url("assets/img/bg.jpg");
   border: 1px solid black;
   border-radius: 2em;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  /* margin-left: 2vw; */
+  /* margin-right: 2vw; */
   height:60vh;
 }
 .headline{
@@ -72,8 +79,8 @@ body {
   background-image: url("assets/img/bg.jpg");
   border: 1px solid black;
   border-radius: 2em;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  /* margin-left: 2vw; */
+  /* margin-right: 2vw; */
   height:20vh;
   width:50vw;
 }
@@ -81,8 +88,8 @@ body {
   display:none;
   border: 1px solid black;
   border-radius: 2em;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  /* margin-left: 2vw; */
+  /* margin-right: 2vw; */
   height:20vh;
   width:50vw;
 }
