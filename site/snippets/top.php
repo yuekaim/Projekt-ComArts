@@ -9,4 +9,3 @@
       <span>&nbsp;Kollaborative, kollektive, aktivistivi</span>
     </div>
   </div>
-</div>

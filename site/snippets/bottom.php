@@ -6,3 +6,4 @@
       <span>&nbsp;ANSAETZE IN KUENSTLERISCH AESTHETIS</span>
   </div>
 </div>
+</div>
