@@ -54,7 +54,7 @@ body {
   margin-right: 2vw;
 
 }
-.short-about p{
+.short-about .content{
   font-size: 0.8em;
   margin:3em 7em;
 }
