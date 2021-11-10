@@ -14,7 +14,7 @@
         <?php foreach ($posts as $post): ?>
           <div class="activity">
             <div class="preview">
-              <?php if($image = $post->cover()->image()): ?>
+              <?php if($image = $post->cover()->>toFile()): ?>
                 <img class="preview-img" src="<?= $image->url() ?>" alt="">
               <?php endif ?>
               <h1><a href=" "><?= $post->headline() ?></a></h1>
