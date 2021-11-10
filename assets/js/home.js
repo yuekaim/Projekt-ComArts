@@ -27,6 +27,7 @@ var texts = [];
 
 var handle_len_rate = 2.4;
 var circlePaths = [];
+var circlePaths1 = [];
 var radius = 50;
 for (var i = 0, l = ballPositions.length; i < l; i++) {
 	var circlePath = new Path.Rectangle({
@@ -38,6 +39,7 @@ for (var i = 0, l = ballPositions.length; i < l; i++) {
 	circlePaths.push(circlePath);
 
 }
+
 //
 // var largeCircle = new Path.Circle({
 // 	center: [676, 433],
@@ -67,40 +69,84 @@ function onMouseMove(event) {
 
 
 	// largeCircle.position = event.point;
-	circlePaths[0].position.x += dx;
-	texts[0].position.x += dx;
-	circlePaths[0].position.y -= dy;
-	texts[0].position.y -= dy;
+	console.log(circlePaths[1].position.x);
+	console.log(view.size.width - 100);
+	if (circlePaths[0].position.x > 100 &&
+	circlePaths[0].position.x < (view.size.width - 100)){
+		circlePaths[0].position.x += dx;
+		texts[0].position.x += dx;
+	}
+	if (circlePaths[0].position.y > 100 &&
+	circlePaths[0].position.y < (view.size.height - 100)){
+		circlePaths[0].position.y -= dy;
+		texts[0].position.y -= dy;
+	}
 
-	circlePaths[1].position.x += dx * 1.5;
-	texts[1].position.x += dx * 1.5;
-	circlePaths[1].position.y -= dy;
-	texts[1].position.y -= dy;
+	if (circlePaths[1].position.x > 100 &&
+	circlePaths[1].position.x < (view.size.width - 100)){
+		circlePaths[1].position.x += dx * 1.5;
+		texts[1].position.x += dx * 1.5;
+	}
+	if (circlePaths[1].position.y > 100 &&
+	circlePaths[1].position.y < (view.size.height - 100)){
+		circlePaths[1].position.y -= dy;
+		texts[1].position.y -= dy;
+	}
 
-	circlePaths[2].position.x += dx;
-	texts[2].position.x += dx;
-	circlePaths[2].position.y += dy;
-	texts[2].position.y += dy;
+	if (circlePaths[2].position.x > 100 &&
+	circlePaths[2].position.x < (view.size.width - 100)){
+		circlePaths[2].position.x += dx;
+		texts[2].position.x += dx;
+	}
+	if (circlePaths[2].position.y > 100 &&
+	circlePaths[2].position.y < (view.size.height - 100)){
+		circlePaths[2].position.y += dy;
+		texts[2].position.y += dy;
+	}
 
-	circlePaths[3].position.x -= dx * 2.3;
-	texts[3].position.x -= dx * 2.3;
-	circlePaths[3].position.y += dy * 1.3;
-	texts[3].position.y += dy * 1.3;
+	if (circlePaths[3].position.x > 100 &&
+	circlePaths[3].position.x < (view.size.width - 100)){
+		circlePaths[3].position.x -= dx * 2.3;
+		texts[3].position.x -= dx * 2.3;
+	}
+	if (circlePaths[3].position.y > 100 &&
+	circlePaths[3].position.y < (view.size.height - 100)){
+		circlePaths[3].position.y += dy * 1.3;
+		texts[3].position.y += dy * 1.3;
+	}
 
-	circlePaths[4].position.x += dx * 2;
-	texts[4].position.x += dx * 2;
-	circlePaths[4].position.y -= dy * 2.3;
-	texts[4].position.y -= dy * 2.3;
+	if (circlePaths[4].position.x > 100 &&
+	circlePaths[4].position.x < (view.size.width - 100)){
+		circlePaths[4].position.x += dx * 2;
+		texts[4].position.x += dx * 2;
+	}
+	if (circlePaths[4].position.y > 100 &&
+	circlePaths[4].position.y < (view.size.height - 100)){
+		circlePaths[4].position.y -= dy * 2.3;
+		texts[4].position.y -= dy * 2.3;
+	}
 
-	circlePaths[5].position.x -= dx * 2;
-	texts[5].position.x -= dx * 2;
-	circlePaths[5].position.y += dy * 2;
-	texts[5].position.y += dy * 2;
+	if (circlePaths[5].position.x > 100 &&
+	circlePaths[5].position.x < (view.size.width - 100)){
+		circlePaths[5].position.x -= dx * 2;
+		texts[5].position.x -= dx * 2;
+	}
+	if (circlePaths[5].position.y > 100 &&
+	circlePaths[5].position.y < (view.size.height - 100)){
+		circlePaths[5].position.y += dy * 2;
+		texts[5].position.y += dy * 2;
+	}
 
-	circlePaths[6].position.x += dx * 3;
-	texts[6].position.x += dx * 3;
-	circlePaths[6].position.y += dy * 2;
-	texts[6].position.y += dy * 2;
+	if (circlePaths[6].position.x > 100 &&
+	circlePaths[6].position.x < (view.size.width - 100)){
+		circlePaths[6].position.x += dx * 3;
+		texts[6].position.x += dx * 3;
+	}
+	if (circlePaths[6].position.y > 100 &&
+	circlePaths[6].position.y < (view.size.height - 100)){
+		circlePaths[6].position.y += dy * 2;
+		texts[6].position.y += dy * 2;
+	}
 
 	generateConnections(circlePaths);
 }
