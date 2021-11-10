@@ -106,6 +106,9 @@ h1{
 .short-about .content{
   margin:2rem 5rem;
 }
+.short-about p{
+  font-size:1rem;
+}
 .headline h1, .news h1{
   margin-left: 5rem;
 
