@@ -106,3 +106,8 @@ h1 span, p span{
   border: 1px solid black;
   border-radius: 12px;
 }
+img.close{
+  position: relative;
+  right: -85%;
+  top: -39%;
+}
