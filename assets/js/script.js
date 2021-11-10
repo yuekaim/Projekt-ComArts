@@ -11,4 +11,14 @@ $(document).ready(function(){
     $(this).parent().hide(200);
   })
 
+  $(".projekt-text").click(function(){
+    $(".projekt-image").css('flex','0.5');
+    $(".projekt-text").css('flex','1');
+  })
+
+  $(".projekt-image").click(function(){
+    $(".projekt-text").css('flex','0.3');
+    $(".projekt-image").css('flex','1');
+  })
+
  })
