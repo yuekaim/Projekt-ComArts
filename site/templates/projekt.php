@@ -15,8 +15,11 @@
     <?php endif ?>
     <div class="projekt-text box">
       <img src="<?= $image->url() ?>" alt="">
-      <?= $page->headline()->kirbytext() ?>
-      <?= $page->content()->toBlocks() ?>
+      <h1><?= $page->headline()->kirbytext() ?></h1>
+      <div class="">
+        <?= $page->tags() ?>
+        <?= $page->content()->toBlocks() ?>
+      </div>
     </div>
   </div>
 

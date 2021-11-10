@@ -18,10 +18,16 @@
 
 
 .projekt-text{
+  font-family: 'ABC';
+  font-size: 1rem;
   width: 50%;
   overflow: scroll;
   background-color: #ffffff55;
   padding: 2em;
+}
+
+.projekt-text h1{
+  font-size: 1.5rem;
 }
 
 .projekt-text p{
