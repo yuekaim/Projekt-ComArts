@@ -29,4 +29,10 @@ $(document).ready(function(){
     $('.bottom span').text(textBottom)
   }
   makeMarquee()
+//----------------------
+$('.paperjs').click(function(){
+  $(this).hide()
+})
+
+
 });
