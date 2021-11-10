@@ -1,7 +1,7 @@
 <?= css('assets/css/menu.css') ?>
 
   <div class="menu">
-    <a href="#">
+    <a href="<?= $site->homePage()->url() ?>">
       <div class="menu-item">ComArts</div>
     </a>
     <a href="<?= $site->find('activities')->url() ?>">

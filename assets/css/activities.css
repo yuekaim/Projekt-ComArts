@@ -2,6 +2,28 @@
   border: 1px solid black;
   border-radius: 2em;
   background-color: white;
-  padding: 0.5em 1em;
-  height: 3em;
+  /* padding: 0.5em 1em; */
+  overflow: hidden;
+  /* height: 3em; */
+}
+
+.preview{
+  height: 25vh;
+}
+
+.preview-img{
+  height: 100%;
+  width: auto;
+  /* margin: -1em 1em -1em -1em; */
+}
+
+.preview-info{
+  font-family: 'ABC';
+  max-height: 23em;
+  margin: 1em;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar{
+  display: none;
 }

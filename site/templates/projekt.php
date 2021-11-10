@@ -7,11 +7,17 @@
 
 <div class="body-wrapper">
   <?php snippet('menu') ?>
-  <div class="body-nomenu">
+  <div class="body-nomenu hflex">
     <?php if($image = $page->cover()->toFile()): ?>
-      <img class="preview-img" src="<?= $image->url() ?>" alt="">
+      <div class="projekt-image box">
+        <img src="<?= $image->url() ?>" alt="">
+      </div>
     <?php endif ?>
-    <?= $page->content()->toBlocks() ?>
+    <div class="projekt-text box">
+      <img src="<?= $image->url() ?>" alt="">
+      <?= $page->headline()->kirbytext() ?>
+      <?= $page->content()->toBlocks() ?>
+    </div>
   </div>
 
 </div>

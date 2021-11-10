@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'ABC';
+  src: url('../fonts/ABCMonumentGroteskMono-Regular.otf');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,6 +13,11 @@ body {
   background: #e3e3e3;
   background-image: linear-gradient(rgba(0, 0, 0, .1) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 0, 0, .1) .1em, transparent .1em);
   background-size: 3em 3em;
+}
+
+.box{
+  border: 1px solid black;
+  border-radius: 2em;
 }
 
 .body-wrapper{
@@ -34,7 +44,7 @@ body {
 
 
 .preview-img{
-  width: 8em;
+  /* width: 8em; */
 }
 
 .paperjs{
