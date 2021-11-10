@@ -17,7 +17,6 @@
               <?php if($image = $post->cover()): ?>
                 <img class="preview-img" src="<?= $image->url() ?>" alt="">
               <?php endif ?>
-              <img class="preview-img" src="<?= $post->cover()->url() ?>" alt="">
               <h1><a href=" "><?= $post->headline() ?></a></h1>
               <span><?= $post->person() ?></span>
               <span><?= $post->from() ?></span>
