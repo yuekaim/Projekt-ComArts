@@ -38,7 +38,7 @@ h1{
 }
 
 .body-nomenu{
-  height: calc(80vh - 2.5em);
+  height: calc(80vh - 2.5rem);
   /* flex: 1; */
   overflow: scroll;
   margin-left: 2vw;
@@ -90,7 +90,7 @@ h1{
   background-size: 100% 100%;
   /* margin-left: 2vw; */
   /* margin-right: 2vw; */
-  height:25vh;
+  height:29vh;
   width:50vw;
 }
 .news{
@@ -100,7 +100,7 @@ h1{
   border-radius: 2rem;
   /* margin-left: 2vw; */
   /* margin-right: 2vw; */
-  height:25vh;
+  height:29vh;
   width:50vw;
 }
 .short-about .content{
