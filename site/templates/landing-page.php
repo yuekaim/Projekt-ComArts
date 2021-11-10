@@ -16,7 +16,11 @@
     <button type="button">WEITER LESEN</button>
   </div>
 </div>
-<div class="headline"></div>
-<div class="news"></div>
+<div class="headline">
+  <h1>placeholder</h1>
+</div>
+<div class="news">
+  <h1>placeholder</h1>
+</div>
 
 <?php snippet('bottom') ?>

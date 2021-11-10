@@ -52,7 +52,23 @@ body {
   border-radius: 2em;
   margin-left: 2vw;
   margin-right: 2vw;
-
+  height:60vh;
+}
+.headline{
+  display:none;
+  border: 1px solid black;
+  border-radius: 2em;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  height:20vh;
+}
+.new{
+  display:none;
+  border: 1px solid black;
+  border-radius: 2em;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  height:20vh;
 }
 .short-about .content{
   background-image: url("assets/img/bg.jpg");
