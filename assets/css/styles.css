@@ -70,7 +70,7 @@ body {
   border-radius: 2em;
   /* margin-left: 2vw; */
   /* margin-right: 2vw; */
-  height:60vh;
+  height:45vh;
 }
 .headline{
   display:none;
@@ -80,16 +80,17 @@ body {
   background-size: 100% 100%;
   /* margin-left: 2vw; */
   /* margin-right: 2vw; */
-  height:20vh;
+  height:29vh;
   width:50vw;
 }
 .news{
   display:none;
+  background-color: lightgrey;
   border: 1px solid black;
   border-radius: 2em;
   /* margin-left: 2vw; */
   /* margin-right: 2vw; */
-  height:20vh;
+  height:29vh;
   width:50vw;
 }
 .short-about .content{
