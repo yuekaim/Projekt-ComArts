@@ -9,4 +9,10 @@
   <img id="gradient" class="visuallyhidden" src="assets/img/bg.jpg" width="320" height="491">
   <canvas id="canvas" resize></canvas>
 </div>
+<div class="short-about">
+  <p><?= $page->text() ?></p>
+</div>
+<div class="headline"></div>
+<div class="news"></div>
+
 <?php snippet('bottom') ?>
