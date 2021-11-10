@@ -87,5 +87,6 @@ h1 span, p span{
 }
 .short-about button{
   background-color: white;
+  border: 1px solid black;
   border-radius: 12px;
 }
