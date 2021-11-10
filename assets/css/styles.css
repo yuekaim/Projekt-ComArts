@@ -74,7 +74,10 @@ body {
   height:20vh;
   width:50vw;
 }
-.short-about .content, .headline h1, .news h1{
+.short-about .content{
   font-size: 0.8em;
   margin:3em 7em;
+}
+.headline h1, .news h1{
+    margin:3em 7em;
 }
