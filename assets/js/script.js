@@ -1,10 +1,14 @@
 
 $(document).ready(function(){
 
-  $("*").click(function(){
-    $("div.paperjs").hide()
-    $("div.menu").css("display","flex")
-    $(".short-about, .headline, .news").css("display","block")
+  $("#canvas").click(function(){
+    $("div.paperjs").hide();
+    $("div.menu").css("display","flex");
+    $(".short-about, .headline, .news").css("display","block");
+  })
+
+  $(".close").click(function(){
+    $(this).parent().hide(200);
   })
 
  })
