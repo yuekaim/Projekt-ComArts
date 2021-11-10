@@ -23,7 +23,8 @@
   <?= css('assets/css/styles.css') ?>
   <?= js([
     'assets/js/jquery-3.6.0.min.js',
-    
+    'assets/js/script.js',
+
     ]) ?>
 
 </head>

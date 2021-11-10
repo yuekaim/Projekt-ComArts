@@ -250,4 +250,5 @@ function getVector(radians, length) {
 		angle: radians * 180 / Math.PI,
 		length: length
 	});
+
 }
