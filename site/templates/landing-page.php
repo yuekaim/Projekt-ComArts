@@ -1,5 +1,6 @@
 <?php snippet('header') ?>
 <?php snippet('top') ?>
+<?php snippet('menu') ?>
 
 <?= js('assets/js/paper-full.js') ?>
 <!-- <?= js('assets/js/home.js') ?> -->
@@ -8,5 +9,4 @@
   <img id="gradient" class="visuallyhidden" src="assets/img/bg.jpg" width="320" height="491">
   <canvas id="canvas" resize></canvas>
 </div>
-<?php snippet('menu') ?>
 <?php snippet('bottom') ?>
