@@ -6,6 +6,6 @@
 
   <div class="container">
     <div class="marquee top">
-      <span>&nbsp;Kollaborative, kollektive, aktivistivi</span>
+      <span>&nbsp; KOLLABORATIVE, KOLLEKTIVE, AKTIVISTISCHE ANSÄTZE IN KÜNSTLERISCH-ÄSTHETISCHEN PRAKTIKEN DER COMMUNITY ARTS. ENTWICKLUNG UND UMSETZUNG EINES FORSCHUNGSPROJEKTS</span>
     </div>
   </div>
