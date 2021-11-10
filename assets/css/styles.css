@@ -10,6 +10,15 @@ body {
   background-size: 3em 3em;
 }
 
+.body-wrapper{
+  height: 80vh;
+}
+
+.body-nomenu{
+  overflow: scroll;
+  height: calc(80vh - 2.5em);
+}
+
 .content{
   margin-left: 2vw;
   margin-right: 2vw;
@@ -45,6 +54,9 @@ body {
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: -1;
+  border: 1px solid black;
+  border-radius: 2em;
+
 }
 .short-about{
   display:none;
