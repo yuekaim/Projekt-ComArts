@@ -13,6 +13,7 @@
   <div class="content">
     <h1>PROJRKT COMARTS</h1>
     <p><?= $page->text() ?></p>
+    <button type="button">WEITER LESEN</button>
   </div>
 </div>
 <div class="headline"></div>

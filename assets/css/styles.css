@@ -55,6 +55,7 @@ body {
 
 }
 .short-about .content{
+  background-image: url("assets/img/bg.jpg");
   font-size: 0.8em;
   margin:3em 7em;
 }
