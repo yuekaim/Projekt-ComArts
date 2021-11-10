@@ -1,4 +1,5 @@
 <?= css('assets/css/styles.css') ?>
+<?= css('assets/css/activities.css') ?>
 
 <?php snippet('header') ?>
 <?php snippet('top') ?>
@@ -12,22 +13,22 @@
       <div class="post-list">
         <?php $posts = $page->children()->published() ?>
         <?php foreach ($posts as $post): ?>
-          <div class="activity">
-            <div class="preview">
-              <?php if($image = $post->cover()->toFile()): ?>
-                <img class="preview-img" src="<?= $image->url() ?>" alt="">
-              <?php endif ?>
-              <h1><a href=" "><?= $post->headline() ?></a></h1>
-              <span><?= $post->person() ?></span>
-              <span><?= $post->from() ?></span>
-              <span><?= $post->fromT() ?></span>
-              <span><?= $post->to() ?></span>
-              <span><?= $post->toT() ?></span>
-              <p><?= $post->metaInfo() ?></p>
-            </div>
-
-
-          </div>
+          <a href="<?= $post->url() ?>"><div class="activity vflex">
+              <div class="preview hflex">
+                <?php if($image = $post->cover()->toFile()): ?>
+                  <img class="preview-img" src="<?= $image->url() ?>" alt="">
+                <?php endif ?>
+                <div class="preview-info">
+                  <h1><?= $post->headline() ?></h1>
+                  <span><?= $post->person() ?></span>
+                  <span><?= $post->from() ?></span>
+                  <span><?= $post->fromT() ?></span>
+                  <span><?= $post->to() ?></span>
+                  <span><?= $post->toT() ?></span>
+                  <p><?= $post->metaInfo() ?></p>
+                </div>
+              </div>
+            </div></a>
         <?php endforeach; ?>
 
       </div>

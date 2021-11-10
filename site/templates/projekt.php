@@ -1,17 +1,19 @@
-<div class="main">
-  <?php $tags= $post->tags() ?>
-  <span><?php echo $tags ?></span>
-  <div class="content">
-    <?php foreach ($post->content()->toBlocks() as $block): ?>
-      <div id="<?= $block->id() ?>" class="block block-type-<?= $block->type() ?>">
-        <?= $block ?>
-        </div>
-      <?php endforeach ?>
-    <div class="files">
-      <?php $pdfs =  $page->pdf()->toFiles();
-      foreach($pdfs as $pdf): ?>
-      <span id="download"><a href="<?= $pdf->url() ?>" download="proposed_file_name">Download PDF</a></span>
-      <?php endforeach ?>
-    </div>
+<?= css('assets/css/styles.css') ?>
+<?= css('assets/css/projekt.css') ?>
+
+
+<?php snippet('header') ?>
+<?php snippet('top') ?>
+
+<div class="body-wrapper">
+  <?php snippet('menu') ?>
+  <div class="body-nomenu">
+    <?php if($image = $page->cover()->toFile()): ?>
+      <img class="preview-img" src="<?= $image->url() ?>" alt="">
+    <?php endif ?>
+    <?= $page->content()->toBlocks() ?>
   </div>
+
 </div>
+
+<?php snippet('bottom') ?>
