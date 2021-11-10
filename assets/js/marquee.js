@@ -30,9 +30,6 @@ $(document).ready(function(){
   }
   makeMarquee()
 //----------------------
-$('canvas').click(function(){
-  $('div.paperjs').hide()
-})
 
 
 });
