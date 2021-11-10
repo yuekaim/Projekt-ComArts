@@ -46,3 +46,15 @@ body {
   transform: translate(-50%,-50%);
   z-index: -1;
 }
+.short-about{
+  display:none;
+  border: 1px solid black;
+  border-radius: 2em;
+  margin-left: 2vw;
+  margin-right: 2vw;
+
+}
+.short-about p{
+  font-size: 0.8em;
+  margin:3em 7em;
+}

@@ -10,6 +10,7 @@
   <canvas id="canvas" resize></canvas>
 </div>
 <div class="short-about">
+  <h1><?= $page->title() ?></h1>
   <p><?= $page->text() ?></p>
 </div>
 <div class="headline"></div>

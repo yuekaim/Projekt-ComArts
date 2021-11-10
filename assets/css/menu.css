@@ -170,6 +170,3 @@ input:checked + .slider:before {
   display: block;
   position: relative;
 }
-.short-about{
-  display:none;
-}
