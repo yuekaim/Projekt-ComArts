@@ -46,12 +46,13 @@ body {
   transform: translate(-50%,-50%);
   z-index: -1;
 }
-.short-about .headline .news{
+.short-about{
   display:none;
   border: 1px solid black;
   border-radius: 2em;
   margin-left: 2vw;
   margin-right: 2vw;
+
 }
 .short-about .content{
   background-image: url("assets/img/bg.jpg");
