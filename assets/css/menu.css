@@ -14,7 +14,7 @@
   margin-left: 2vw;
   margin-right: 2vw;
   position: relative;
-  margin-top:0.5em;
+  /*margin-top:0.5em;*/
 
 
 }
@@ -124,7 +124,7 @@ input:checked + .slider:before {
 }
 
 .marquee{
-  position: relative
+  position: absolute;
   margin-top: 0.5em;
   width: 96vw;
   max-width: 100%;
