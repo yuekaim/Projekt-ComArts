@@ -31,9 +31,9 @@ $(document).ready(function(){
   makeMarquee()
   //----------------------
   $(".marquee span").hover(function() {
-    $(this).css("animation","moveLeft 0s infinite linear")
+    $(this).css("animation-play-state","paused";)
   }, function() {
-    $(this).css("animation","moveLeft 600s infinite linear");
+    $(this).css("animation-play-state","running");
   });
 
 });
