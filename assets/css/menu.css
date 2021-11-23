@@ -147,7 +147,7 @@ input:checked + .slider:before {
 }
 
 .bottom{
-  /* position: absolute; */
+  position: absolute;
   margin-top: auto;
   bottom: 0.5rem;
   font-family: 'ABC';
@@ -167,7 +167,7 @@ input:checked + .slider:before {
   }
 }
 .marquee span{
-  animation: moveLeft 300s infinite linear;
+  animation: moveLeft 400s infinite linear;
   white-space: nowrap;
   display: block;
   position: relative;

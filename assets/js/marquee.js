@@ -29,7 +29,11 @@ $(document).ready(function(){
     $('.bottom span').text(textBottom)
   }
   makeMarquee()
-//----------------------
-
+  //----------------------
+  $(".marquee").hover(function() {
+    $(this).stop()
+  }, function() {
+    $(this).start();
+  });
 
 });
