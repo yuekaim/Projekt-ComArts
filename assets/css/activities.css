@@ -40,7 +40,7 @@
   display: none;
 }
 
-.menu-item:nth-child(1){
+#activities{
     background-color: black;
     color:white
 }

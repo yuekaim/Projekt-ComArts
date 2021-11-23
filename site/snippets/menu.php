@@ -5,7 +5,7 @@
       <div class="menu-item">ComArts</div>
     </a>
     <a href="<?= $site->find('activities')->url() ?>">
-      <div class="menu-item">Activities</div>
+      <div class="menu-item" id="activities">Activities</div>
     </a>
     <a href="#">
       <div class="menu-item">Library</div>
