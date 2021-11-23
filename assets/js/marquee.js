@@ -33,12 +33,11 @@ $(document).ready(function(){
   //----------------------
 makeMarquee()
 
-$('.marquee span').hover(
-  function(){
-    $(this).css('animation-play-state','paused'),
-
-  function(){
-    $(this).css('animation-play-state','running')
+$('.marquee span').mouseenter(function(){
+    $(this).css('animation-play-state','paused')
   })
+  $('.marquee span').mouseleave(function(){
+      $(this).css('animation-play-state','running')
+    })
 
 });
