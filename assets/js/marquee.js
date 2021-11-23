@@ -30,7 +30,7 @@ $(document).ready(function(){
   }
   makeMarquee()
   //----------------------
-  $(".marquee").hover(function() {
+  $(".marquee span").hover(function() {
     $(this).stop()
   }, function() {
     $(this).start();
