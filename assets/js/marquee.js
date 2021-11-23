@@ -28,12 +28,12 @@ $(document).ready(function(){
     const textBottom = new Array(50).fill(titleBottom).join('-')
     $('.bottom span').text(textBottom)
   }
-  makeMarquee()
+
   //----------------------
   $(".marquee span").hover(function() {
     $(this).css("animation-play-state","paused";)
   }, function() {
     $(this).css("animation-play-state","running");
   });
-
+makeMarquee()
 });
