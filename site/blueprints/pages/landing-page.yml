@@ -18,6 +18,13 @@ columns:
             label: Kurzes About
             type: textarea
             size: medium
+          marqueeTop:
+            label: Marquee Top
+            type: text
+          marqueeBottom:
+            label: Marquee Bottom
+            type: text
+            
 
   sidebar:
     width: 1/2
