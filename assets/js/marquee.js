@@ -33,8 +33,8 @@ $(document).ready(function(){
   //----------------------
 makeMarquee()
 
-$('.marquee span').hover(function({
-  $('.top span').addClass('paused')
-}))
+$('.marquee span').hover(function(){
+  $(this).addClass('paused')
+})
 
 });
