@@ -29,9 +29,10 @@ $(document).ready(function(){
     $('.bottom span').text(textBottom)
   }
   $('.marquee span').hover(function({
-    $(this).addClass('paused')
+    $('.top span').addClass('paused')
   }))
 
   //----------------------
 makeMarquee()
+
 });
