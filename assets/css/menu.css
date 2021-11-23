@@ -121,6 +121,10 @@ input:checked + .slider:before {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .marquee{
