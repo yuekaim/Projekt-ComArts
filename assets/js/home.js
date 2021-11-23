@@ -69,8 +69,7 @@ function onMouseMove(event) {
 
 
 	// largeCircle.position = event.point;
-	console.log(circlePaths[1].position.x);
-	console.log(view.size.width - 100);
+
 	if (circlePaths[0].position.x > 100 &&
 	circlePaths[0].position.x < (view.size.width - 100)){
 		circlePaths[0].position.x += dx;

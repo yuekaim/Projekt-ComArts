@@ -59,9 +59,9 @@ tabs:
         label: Tags
         type: tags
         width: 2/3
-      content:
+      maincontent:
         label: content
-        type: blocks
+        type: textarea
         width: 2/3
       pdf:
         label: PDF Files

@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <div class="hflex">
+    <div class="home-info hflex">
         <div class="headline">
           <h1><span>HEADLINE</span></h1>
           <img class="close" src="assets/img/close.svg">
