@@ -20,5 +20,8 @@ $(document).ready(function(){
     $(".projekt-text").css('flex','0.3');
     $(".projekt-image").css('flex','1');
   })
-
+  $(".menu-item").click(function(){
+    $(".menu-item").removeClass("menu-checked")
+    $(this).addClass("menu-checked")
+  })
  })
