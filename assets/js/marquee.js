@@ -34,7 +34,7 @@ $(document).ready(function(){
 makeMarquee()
 
 $('.marquee span').hover(function(){
-  $(this).addClass('paused')
+  $(this).css('animation-play-state','paused')
 })
 
 });
