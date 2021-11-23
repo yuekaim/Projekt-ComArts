@@ -28,6 +28,9 @@ $(document).ready(function(){
     const textBottom = new Array(50).fill(titleBottom).join('-')
     $('.bottom span').text(textBottom)
   }
+  $('.marquee span').hover(function({
+    $(this).addClass('paused')
+  }))
 
   //----------------------
 makeMarquee()
