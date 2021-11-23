@@ -21,18 +21,20 @@ $(document).ready(function(){
    function makeMarquee (){
      //top
     const titleTop = $('.top span').text()
-    const textTop = new Array(50).fill(titleTop).join('-')
+    const textTop = new Array(50).fill(titleTop).join(' ')
     $('.top span').text(textTop)
     //bottom
     const titleBottom = $('.bottom span').text()
-    const textBottom = new Array(50).fill(titleBottom).join('-')
+    const textBottom = new Array(50).fill(titleBottom).join(' ')
     $('.bottom span').text(textBottom)
   }
-  $('.marquee span').hover(function({
-    $('.top span').addClass('paused')
-  }))
+
 
   //----------------------
 makeMarquee()
+
+$('.marquee span').hover(function({
+  $('.top span').addClass('paused')
+}))
 
 });
