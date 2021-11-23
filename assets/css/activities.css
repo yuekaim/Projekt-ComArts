@@ -39,3 +39,8 @@
 ::-webkit-scrollbar{
   display: none;
 }
+
+.menu-item:nth-child(1){
+    background-color: black;
+    color:white
+}
