@@ -16,7 +16,6 @@
       <div class="content">
         <p><?= $page->about() ?></p>
         <p><?= $page->teamKontakt() ?></p>
-      \
         <p><?= $page->netzwerk() ?></p>
       </div>
     </div>
