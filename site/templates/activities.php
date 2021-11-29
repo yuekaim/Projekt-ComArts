@@ -1,4 +1,4 @@
-<?= css('assets/css/styles.css') ?>
+
 <?= css('assets/css/activities.css') ?>
 
 <?php snippet('header') ?>
