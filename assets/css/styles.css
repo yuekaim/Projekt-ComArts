@@ -137,7 +137,7 @@ img.close{
   right: -90%;
   top: -35%;
 }
-.impressium, .community{
+.impressium{
   display:block;
   border: 1px solid black;
   border-radius: 2rem;
@@ -150,7 +150,29 @@ img.close{
 .impressium h1{
   margin: 1.5rem 12vw;
 }
-.impressium p, .community p{
+.impressium p{
   font-size:1.3rem;
   margin: 1.5rem 12vw;
+}
+.community .left{
+  display:block;
+  border: 1px solid black;
+  border-radius: 2rem;
+  margin: 0 2vw;
+  background: #e3e3e3;
+  height: calc(80vh - 2.5rem);
+  overflow: scroll;
+}
+.community .right{
+  display:block;
+  border: 1px solid black;
+  border-radius: 2rem;
+  margin: 0 2vw;
+  background: #e3e3e3;
+  height: calc(80vh - 2.5rem);
+  overflow: scroll;
+}
+.community p{
+  font-size:1.3rem;
+  margin: 1.5rem 8vw;
 }

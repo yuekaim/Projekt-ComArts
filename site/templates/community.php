@@ -5,8 +5,13 @@
   <?php snippet('menu') ?>
 
   <div class="body-nomenu">
-    <div class="community">
+    <div class="community hflex">
+
+      <div class="left">
         <p><?= $page->about() ?></p>
+      </div>
+
+      <div class="right">
         <p><?= $page->teamKontakt() ?></p>
         <p><?= $page->netzwerk() ?></p>
     </div>
