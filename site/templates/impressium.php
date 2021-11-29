@@ -10,11 +10,8 @@
       <h1><?= $page->title() ?></h1>
       <p><?= $page->text() ?></p>
     </div>
-
-
-    </div>
-
   </div>
+</div>
 
 
 <?php snippet('bottom') ?>
