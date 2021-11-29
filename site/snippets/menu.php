@@ -5,17 +5,17 @@
       <div class="menu-item">ComArts</div>
     </a>
     <a href="<?= $site->find('activities')->url() ?>">
-      <div class="menu-item" id="activities">Activities</div>
+      <div class="menu-item highlighted">Activities</div>
     </a>
     <a href="#">
-      <div class="menu-item" id="library">Library</div>
+      <div class="menu-item">Library</div>
     </a>
     <a href="#">
-      <div class="menu-item" id="community">Community</div>
+      <div class="menu-item">Community</div>
 
     </a>
     <a href="#">
-      <div class="menu-item" id="impressum">Impressum</div>
+      <div class="menu-item">Impressum</div>
 
     </a>
     <!-- <div class="menu-item"> -->
