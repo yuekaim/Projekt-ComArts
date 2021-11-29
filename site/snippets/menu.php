@@ -8,14 +8,14 @@
     <a href="<?= $site->find('activities')->url() ?>">
       <div class="menu-item" id="activities">Activities</div>
     </a>
-    <a href="#">
+    <a href="<?= $site->find('library')->url() ?>">
       <div class="menu-item" id="library">Library</div>
     </a>
-    <a href="#">
+    <a href="<?= $site->find('community')->url() ?>">
       <div class="menu-item" id="community">Community</div>
 
     </a>
-    <a href="#">
+    <a href="<?= $site->find('impressum')->url() ?>">
       <div class="menu-item" id="impressum">Impressum</div>
 
     </a>
