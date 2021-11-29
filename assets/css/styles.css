@@ -140,8 +140,14 @@ img.close{
 .impressium{
   display:block;
   border: 1px solid black;
-  border-radius: 2rem
+  border-radius: 2rem;
+  width: 96vw;
+  margin: 0 2vw;
 }
 .impressium p{
-  font-size:1rem;
+  font-size:1.2rem;
+  margin: 1.2rem 8vw;
+}
+.impressium h1{
+  margin: 1.2rem 8vw;
 }

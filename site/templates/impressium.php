@@ -7,8 +7,10 @@
 
   <div class="body-nomenu">
     <div class="impressium">
-      <h1><?= $page->title() ?></h1>
-      <p><?= $page->text() ?></p>
+      <div class="content">
+        <h1><?= $page->title() ?></h1>
+        <p><?= $page->text() ?></p>
+      </div>
     </div>
 
 
