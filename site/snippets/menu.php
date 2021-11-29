@@ -14,7 +14,7 @@
     <a href="<?= $site->find('community')->url() ?>">
       <div class="menu-item" id="community">Community</div>
     </a>
-    <a href="<?= $site->find('impressum')->url() ?>">
+    <a href="<?= $site->find('impressium')->url() ?>">
       <div class="menu-item" id="impressum">Impressium</div>
     </a>
     <!-- <div class="menu-item"> -->
