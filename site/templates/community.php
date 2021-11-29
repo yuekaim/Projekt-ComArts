@@ -8,7 +8,7 @@
     <div class="community>
       <div class="content">
         <p><?= $page->about() ?></p>
-        <p><?= $block->text(); ?></p>
+        <p><?= $page->teamKontakt() ?></p>
         <p><?= $page->netzwerk() ?></p>
       </div>
     </div>
