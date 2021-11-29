@@ -139,7 +139,9 @@ img.close{
 }
 .impressium{
   display:block;
+  border: 1px solid black;
+  border-radius: 2rem
 }
 .impressium p{
-font-size:1rem;
+  font-size:1rem;
 }
