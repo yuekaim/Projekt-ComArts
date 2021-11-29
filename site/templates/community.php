@@ -5,7 +5,7 @@
   <?php snippet('menu') ?>
 
   <div class="body-nomenu">
-    <div class="community>
+    <div class="community">
       <div class="content">
         <p><?= $page->about() ?></p>
         <p><?= $page->teamKontakt() ?></p>
