@@ -16,7 +16,7 @@
 
     </a>
     <a href="<?= $site->find('impressium')->url() ?>">
-      <div class="menu-item" id="impressium">Impressum</div>
+      <div class="menu-item" id="impressium">Impressium</div>
 
     </a>
     <!-- <div class="menu-item"> -->
