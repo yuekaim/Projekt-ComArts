@@ -20,4 +20,5 @@
     </div>
 
   </div>
+</div>
 <?php snippet('bottom') ?>
