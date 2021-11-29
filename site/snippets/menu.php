@@ -15,8 +15,8 @@
       <div class="menu-item" id="community">Community</div>
 
     </a>
-    <a href="<?= $site->find('impressum')->url() ?>">
-      <div class="menu-item" id="impressum">Impressum</div>
+    <a href="<?= $site->find('impressium')->url() ?>">
+      <div class="menu-item" id="impressium">Impressum</div>
 
     </a>
     <!-- <div class="menu-item"> -->
