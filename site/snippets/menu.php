@@ -15,8 +15,13 @@
       <div class="menu-item" id="community">Community</div>
 
     </a>
+<<<<<<< HEAD
     <a href="<?= $site->find('impressium')->url() ?>">
       <div class="menu-item" id="impressium">Impressium</div>
+=======
+    <a href="<?= $site->find('impressum')->url() ?>">
+      <div class="menu-item" id="impressum">Impressum</div>
+>>>>>>> parent of ffeeab2 (content)
 
     </a>
     <!-- <div class="menu-item"> -->
