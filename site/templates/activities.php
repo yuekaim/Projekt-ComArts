@@ -1,9 +1,8 @@
-<?= css('assets/css/styles.css') ?>
-<?= css('assets/css/activities.css') ?>
 
 <?php snippet('header') ?>
 <?php snippet('top') ?>
-
+<?= css('assets/css/styles.css') ?>
+<?= css('assets/css/activities.css') ?>
 <div class="body-wrapper">
   <?php snippet('menu') ?>
   <div class="body-nomenu">
