@@ -22,9 +22,3 @@ $(document).ready(function(){
   })
 
   $("#comarts").addClass("highlighted")
-
-  $(".menu-item").click(function(){
-    $(".menu-item").removeClass("highlighted")
-    $(this).addClass("highlighted")
-  })
- })
