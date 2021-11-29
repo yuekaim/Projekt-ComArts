@@ -154,23 +154,26 @@ img.close{
   font-size:1.3rem;
   margin: 1.5rem 12vw;
 }
+.community{
+    position:absolute;
+}
 .community .left{
   display:block;
   border: 1px solid black;
   border-radius: 2rem;
-  margin: 0 2vw;
   background: #e3e3e3;
   height: calc(80vh - 2.5rem);
   overflow: scroll;
+  width: 60vw;
 }
 .community .right{
   display:block;
   border: 1px solid black;
   border-radius: 2rem;
-  margin: 0 2vw;
   background: #e3e3e3;
   height: calc(80vh - 2.5rem);
   overflow: scroll;
+  width: 36vw;
 }
 .community p{
   font-size:1.3rem;
