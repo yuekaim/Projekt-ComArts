@@ -21,7 +21,7 @@ $(document).ready(function(){
     $(".projekt-image").css('flex','1');
   })
   $(".menu-item").click(function(){
-    $(".menu-item").removeClass("menu-checked")
-    $(this).addClass("menu-checked")
+    $(".menu-item").removeClass("highlighted")
+    $(this).addClass("highlighted")
   })
  })

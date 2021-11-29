@@ -6,7 +6,6 @@
 
 <div class="body-wrapper">
   <?php snippet('menu') ?>
-<?= css('assets/css/activities.css') ?>
   <div class="body-nomenu">
 
     <div class="content">
