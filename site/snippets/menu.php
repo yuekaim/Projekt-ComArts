@@ -2,10 +2,10 @@
 
   <div class="menu">
     <a href="<?= $site->homePage()->url() ?>">
-      <div class="menu-item">ComArts</div>
+      <div class="menu-item highlighted">ComArts</div>
     </a>
     <a href="<?= $site->find('activities')->url() ?>">
-      <div class="menu-item highlighted">Activities</div>
+      <div class="menu-item">Activities</div>
     </a>
     <a href="#">
       <div class="menu-item">Library</div>
