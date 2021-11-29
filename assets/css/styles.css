@@ -147,10 +147,9 @@ img.close{
   height: calc(80vh - 2.5rem);
   overflow: scroll;
 }
-.impressium p{
-  font-size:1.3rem;
+.impressium .content{
   margin: 1.5rem 12vw;
 }
-.impressium h1{
-  margin: 1.5rem 12vw;
+.impressium p{
+  font-size:1.3rem;
 }
