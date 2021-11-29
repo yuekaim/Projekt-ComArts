@@ -137,7 +137,7 @@ img.close{
   right: -90%;
   top: -35%;
 }
-.impressium{
+.impressium, .community{
   display:block;
   border: 1px solid black;
   border-radius: 2rem;
@@ -150,7 +150,7 @@ img.close{
 .impressium h1{
   margin: 1.5rem 12vw;
 }
-.impressium p{
+.impressium p, .community p{
   font-size:1.3rem;
   margin: 1.5rem 12vw;
 }
