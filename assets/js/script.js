@@ -20,6 +20,9 @@ $(document).ready(function(){
     $(".projekt-text").css('flex','0.3');
     $(".projekt-image").css('flex','1');
   })
+
+  $("#comarts").addClass("highlighted")
+
   $(".menu-item").click(function(){
     $(".menu-item").removeClass("highlighted")
     $(this).addClass("highlighted")

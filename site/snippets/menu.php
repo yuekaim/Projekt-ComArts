@@ -2,7 +2,7 @@
 
   <div class="menu">
     <a href="<?= $site->homePage()->url() ?>">
-      <div class="menu-item highlighted">ComArts</div>
+      <div class="menu-item" id="comarts">ComArts</div>
     </a>
     <a href="<?= $site->find('activities')->url() ?>">
       <div class="menu-item">Activities</div>
