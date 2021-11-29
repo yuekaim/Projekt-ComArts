@@ -1,6 +1,5 @@
 <?php snippet('header') ?>
 <?php snippet('top') ?>
-<?php snippet('menu') ?>
 
 <div class="body-wrapper">
   <?php snippet('menu') ?>
@@ -9,7 +8,7 @@
     <div class="community>
       <div class="content">
         <p><?= $page->about() ?></p>
-        <p><?= $page->teamKontakt() ?></p>
+        <p><?= $block->text(); ?></p>
         <p><?= $page->netzwerk() ?></p>
       </div>
     </div>
