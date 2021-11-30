@@ -13,24 +13,8 @@
       <img id="gradient" class="visuallyhidden" src="assets/img/bg.jpg" width="320" height="491">
       <canvas id="canvas" resize></canvas>
     </div>
-    <div class="short-about">
-      <div class="content">
-        <h1><span>PROJRKT COMARTS</span></h1>
-        <p><span><?= $page->text() ?></span></p>
-        <button type="button">WEITER LESEN</button>
-      </div>
-    </div>
 
-    <div class="home-info hflex">
-        <div class="headline">
-          <h1><span>HEADLINE</span></h1>
-          <img class="close" src="assets/img/close.svg">
-        </div>
-        <div class="news">
-          <h1><span>NEWS</span></h1>
-          <img class="close" src="assets/img/close.svg">
-        </div>
-    </div>
+
 
   </div>
 

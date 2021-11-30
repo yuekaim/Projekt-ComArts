@@ -2,7 +2,7 @@
 <?= js('assets/js/script.js') ?>
 
   <div class="menu">
-    <a href="<?= $site->homePage()->url() ?>">
+    <a href="<?= $site->find('home')->url() ?>">
       <div class="menu-item" id="comarts">ComArts</div>
     </a>
     <a href="<?= $site->find('activities')->url() ?>">

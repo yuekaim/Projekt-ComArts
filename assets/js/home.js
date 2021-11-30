@@ -33,7 +33,7 @@ for (var i = 0, l = ballPositions.length; i < l; i++) {
 	var circlePath = new Path.Rectangle({
 		center: ballPositions[i],
 		size: 200,
-		radius: 50,
+		radius: 100,
 		blendMode: 'destination-out'
 	});
 	circlePaths.push(circlePath);
