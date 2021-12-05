@@ -9,20 +9,26 @@ $(document).ready(function(){
 /*
   $(function(){
       $(".close").on('click', function(){
-          $(this).parent().addClass("shrink")
+          $(this).parent().toggleClass("shrink")
      });
   });
 */
   $(".close").click(function(){
 
     //$(this).parent().hide(200);
-  $(this).parent().removeClass("normal").addClass("shrink");
+  $(this).toggle("slow", function(){
+      $(this).parent().addClass("shrink")
+  },function(){
+      $(this).parent().removeClass("shrink")
+  })
+  /*
   $(this).attr('src', 'assets/img/normal.svg').addClass("normal");
   })
 $(".normal").click(function(){
   $(this).parent().removeClass("shrink").addClass("normal");
   $(this).attr('src', 'assets/img/normal.svg')
 })
+*/
   $(".projekt-text").click(function(){
     $(".projekt-image").css('flex','0.5');
     $(".projekt-text").css('flex','1');
