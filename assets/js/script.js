@@ -9,6 +9,7 @@ $(document).ready(function(){
 
   $(".close").click(function(){
     //$(this).parent().hide(200);
+    //$(this).parent().css("height","10vh");
     $(this).parent().toggleClass("shrink");
   })
 
