@@ -136,6 +136,7 @@ h1{
 }
 .headline h1, .news h1{
   margin-left: 5rem;
+  display: inline-block;
 
 }
 h1 span, p span{
@@ -150,9 +151,9 @@ h1 span, p span{
 img.close{
   width: 51px;
   height: 51px;
-  position: relative;
-  right: -90%;
-  top: -35%;
+  position: sticky;
+  left: 101%;
+
 }
 .impressium{
   display:block;
