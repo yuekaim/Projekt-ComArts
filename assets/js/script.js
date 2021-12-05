@@ -16,10 +16,13 @@ $(document).ready(function(){
   $(".close").click(function(){
 
     //$(this).parent().hide(200);
-    //$(this).parent().css("height","10vh");
-    $(this).parent().toggleClass("small normal");
+  $(this).parent().removeClass("normal").addClass("shrink");
+  $(this).attr('src', 'assets/img/normal.svg').addClass("normal");
   })
-
+$(".normal").click(function(){
+  $(this).parent().removeClass("shrink").addClass("normal");
+  $(this).attr('src', 'assets/img/normal.svg')
+})
   $(".projekt-text").click(function(){
     $(".projekt-image").css('flex','0.5');
     $(".projekt-text").css('flex','1');

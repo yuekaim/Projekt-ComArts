@@ -17,11 +17,11 @@
     <div class="home-info hflex">
         <div class="headline">
           <h1><span>HEADLINE</span></h1>
-          <img class="close" src="assets/img/close.svg">
+          <img class="close" src="assets/img/shrink.svg">
         </div>
         <div class="news">
           <h1><span>NEWS</span></h1>
-          <img class="close" src="assets/img/close.svg">
+          <img class="close" src="assets/img/shrink.svg">
         </div>
     </div>
 
