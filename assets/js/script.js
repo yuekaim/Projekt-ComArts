@@ -6,19 +6,20 @@ $(document).ready(function(){
   //   $("div.menu").css("display","flex");
   //   $(".short-about, .headline, .news").css("display","block");
   // })
-
+/*
   $(function(){
       $(".close").on('click', function(){
           $(this).parent().addClass("shrink")
      });
   });
-  /*
-  $(".close").click(function(){
-    //$(this).parent().hide(200);
-    $(this).parent().css("height","10vh");
-    //$(this).parent().toggleClass("shrink");
-  })
 */
+  $(".close").click(function(){
+
+    //$(this).parent().hide(200);
+    //$(this).parent().css("height","10vh");
+    $(this).parent().toggleClass("small normal");
+  })
+
   $(".projekt-text").click(function(){
     $(".projekt-image").css('flex','0.5');
     $(".projekt-text").css('flex','1');
