@@ -149,10 +149,10 @@ h1 span, p span{
   padding:0.5rem 1rem;
 }
 img.close{
-  width: 51px;
-  height: 51px;
+  width: 30px;
+  height: 30px;
   position: sticky;
-  left: 101%;
+  left: 95%;
 
 }
 .impressium{

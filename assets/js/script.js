@@ -1,26 +1,15 @@
 
 $(document).ready(function(){
 
-  // $("#canvas").click(function(){
-  //   $("div.paperjs").hide();
-  //   $("div.menu").css("display","flex");
-  //   $(".short-about, .headline, .news").css("display","block");
-  // })
-/*
-  $(function(){
-      $(".close").on('click', function(){
-          $(this).parent().toggleClass("shrink")
-     });
-  });
-*/
+
   $(".close").click(function(){
 
-    //$(this).parent().hide(200);
   $(this).toggle("slow", function(){
       $(this).parent().addClass("shrink")
   },function(){
       $(this).parent().removeClass("shrink")
   })
+})
   /*
   $(this).attr('src', 'assets/img/normal.svg').addClass("normal");
   })
