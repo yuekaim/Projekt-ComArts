@@ -4,7 +4,7 @@ $(document).ready(function(){
 
   $(".close").click(function(){
 
-  $(this).toggle("slow", function(){
+  $(this).toggle(function(){
       $(this).parent().addClass("shrink")
   },function(){
       $(this).parent().removeClass("shrink")
