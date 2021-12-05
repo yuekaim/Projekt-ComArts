@@ -9,10 +9,8 @@ $(document).ready(function(){
 
   $(".close").click(function(){
     //$(this).parent().hide(200);
-    $(this).parent().css("height","10vh");
-    $(".close").click(function(){
-      $(this).parent().css("height","29vh");
-    })
+    $(this).parent().toggle().css("height","10vh");
+    
   })
 
   $(".projekt-text").click(function(){
