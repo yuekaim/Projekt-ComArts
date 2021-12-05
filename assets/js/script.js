@@ -9,7 +9,7 @@ $(document).ready(function(){
 
   $(function(){
       $(".close").on('click', function(){
-          $(this).parent().toggleClass("shrink")
+          $(this).parent().addClass("shrink")
      });
   });
   /*
