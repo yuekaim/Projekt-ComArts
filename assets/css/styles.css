@@ -204,3 +204,7 @@ img.close{
 .normal{
   height:29vh;
 }
+.about, .kontakt{
+  height: calc(80vh - 2.5rem);
+  overflow: scroll;
+}
