@@ -4,10 +4,8 @@ $(document).ready(function(){
 
   $(".close").click(function(){
     $(this).parent().css("height","10vh")
-    $(this).attr('src', 'assets/img/normal.svg')
     $(this).click(function(){
       $(this).parent().css("height","29vh")
-      $(this).attr('src', 'assets/img/shrink.svg')
     })
 })
   /*

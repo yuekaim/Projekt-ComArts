@@ -160,7 +160,6 @@ img.close{
   border: 1px solid black;
   border-radius: 2rem;
   width: 96vw;
-  margin: 0 2vw;
   background: #e3e3e3;
   height: calc(80vh - 2.5rem);
   overflow: scroll;
