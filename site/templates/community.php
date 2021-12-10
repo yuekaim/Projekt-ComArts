@@ -7,8 +7,8 @@
 
   <div class="body-nomenu">
 
-    <div class="hflex normal">
-        <div class="about">
+    <div class="hflex">
+        <div class="about box">
           <p><span><?= $page->about() ?></span></p>
         </div>
         <div class="news">
