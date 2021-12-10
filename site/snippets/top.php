@@ -5,6 +5,6 @@
 
   <div class="container">
     <div class="marquee top">
-      <span><?= $site->find('home')->marqueeTop() ?></span>
+      <span>test test test</span>
     </div>
   </div>
