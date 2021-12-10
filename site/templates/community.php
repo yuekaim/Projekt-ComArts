@@ -7,16 +7,9 @@
 
   <div class="body-nomenu">
 
-    <div class="about">
-      <div class="content">
-        <p><span><?= $page->about() ?></span></p>
-      </div>
-    </div>
-
-    <div class="home-info hflex normal">
-        <div class="headline">
-          <h1><span>HEADLINE</span></h1>
-          <img class="close" src="assets/img/shrink.svg">
+    <div class="hflex normal">
+        <div class="about">
+          <p><span><?= $page->about() ?></span></p>
         </div>
         <div class="news">
           <h1><span>NEWS</span></h1>
