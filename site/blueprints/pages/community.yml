@@ -9,12 +9,23 @@ fields:
     label: About
     type: textarea
     size: medium
-  teamKontakt:
-    label: Team & Kontakt
+
+  projektleitung:
+    label: Projektleitung
     type: writer
     nodes: false
     placeholder: field.blocks.text.placeholder
-
+  wissenschaftlich:
+    label: Wissenschaftliche Bearbeitung und Koordination
+    type: writer
+    nodes: false
+    placeholder: field.blocks.text.placeholder
+  f&s:
+    label: Freie & Studierendenmitarbeiter:innen
+    type: writer
+    nodes: false
+    placeholder: field.blocks.text.placeholder
+    
   netzwerk:
     label: Netzwerk
     type: blocks
