@@ -11,6 +11,9 @@
       <div class="left">
         <p><?= $page->about() ?></p>
       </div>
+      <div class="right">
+        <p><?= $page->teamKontakt() ?></p>
+      </div>
     </div>
 
 
