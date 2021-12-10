@@ -1,0 +1,9 @@
+title: Marquees
+
+fields:
+  top:
+    label: Marquee Top
+    type: textarea
+  bottom:
+    label: Marquee Bottom
+    type: textarea
