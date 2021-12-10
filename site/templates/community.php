@@ -1,6 +1,5 @@
 
 <?php snippet('header') ?>
-<?= js('assets/js/marquee.js') ?>
 <?php snippet('top') ?>
 
 <div class="body-wrapper">
