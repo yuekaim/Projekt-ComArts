@@ -7,11 +7,9 @@
 
   <div class="body-nomenu">
 
-    <div class="short-about">
+    <div class="about">
       <div class="content">
-        <h1><span>PROJRKT COMARTS</span></h1>
-        <p><span><?= $page->text() ?></span></p>
-        <button type="button">WEITER LESEN</button>
+        <p><span><?= $page->about() ?></span></p>
       </div>
     </div>
 
