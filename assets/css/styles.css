@@ -208,3 +208,9 @@ img.close{
   height: calc(80vh - 2.5rem);
   overflow: scroll;
 }
+.about{
+  width:60vw;
+}
+.kontakt{
+  width:36vw;
+}
