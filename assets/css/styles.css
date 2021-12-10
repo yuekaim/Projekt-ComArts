@@ -176,28 +176,7 @@ img.close{
 .community{
     position:absolute;
 }
-.community .left{
-  display:block;
-  border: 1px solid black;
-  border-radius: 2rem;
-  background: #e3e3e3;
-  height: calc(80vh - 2.5rem);
-  overflow: scroll;
-  width: 60vw;
-}
-.community .right{
-  display:block;
-  border: 1px solid black;
-  border-radius: 2rem;
-  background: #e3e3e3;
-  height: calc(80vh - 2.5rem);
-  overflow: scroll;
-  width: 36vw;
-}
-.community p{
-  font-size:1.3rem;
-  margin: 1.5rem 8vw;
-}
+
 .shrink{
   height:10vh;
 }
@@ -210,6 +189,13 @@ img.close{
 }
 .about{
   width:60vw;
+}
+.about h1{
+  margin: 1.5rem 5vw;
+}
+.about p{
+  font-size:1.3rem;
+  margin: 1.5rem 5vw;
 }
 .kontakt{
   width:36vw;
