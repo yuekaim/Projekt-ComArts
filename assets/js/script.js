@@ -3,13 +3,10 @@ $(document).ready(function(){
 
 
   $(".close").click(function(){
-
-  $(this).parent().toggle(function(){
-      $(this).parent().css("height","10vh")
-  /*},function(){
+    $(this).parent().css("height","10vh")
+    $(this).click(function(){
       $(this).parent().css("height","29vh")
-  })
-  */
+    })
 })
   /*
   $(this).attr('src', 'assets/img/normal.svg').addClass("normal");
