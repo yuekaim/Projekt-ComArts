@@ -1,5 +1,9 @@
 title: community
 
+name: field.blocks.text.name
+icon: text
+wysiwyg: true
+preview: text
 fields:
   about:
     label: About
@@ -7,7 +11,10 @@ fields:
     size: medium
   teamKontakt:
     label: Team & Kontakt
-    type: blocks
+    type: writer
+    nodes: false
+    placeholder: field.blocks.text.placeholder
+
   netzwerk:
     label: Netzwerk
     type: blocks
