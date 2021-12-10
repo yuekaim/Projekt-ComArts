@@ -2,7 +2,7 @@
 
   <div class="container">
       <div class="marquee bottom">
-        <span><?= $page->marqueeBottom() ?></span>
+        <span><?= $site->find('Home')->marqueeBottom() ?></span>
       </div>
   </div>
 </div>
