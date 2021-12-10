@@ -14,6 +14,7 @@ fields:
     label: Projektleitung
     type: writer
     nodes: false
+    default: "span"
     placeholder: field.blocks.text.placeholder
   wissenschaftlich:
     label: Wissenschaftliche Bearbeitung und Koordination
@@ -25,7 +26,7 @@ fields:
     type: writer
     nodes: false
     placeholder: field.blocks.text.placeholder
-    
+
   netzwerk:
     label: Netzwerk
     type: blocks
