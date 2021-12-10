@@ -1,5 +1,4 @@
-<?= css('assets/css/menu.css') ?>
-<?= js('assets/js/script.js') ?>
+
 
   <div class="menu">
     <a href="<?= $site->find('home')->url() ?>">
