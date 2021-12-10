@@ -5,6 +5,6 @@
 
   <div class="container">
     <div class="marquee top">
-      <span><?= $site->findPageOrDraft('home')->marqueeTop() ?></span>
+      <span><?= $site->find('home')->marqueeTop() ?></span>
     </div>
   </div>
