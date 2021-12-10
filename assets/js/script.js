@@ -5,9 +5,9 @@ $(document).ready(function(){
   $(".close").click(function(){
 
   $(this).parent().toggle(function(){
-      $(this).parent().addClass("shrink")
+      $(this).parent().css("height","10vh")
   },function(){
-      $(this).parent().removeClass("shrink")
+      $(this).parent().css("height","29vh")
   })
 })
   /*
