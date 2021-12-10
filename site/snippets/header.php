@@ -20,14 +20,10 @@
 
   <!-- <link rel="stylesheet" href="css/styles.css"> -->
 
-  <?= css([
-    'assets/css/styles.css',
-    'assets/css/menu.css',
-    ]) ?>
+  <?= css('assets/css/styles.css') ?>
   <?= js([
     'assets/js/jquery-3.6.0.min.js',
     'assets/js/script.js',
-    'assets/js/marquee.js',
     ]) ?>
 
 </head>
