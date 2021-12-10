@@ -1,8 +1,4 @@
 
-
-
-<?php snippet('bottom') ?>
-
 <?php snippet('header') ?>
 <?php snippet('top') ?>
 
