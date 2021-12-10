@@ -6,9 +6,10 @@ $(document).ready(function(){
 
   $(this).parent().toggle(function(){
       $(this).parent().css("height","10vh")
-  },function(){
+  /*},function(){
       $(this).parent().css("height","29vh")
   })
+  */
 })
   /*
   $(this).attr('src', 'assets/img/normal.svg').addClass("normal");
