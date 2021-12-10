@@ -36,6 +36,9 @@ h1{
   align-items: end;
   height: 29vh;
 }
+.hflex .community{
+  height:80vh;
+}
 
 .vflex{
   display: flex;
