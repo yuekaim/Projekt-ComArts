@@ -9,12 +9,16 @@
 
     <div class="hflex">
         <div class="about box">
-          <h1>About</h1>
-          <p><?= $page->about() ?></p>
+          <div class="content">
+            <h1>About</h1>
+            <p><?= $page->about() ?></p>
+          </div>
         </div>
         <div class="kontakt box">
-          <h1>Kontakt</h1>
-          <p><?= $page->teamKontakt() ?></p>
+          <div class="content">
+            <h1>Kontakt</h1>
+            <p><?= $page->teamKontakt() ?></p>
+        </div>
         </div>
     </div>
 
