@@ -17,20 +17,20 @@
         <div class="kontakt box">
 
             <h1>Kontakt</h1>
-            <?= if ($page->projektleitung()->isNotEmpty()): ?>
+            <?php if ($page->projektleitung()->isNotEmpty()): ?>
             <h3>Projektleitung</h3>
             <p><?= $page->projektleitung() ?></p>
-            <?= endif ?>
+            <?php endif ?>
 
-            <?= if ($page->wissenschaftlich()->isNotEmpty()): ?>
+            <?php if ($page->wissenschaftlich()->isNotEmpty()): ?>
             <h3>Wissenschaftliche Bearbeitung und Koordination</h3>
             <p><?= $page->wissenschaftlich() ?></p>
-            <?= endif ?>
+            <?php endif ?>
 
-            <?= if ($page->fands()->isNotEmpty()): ?>
+            <?php if ($page->fands()->isNotEmpty()): ?>
             <h3>Freie & Studierendenmitarbeiter:innen</h3>
             <p><?= $page->fands() ?></p>
-            <?= endif ?>
+          <?php endif ?>
 
 
 
