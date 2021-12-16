@@ -1,12 +1,15 @@
 
 $(document).ready(function(){
 
-
+  $closed = false;
   $(".close").click(function(){
-    $(this).parent().css("height","10vh")
-    $(this).click(function(){
-      $(this).parent().css("height","29vh")
-    })
+    if($closed == false) {
+      $(this).parent().css("height","10vh");
+    }
+    else {
+      $(this).parent().css("height","29vh");
+    }
+    $closed = !$closed;
 })
   /*
   $(this).attr('src', 'assets/img/normal.svg').addClass("normal");
