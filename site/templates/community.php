@@ -17,7 +17,24 @@
         <div class="kontakt box">
 
             <h1>Kontakt</h1>
-            <p><?= $page->teamKontakt() ?></p>
+            <?= if $page->projektleitung():?>
+            <h3>Projektleitung</h3>
+            <p><?= $page->projektleitung() ?></p>
+            <?= endif ?>
+
+            <?= if $page->wissenschaftlich():?>
+            <h3>Wissenschaftliche Bearbeitung und Koordination</h3>
+            <p><?= $page->wissenschaftlich() ?></p>
+            <?= endif ?>
+
+            <?= if $page->fands():?>
+            <h3>Freie & Studierendenmitarbeiter:innen</h3>
+            <p><?= $page->fands() ?></p>
+            <?= endif ?>
+
+
+
+            <!-- <p><?= $page->teamKontakt() ?></p> -->
 
         </div>
     </div>
