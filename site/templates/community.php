@@ -17,17 +17,17 @@
         <div class="kontakt box">
 
             <h1>Kontakt</h1>
-            <?= if ($page->projektleitung()): ?>
+            <?= if ($page->projektleitung()->isNotEmpty()): ?>
             <h3>Projektleitung</h3>
             <p><?= $page->projektleitung() ?></p>
             <?= endif ?>
 
-            <?= if ($page->wissenschaftlich()): ?>
+            <?= if ($page->wissenschaftlich()->isNotEmpty()): ?>
             <h3>Wissenschaftliche Bearbeitung und Koordination</h3>
             <p><?= $page->wissenschaftlich() ?></p>
             <?= endif ?>
 
-            <?= if ($page->fands()): ?>
+            <?= if ($page->fands()->isNotEmpty()): ?>
             <h3>Freie & Studierendenmitarbeiter:innen</h3>
             <p><?= $page->fands() ?></p>
             <?= endif ?>
