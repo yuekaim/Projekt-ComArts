@@ -30,7 +30,7 @@
             <?php if ($page->fands()->isNotEmpty()): ?>
             <h3>Freie & Studierendenmitarbeiter:innen</h3>
             <p><?= $page->fands() ?></p>
-          <?php endif ?>
+            <?php endif ?>
 
 
 
