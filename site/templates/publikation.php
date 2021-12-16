@@ -3,10 +3,11 @@
 <?= css('assets/css/menu.css') ?>
 
 
+
 <?php snippet('header') ?>
 <?php snippet('top') ?>
 
-<div class="body-wrapper">
+<div class="body-wrapper vflex">
   <?php snippet('menu') ?>
   <div class="body-nomenu hflex">
     <?php if($pdf = $page->pdf()->toFile()): ?>
@@ -17,7 +18,7 @@
     <?php endif ?>
     <div class="projekt-text box" id="mask">
       <?php if($image = $page->cover()->toFile()): ?>
-        <img src="<?= $image->url() ?>" alt="">
+        <img src="<?= $image->url() ?>" alt="" class="bg">
       <?php endif ?>
       <h1><?= $page->headline()->kirbytext() ?></h1>
       <div class="">

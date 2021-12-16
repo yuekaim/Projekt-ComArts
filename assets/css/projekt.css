@@ -23,7 +23,6 @@ body{
   object-fit: cover;
 }
 
-
 .projekt-text{
   font-family: 'ABC';
   font-size: 1rem;
@@ -42,6 +41,10 @@ body{
 }
 
 .projekt-text img{
+  width: 100%;
+}
+
+.projekt-text .bg{
   position: absolute;
   top: 0;
   left: 0;

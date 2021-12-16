@@ -1,0 +1,20 @@
+iframe{
+  border: 1px solid black;
+  border-radius: 2em;
+  transition-duration: 0.5s;
+  flex-grow: 1;
+}
+
+.projekt-text{
+  display: none;
+}
+
+.expand{
+  display: block;
+  position: fixed;
+  z-index: 1000;
+  font-size: 5rem;
+  color: white;
+  right: 0rem;
+  top: 40vh;
+}

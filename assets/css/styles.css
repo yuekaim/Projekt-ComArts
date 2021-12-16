@@ -33,7 +33,7 @@ h1{
 .hflex{
   display: flex;
   flex-direction: row;
-  align-items: end;
+  /* align-items: end; */
 }
 .community{
   height:80vh;
@@ -63,7 +63,7 @@ h1{
   /* height: 0rem; */
   /* flex-grow: 1 !important; */
   /* flex-grow: 1 !important; */
-  /* overflow: scroll; */
+  overflow: scroll;
   /* margin-left: 2vw; */
   /* margin-right: 2vw; */
 }
