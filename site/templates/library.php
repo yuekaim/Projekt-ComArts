@@ -20,10 +20,7 @@
                 <div class="preview-info">
                   <h1><?= $post->headline() ?></h1>
                   <span><?= $post->person() ?></span>
-                  <span><?= $post->from() ?></span>
-                  <span><?= $post->fromT() ?></span>
-                  <span><?= $post->to() ?></span>
-                  <span><?= $post->toT() ?></span>
+                  <span><?= $post->date() ?></span>
                   <p><?= $post->metaInfo() ?></p>
                 </div>
               </div>

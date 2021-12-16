@@ -1,0 +1,52 @@
+title: Publikation
+tabs:
+  preview:
+    columns:
+      left:
+        width: 2/3
+        fields:
+          headline:
+            label: Headline
+            icon: headline
+            type: text
+          person:
+            label: Artist
+            type: tags
+          metaInfo:
+            label: Meta info
+            type: textarea
+      right:
+        width: 1/3
+        fields:
+          cover:
+            label: Cover
+            type: files
+            multiple: false
+            size: tiny
+            empty: field.blocks.gallery.images.empty
+            uploads:
+            template: blocks/image
+            image:
+            ratio: 1/1
+          date:
+            label: Publish date
+            type: date
+
+
+  main:
+    fields:
+      pdf:
+        label: PDF Files (if available)
+        type: files
+        multiple: true
+        uploads: files-upload
+        width: 2/3
+      tags:
+        label: Tags
+        type: tags
+        width: 1/3
+      maincontent:
+        label: content
+        type: textarea
+        size: large
+        width: 2/3
