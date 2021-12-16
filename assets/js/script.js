@@ -29,10 +29,10 @@ $(".normal").click(function(){
     $(".projekt-image").css('flex','1');
   })
 
-  $("#comarts").addClass("highlighted")
-
-  $(".menu-item").click(function(){
-    $(".menu-item").removeClass("highlighted")
-    $(this).addClass("highlighted")
-  })
+  // $("#comarts").addClass("highlighted")
+  //
+  // $(".menu-item").click(function(){
+  //   $(".menu-item").removeClass("highlighted")
+  //   $(this).addClass("highlighted")
+  // })
  })

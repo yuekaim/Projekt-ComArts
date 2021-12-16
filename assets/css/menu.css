@@ -131,8 +131,8 @@ input:checked + .slider:before {
 
 
 .highlighted{
-    background-color: black;
-    color:white
+    background-color: black !important;
+    color:white;
 }
 /*
 .paused {
