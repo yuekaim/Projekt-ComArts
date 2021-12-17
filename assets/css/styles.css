@@ -210,7 +210,7 @@ img.close{
   width:60vw;
 }
 .about h1{
-  margin: 1.5rem 4vw;
+  margin: 1rem 4vw;
 }
 .about p{
   font-size:1rem;
@@ -221,6 +221,10 @@ img.close{
 }
 .kontakt p{
   font-size: 1rem;
+  margin: 0.5rem 3vw;
+}
+.kontakt h1{
+  margin: 1rem 3vw;
 }
 .marquee{
   /* position: absolute; */
