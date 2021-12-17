@@ -207,6 +207,7 @@ img.close{
   flex-grow: 1
 }
 .about{
+  background: #e3e3e3;
   width:60vw;
 }
 .about h1{
@@ -217,6 +218,7 @@ img.close{
   margin: 1.5rem 4vw;
 }
 .kontakt{
+  background: #e3e3e3;
   width:36vw;
 }
 .kontakt p{
