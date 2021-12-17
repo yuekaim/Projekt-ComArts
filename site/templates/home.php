@@ -17,7 +17,7 @@
     <div class="home-info hflex normal">
         <div class="headline">
           <h1><span>HEADLINE</span></h1>
-          <img class="close" src="assets/img/shrink.svg">
+          <img class="close1" src="assets/img/shrink.svg">
         </div>
         <div class="news">
           <h1><span>NEWS</span></h1>
