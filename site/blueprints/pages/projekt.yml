@@ -63,8 +63,8 @@ tabs:
         label: content
         type: textarea
         width: 2/3
-      pdf:
-        label: PDF Files
+      uploadedimages:
+        label: Image Files
         type: files
         multiple: true
         uploads: files-upload

@@ -9,10 +9,17 @@
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
   <div class="body-nomenu hflex">
-    <?php if($image = $page->cover()->toFile()): ?>
-      <div class="projekt-image box">
-        <img src="<?= $image->url() ?>" alt="">
-        <!-- <img class="close" src="../assets/img/close.svg"> -->
+    <?php if($page->image()): ?>
+      <div class="swiper mySwiper projekt-image box">
+        <div class="swiper-wrapper">
+          <?php foreach($page->images() as $image): ?>
+            <div class="swiper-slide">
+              <img src="<?= $image->url() ?>" alt="">
+            </div>
+          <?php endforeach ?>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
     <?php endif ?>
     <div class="projekt-text box" id="mask">
