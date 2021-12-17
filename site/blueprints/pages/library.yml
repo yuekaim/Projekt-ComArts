@@ -6,13 +6,34 @@ sections:
     label: Drafts
     type: pages
     status: draft
-    templates: projekt
+    templates:
+      - publikation
+      - podcast
+      - video
 
-  published:
+  Publikationen:
     label: Publikationen
     type: pages
     status: listed
-    templates: projekt
+    templates: publikation
+    sortBy: date desc
+    sortable: true
+    layout: cards
+
+  podcasts:
+    label: podcasts
+    type: pages
+    status: listed
+    templates: podcast
+    sortBy: date desc
+    sortable: true
+    layout: cards
+
+  videos:
+    label: videos
+    type: pages
+    status: listed
+    templates: video
     sortBy: date desc
     sortable: true
     layout: cards

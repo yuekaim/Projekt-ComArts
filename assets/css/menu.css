@@ -131,8 +131,14 @@ input:checked + .slider:before {
 
 
 .highlighted{
-    background-color: black;
-    color:white
+    background-color: black !important;
+    color:white;
+}
+
+.menu-item:hover{
+  background-color: black !important;
+  color:white;
+  transition-duration: 0.5s;
 }
 /*
 .paused {

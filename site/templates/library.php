@@ -4,7 +4,7 @@
 
 <?= css('assets/css/activities.css') ?>
 
-<div class="body-wrapper">
+<div class="body-wrapper vflex">
   <?php snippet('menu') ?>
   <div class="body-nomenu">
 
@@ -18,12 +18,10 @@
                   <img class="preview-img" src="<?= $image->url() ?>" alt="">
                 <?php endif ?>
                 <div class="preview-info">
+                  <p><?= $post->template() ?></p>
                   <h1><?= $post->headline() ?></h1>
                   <span><?= $post->person() ?></span>
-                  <span><?= $post->from() ?></span>
-                  <span><?= $post->fromT() ?></span>
-                  <span><?= $post->to() ?></span>
-                  <span><?= $post->toT() ?></span>
+                  <span><?= $post->date() ?></span>
                   <p><?= $post->metaInfo() ?></p>
                 </div>
               </div>

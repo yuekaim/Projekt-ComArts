@@ -3,23 +3,17 @@
 <?= css('assets/css/menu.css') ?>
 
 
+
 <?php snippet('header') ?>
 <?php snippet('top') ?>
 
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
   <div class="body-nomenu hflex">
-    <?php if($page->image()): ?>
-      <div class="swiper mySwiper projekt-image box">
-        <div class="swiper-wrapper">
-          <?php foreach($page->images() as $image): ?>
-            <div class="swiper-slide">
-              <img src="<?= $image->url() ?>" alt="">
-            </div>
-          <?php endforeach ?>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+    <?php if($pdf = $page->pdf()->toFile()): ?>
+      <div class="projekt-image box">
+        <a href="<?= $pdf->url() ?>" target="_blank"></a>
+        <!-- <img class="close" src="../assets/img/close.svg"> -->
       </div>
     <?php endif ?>
     <div class="projekt-text box" id="mask">

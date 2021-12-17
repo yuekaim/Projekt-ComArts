@@ -1,0 +1,56 @@
+title: Video
+tabs:
+  preview:
+    columns:
+      left:
+        width: 2/3
+        fields:
+          headline:
+            label: Headline
+            icon: headline
+            type: text
+          person:
+            label: Artist
+            type: tags
+          metaInfo:
+            label: Meta info
+            type: textarea
+      right:
+        width: 1/3
+        fields:
+          cover:
+            label: Cover
+            type: files
+            multiple: false
+            size: tiny
+            empty: field.blocks.gallery.images.empty
+            uploads:
+            template: blocks/image
+            image:
+            ratio: 1/1
+          date:
+            label: Publish date
+            type: date
+
+
+  main:
+    fields:
+      tags:
+        label: Tags
+        type: tags
+      link:
+        label: Link to video
+        type: url
+        width: 2/3
+      vimeoyoutube:
+        label: Select video hosted platform
+        type: select
+        options:
+          youtube: Youtube
+          vimeo: Vimeo
+        width: 1/3
+      maincontent:
+        label: description
+        type: textarea
+        size: medium
+        width: 2/3

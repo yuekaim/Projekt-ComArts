@@ -1,0 +1,9 @@
+/* .projekt-text{
+  flex: 10 !important;
+} */
+
+audio{
+  width: calc(100% - 2px);
+  min-height: 54px;
+  filter: invert(100%);
+}
