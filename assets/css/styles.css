@@ -77,7 +77,7 @@ h1{
 }
 
 .paperjs{
-
+  height: 100%;
 }
 
 #gradient{
@@ -86,11 +86,15 @@ h1{
   width: 100vw;
 }
 
+.body-nomenu{flex-grow: 1;}
+
 #canvas{
   /* width: 96vw;
   height: 80vh; */
   width: calc(100% - 2px);
-  height: calc(80vh - 2.5rem - 2px);
+  /* height: calc(80vh - 2.5rem - 2px); */
+  height: 100%;
+  flex: 1;
   overflow: hidden;
   /* position: fixed;
   top: 50%;
