@@ -219,7 +219,9 @@ img.close{
 .kontakt{
   width:36vw;
 }
-
+.kontakt p{
+  font-size: 1rem;
+}
 .marquee{
   /* position: absolute; */
   /* margin-top: 0.5rem; */
