@@ -18,8 +18,8 @@
                   <img class="preview-img" src="<?= $image->url() ?>" alt="">
                 <?php endif ?>
                 <div class="preview-info">
-                  <h1><?= $post->headline() ?></h1>
                   <p><?= $post->template() ?></p>
+                  <h1><?= $post->headline() ?></h1>
                   <span><?= $post->person() ?></span>
                   <span><?= $post->date() ?></span>
                   <p><?= $post->metaInfo() ?></p>
