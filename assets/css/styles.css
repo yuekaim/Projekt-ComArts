@@ -168,8 +168,9 @@ img.close{
   width: 30px;
   height: 30px;
   position: absolute;
-  right: 5%;
-  top: 8%;
+  right: 2%;
+  top: 3%;
+  padding: 2%;
 
 }
 .impressium{
