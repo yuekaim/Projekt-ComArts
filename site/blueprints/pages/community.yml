@@ -26,7 +26,8 @@ fields:
     type: writer
     nodes: false
     placeholder: field.blocks.text.placeholder
-
   netzwerk:
     label: Netzwerk
-    type: blocks
+    type: writer
+    nodes: false
+    placeholder: field.blocks.text.placeholder
