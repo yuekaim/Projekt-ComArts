@@ -264,7 +264,9 @@ img.close{
 }
 
 .activity:hover{
-  background-color: #ffffff00;
+  background-color: #ffffff55;
+  /* box-shadow: inset 0px 0px 5px #00000055; */
+  /* width: 100vw; */
   transition-duration: 0.5s;
 }
 
