@@ -34,7 +34,12 @@
             <p><?= $page->fands() ?></p>
             <?php endif ?>
           </div>
-
+          <div class="netzwerk box">
+            <?php if ($page->netzwerk()->isNotEmpty()): ?>
+            <h3>Netzwerk</h3>
+            <p><?= $page->netzwerk() ?></p>
+            <?php endif ?>
+          </div>
 
             <!-- <p><?= $page->teamKontakt() ?></p> -->
 
