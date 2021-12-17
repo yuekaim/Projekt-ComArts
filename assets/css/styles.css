@@ -123,6 +123,7 @@ h1{
 
 .headline{
   /* display:none; */
+  position: relative;
   background-image: url("../img/bg.jpg");
   border: 1px solid black;
   border-radius: 2rem;
@@ -134,6 +135,7 @@ h1{
 }
 .news{
   /* display:none; */
+  position: relative;
   background-color: lightgrey;
   border: 1px solid black;
   border-radius: 2rem;
@@ -162,11 +164,12 @@ h1 span, p span{
   border-radius: 12px;
   padding:0.5rem 1rem;
 }
-img.close, img.close1{
+img.close{
   width: 30px;
   height: 30px;
-  position: sticky;
-  left: 95%;
+  position: absolute;
+  right: 5%;
+  top: 8%;
 
 }
 .impressium{
