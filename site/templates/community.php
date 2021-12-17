@@ -2,12 +2,11 @@
 <?php snippet('header') ?>
 <?php snippet('top') ?>
 
-<div class="body-wrapper">
+<div class="body-wrapper vflex">
   <?php snippet('menu') ?>
 
-  <div class="body-nomenu">
+  <div class="body-nomenu hflex">
 
-    <div class="hflex">
         <div class="about box">
 
             <h1>About</h1>
@@ -39,7 +38,6 @@
         </div>
     </div>
 
-  </div>
 
 </div>
 
