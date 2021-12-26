@@ -106,7 +106,7 @@ h1{
   border-radius: 2rem;
 
 }
-.short-about{
+.headline{
   /* display:none; */
   background-image: url("../img/bg.jpg");
   background-size: 100% 100%;
@@ -121,7 +121,7 @@ h1{
   height: 100%;
 }
 
-.headline{
+.short-about{
   /* display:none; */
   position: relative;
   background-image: url("../img/bg.jpg");
