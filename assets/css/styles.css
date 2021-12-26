@@ -229,6 +229,7 @@ img.close{
 .kontakt h1{
   margin: 1rem 3vw;
   font-size: 2.5rem;
+  hyphens: auto;
 }
 .marquee{
   /* position: absolute; */
