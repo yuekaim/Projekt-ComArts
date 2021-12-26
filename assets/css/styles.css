@@ -290,13 +290,13 @@ img.close{
 .keywords{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: stretch;
   flex-wrap: wrap;
   position: relative;
 }
 .keywords span{
-  padding: 0.5rem 1rem;
+  padding: 0rem 2rem;
   border: 1px solid black;
   text-align: center;
   font-family: 'ABC';
