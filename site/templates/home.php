@@ -9,14 +9,7 @@
       <h1><span>HEADLINE</span></h1>
       <img class="close" src="assets/img/shrink.svg">
     </div>
-
-    <div class="short-about">
-      <div class="content">
-        <h1><span>PROJRKT COMARTS</span></h1>
-        <p><span><?= $page->text() ?></span></p>
-        <button type="button">WEITER LESEN</button>
-      </div>
-    </div>
+  </div>
 
     <div class="home-info hflex normal">
       <div class="short-about">
@@ -25,6 +18,7 @@
           <p><span><?= $page->text() ?></span></p>
           <button type="button">WEITER LESEN</button>
         </div>
+      </div>
         <div class="news">
           <h1><span>NEWS</span></h1>
           <img class="close" src="assets/img/shrink.svg">
@@ -33,6 +27,5 @@
 
   </div>
 
-</div>
 
 <?php snippet('bottom') ?>
