@@ -4,6 +4,7 @@
 
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
+  <?php snippet('keywords') ?>
 
   <div class="body-nomenu hflex">
 
