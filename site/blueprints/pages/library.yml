@@ -11,6 +11,15 @@ sections:
       - podcast
       - video
 
+  unlisted:
+    label: Unlisted
+    type: pages
+    status: unlisted
+    templates:
+      - publikation
+      - podcast
+      - video
+
   Publikationen:
     label: Publikationen
     type: pages
