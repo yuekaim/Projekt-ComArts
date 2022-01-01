@@ -4,7 +4,6 @@ $(document).ready(function(){
   $closed = false;
   var oldSrc = 'assets/img/shrink.svg';
   var newSrc = 'assets/img/normal.svg';
-$('img[src="' + oldSrc + '"]').attr('src', newSrc);
   $(".close").click(function(){
     if($closed == false) {
       $(this).parent().css("height","10vh");
