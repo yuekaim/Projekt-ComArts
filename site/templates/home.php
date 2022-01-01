@@ -10,7 +10,6 @@
       <h1><span>HEADLINE</span></h1>
     </div>
 
-    </div>
 
     <div class="home-info hflex normal">
       <div class="short-about">
@@ -26,7 +25,7 @@
           <img class="close" src="assets/img/shrink.svg">
         </div>
     </div>
-
+  </div>
   </div>
 
 
