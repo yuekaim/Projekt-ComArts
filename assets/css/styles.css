@@ -224,12 +224,14 @@ img.close{
   background: #e3e3e3;
   width:36vw;
 }
-.kontakt p{
+.kontakt .content{
   margin: 0.5rem 3vw;
 }
+.kontakt p{
+}
 .kontakt h1{
-  margin: 1rem 3vw;
   hyphens: auto;
+  display: inline;
 }
 .marquee{
   /* position: absolute; */
@@ -314,11 +316,5 @@ img.close{
 ...
 }
 @media only screen (min-width: 769px) and (max-width: 1165px){
-...
-}
-@media only screen (min-width: 1165px){
-...
-}
-@media only screen (min-width: 1201x){
 ...
 }
