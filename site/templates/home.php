@@ -15,7 +15,7 @@
       <div class="short-about">
         <img class="close" src="assets/img/shrink.svg">
         <div class="content">
-          <h1><span>PROJRKT COMARTS</span></h1>
+          <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
           <button type="button">WEITER LESEN</button>
         </div>
