@@ -8,8 +8,8 @@ $(document).ready(function(){
     if($closed == false) {
       $(this).parent().css("height","10vh");
       $(this).attr('src', newSrc);
-      $(this).parent().find(".content").css("display","none");
-      $(this).parent().append("<h1><span>PROJEKT COMARTS</span></h1>")
+      $(this).parent().find("p, button").css("display","none");
+
     }
     else {
       $(this).parent().css("height","29vh");
