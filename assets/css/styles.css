@@ -26,9 +26,11 @@ body {
 }
 
 h1{
-  font-size:2rem;
+  font-size:1.9rem;
 }
-
+p{
+  font-size:0.7rem;
+}
 .body-wrapper{
   /*  */
   /* height: 80vh; */
@@ -215,7 +217,6 @@ img.close{
 }
 .about h1{
   margin: 1rem 4vw;
-  font-size: 1.9rem;
 }
 .about p{
   font-size:0.7rem;
@@ -231,7 +232,6 @@ img.close{
 }
 .kontakt h1{
   margin: 1rem 3vw;
-  font-size: 1.9rem;
   hyphens: auto;
 }
 .marquee{
@@ -305,7 +305,7 @@ img.close{
   border: 1px solid black;
   text-align: center;
   font-family: 'ABC';
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   background-color: white;
   border-radius: 2rem;
 }
