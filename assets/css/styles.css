@@ -16,7 +16,7 @@ body {
 
   background: #e3e3e3;
   background-image: linear-gradient(rgba(0, 0, 0, .1) .1em, transparent .1em), linear-gradient(90deg, rgba(0, 0, 0, .1) .1em, transparent .1em);
-  background-size: 3em 3em;
+  background-size: 2rem 2rem;
 }
 
 .box{
