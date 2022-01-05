@@ -311,7 +311,8 @@ img.close{
 .phone{
   display:none;
 }
-@media only screen (min-width: 320px) and (max-width: 480px){
+
+@media only screen (max-width: 480px){
   h1{
     background-color: red;
   }
