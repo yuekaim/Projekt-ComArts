@@ -5,7 +5,7 @@
   <?php snippet('menu') ?>
   <?php snippet('keywords') ?>
 
-  <div class="body-nomenu hflex">
+  <div class="body-nomenu infos hflex">
 
         <div class="about box">
 
