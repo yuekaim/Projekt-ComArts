@@ -1,5 +1,7 @@
 @media (max-width: 480px){
-  height: 95vh;
+  .body-flex{
+    height: 95vh;
+  }
 .desktop{
   display:none;
 }
