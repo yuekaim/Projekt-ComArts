@@ -9,11 +9,14 @@ $(document).ready(function(){
       $(this).parent().css("height","10vh");
       $(this).attr('src', newSrc);
       $(this).parent().find("p, button").css("display","none");
+      $(this).parent().find(".content").css("display":"inline-block","position":"absolute","left":"9%","top":"-20%")
 
     }
     else {
       $(this).parent().css("height","29vh");
       $(this).attr('src', oldSrc);
+      $(this).parent().find("p, button").css("display","block");
+      $(this).parent().find(".content").css()
     }
     $closed = !$closed;
 })
