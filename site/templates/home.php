@@ -25,6 +25,19 @@
           <img class="close" src="assets/img/shrink.svg">
         </div>
     </div>
+    <div class="phone">
+      <div class="short-about">
+        <img class="close" src="assets/img/shrink.svg">
+        <div class="content">
+          <h1><span>PROJEKT COMARTS</span></h1>
+          <p><span><?= $page->text() ?></span></p>
+          <button type="button">WEITER LESEN</button>
+        </div>
+    </div>
+    <div class="news">
+      <h1><span>NEWS</span></h1>
+      <img class="close" src="assets/img/shrink.svg">
+    </div>
   </div>
   </div>
 

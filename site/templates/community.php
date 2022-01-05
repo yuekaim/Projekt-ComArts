@@ -19,7 +19,7 @@
           <div class="projektleitung box">
             <div class="content">
             <?php if ($page->projektleitung()->isNotEmpty()): ?>
-            <h1 lang="de">Projekt&shy;leitung</h3>
+            <h1 lang="de">Projektleitung</h3>
             <p><?= $page->projektleitung() ?></p>
             <?php endif ?>
           </div>

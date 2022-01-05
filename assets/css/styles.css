@@ -308,9 +308,16 @@ img.close{
   background-color: white;
   border-radius: 1.3rem;
 }
-
-@media only screen (min-width: 320x) and (max-width: 480px){
-...
+.phone{
+  display:none;
+}
+@media only screen (min-width: 320px) and (max-width: 480px){
+  .phone{
+    display:block;
+  }
+  .home-info .hflex .normal{
+    display:none;
+  }
 }
 @media only screen (min-width: 481px) and (max-width: 768px){
 ...
