@@ -25,8 +25,8 @@
           <img class="close" src="assets/img/shrink.svg">
         </div>
     </div>
-    <div class="phone">
-      <div class="short-about">
+
+    <div class="phone short-about">
         <img class="close" src="assets/img/shrink.svg">
         <div class="content">
           <h1><span>PROJEKT COMARTS</span></h1>
@@ -34,7 +34,7 @@
           <button type="button">WEITER LESEN</button>
         </div>
     </div>
-    <div class="news">
+    <div class="phone news">
       <h1><span>NEWS</span></h1>
       <img class="close" src="assets/img/shrink.svg">
     </div>
