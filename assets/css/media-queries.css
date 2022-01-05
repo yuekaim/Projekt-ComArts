@@ -1,4 +1,5 @@
 @media (max-width: 480px){
+  height: 95vh;
 .desktop{
   display:none;
 }
