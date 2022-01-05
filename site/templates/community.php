@@ -1,7 +1,6 @@
 
 <?php snippet('header') ?>
 <?php snippet('top') ?>
-
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
   <?php snippet('keywords') ?>
