@@ -5,7 +5,7 @@
 .phone{
   display:block;
 }
-.preview.hflex, .projekt.hflex{
+.projekt.hflex{
   flex-direction: column;
 }
   .headline{
