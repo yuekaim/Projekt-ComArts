@@ -11,7 +11,7 @@
     </div>
 
 
-    <div class="home-info hflex normal">
+    <div class="desktop home-info hflex normal">
       <div class="short-about">
         <img class="close" src="assets/img/shrink.svg">
         <div class="content">
