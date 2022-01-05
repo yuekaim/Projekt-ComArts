@@ -1,0 +1,17 @@
+@media only screen (max-width: 480px){
+  h1{
+    background-color: red;
+  }
+  .phone{
+    display:block;
+  }
+  .desktop{
+    display:none;
+  }
+}
+@media only screen (min-width: 481px) and (max-width: 768px){
+...
+}
+@media only screen (min-width: 769px) and (max-width: 1165px){
+...
+}
