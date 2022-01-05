@@ -16,7 +16,7 @@
     width:40%;
     object-fit: cover;
   }
-  .about{
+  .about, .kontakt{
     overflow: unset;
     width: unset;
   }
