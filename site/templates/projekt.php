@@ -8,7 +8,7 @@
 
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
-  <div class="body-nomenu hflex">
+  <div class="body-nomenu projekt hflex">
     <?php if($page->image()): ?>
       <div class="swiper mySwiper projekt-image box">
         <div class="swiper-wrapper">
