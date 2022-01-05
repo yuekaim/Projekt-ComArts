@@ -311,29 +311,3 @@ img.close{
 .phone{
   display:none;
 }
-
-@media (max-width: 480px){
-.desktop{
-  display:none;
-}
-.phone{
-  display:block;
-}
-.hflex{
-  flex-direction: column;
-}
-  .headline{
-    margin-bottom: 0;
-    height: 70%;
-  }
-  .preview-img{
-    width:40%;
-    object-fit: cover;
-  }
-}
-@media only screen (min-width: 481px) and (max-width: 768px){
-...
-}
-@media only screen (min-width: 769px) and (max-width: 1165px){
-...
-}

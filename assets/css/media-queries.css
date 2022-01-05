@@ -1,4 +1,10 @@
 @media (max-width: 480px){
+.desktop{
+  display:none;
+}
+.phone{
+  display:block;
+}
 .hflex{
   flex-direction: column;
 }

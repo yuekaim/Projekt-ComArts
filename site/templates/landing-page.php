@@ -21,3 +21,4 @@
 </div>
 
 <?php snippet('bottom') ?>
+<?= css('assets/css/media-queries.css') ?>

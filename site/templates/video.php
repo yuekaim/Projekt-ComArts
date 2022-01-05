@@ -30,3 +30,4 @@
 
 <?= js('assets/js/video.js') ?>
 <?php snippet('bottom') ?>
+<?= css('assets/css/media-queries.css') ?>
