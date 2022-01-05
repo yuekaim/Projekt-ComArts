@@ -1,12 +1,14 @@
 @media (max-width: 480px){
-  h1{
-    background-color: red;
+.hflex{
+  flex-direction: column;
+}
+  .headline{
+    margin-bottom: 0;
+    height: 70%;
   }
-  .phone{
-    display:block;
-  }
-  .desktop{
-    display:none;
+  .preview-img{
+    width:40%;
+    object-fit: cover;
   }
 }
 @media only screen (min-width: 481px) and (max-width: 768px){
