@@ -46,3 +46,31 @@
     color:white
 }
 */
+
+/* dropdown css */
+
+.btn {
+  padding: 0.3rem 1rem;
+  border: 1px solid black;
+  border-radius: 1.3rem;
+  background-color: #ddd0;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-family: 'ABC';
+  transition-duration: 0.5s;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #000;
+  color: white;
+}
+
+.filter>*{
+  flex: 1;
+  margin: auto;
+}

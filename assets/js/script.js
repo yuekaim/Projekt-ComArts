@@ -44,4 +44,8 @@ $(".normal").click(function(){
   //   $(".menu-item").removeClass("highlighted")
   //   $(this).addClass("highlighted")
   // })
+
+
+
+
  })
