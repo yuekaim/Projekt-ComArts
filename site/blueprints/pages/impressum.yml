@@ -1,7 +1,7 @@
-title: impressium
+title: impressum
 
 fields:
   text:
-    label: Impressium
+    label: Impressum
     type: textarea
     size: large

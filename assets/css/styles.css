@@ -178,7 +178,7 @@ img.close{
   padding: 2%;
 
 }
-.impressium{
+.impressum{
   display:block;
   border: 1px solid black;
   border-radius: 1.3rem;
@@ -188,10 +188,10 @@ img.close{
   flex: 1;
   overflow: scroll;
 }
-.impressium h1{
+.impressum h1{
   margin: 1.5rem 12vw;
 }
-.impressium p{
+.impressum p{
   margin: 1.5rem 12vw;
 }
 .community{
