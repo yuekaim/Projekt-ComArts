@@ -24,6 +24,22 @@
     width: unset;
   }
 }
+/* 2532x1170 pixels at 460ppi iphone 12 pro*/
+@media only screen
+    and (device-width: 390px)
+    and (device-height: 844px)
+    and (-webkit-device-pixel-ratio: 3) {
+      .body-flex{
+        height: 90vh;
+      }
+      h1{
+        font-size:17pt;
+      }
+      p{
+        font-size:15pt;
+      }
+    }
+
 @media only screen (min-width: 481px) and (max-width: 768px){
 ...
 }
