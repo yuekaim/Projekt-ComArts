@@ -13,7 +13,7 @@
 
     <div class="desktop home-info hflex normal">
       <div class="short-about">
-        <img class="close" src="assets/img/shrink.svg">
+        <img class="close close1" src="assets/img/shrink.svg">
         <div class="content">
           <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
@@ -22,12 +22,12 @@
       </div>
         <div class="news">
           <h1><span>NEWS</span></h1>
-          <img class="close" src="assets/img/shrink.svg">
+          <img class="close close2" src="assets/img/shrink.svg">
         </div>
     </div>
 
     <div class="phone short-about">
-        <img class="close" src="assets/img/shrink.svg">
+        <img class="close close1" src="assets/img/shrink.svg">
         <div class="content">
           <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
@@ -36,7 +36,7 @@
     </div>
     <div class="phone news">
       <h1><span>NEWS</span></h1>
-      <img class="close" src="assets/img/shrink.svg">
+      <img class="close close2" src="assets/img/shrink.svg">
     </div>
   </div>
   </div>
