@@ -41,6 +41,9 @@ tabs:
         multiple: true
         uploads: files-upload
         width: 2/3
+      pdflink:
+        label: link to PDF (if file is already hosted elsewhere)
+        type: url
       tags:
         label: Tags
         type: tags

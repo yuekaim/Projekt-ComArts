@@ -9,13 +9,7 @@
 
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
-  <div class="body-nomenu hflex">
-    <?php if($pdf = $page->pdf()->toFile()): ?>
-      <div class="projekt-image box">
-        <a href="<?= $pdf->url() ?>" target="_blank"></a>
-        <!-- <img class="close" src="../assets/img/close.svg"> -->
-      </div>
-    <?php endif ?>
+  <div class="body-nomenu flex">
     <div class="projekt-text box" id="mask">
       <?php if($image = $page->cover()->toFile()): ?>
         <img src="<?= $image->url() ?>" alt="" class="bg">
@@ -23,6 +17,19 @@
       <h1><?= $page->headline()->kirbytext() ?></h1>
       <div class="">
         <?= $page->tags() ?>
+        <?php if($pdf = $page->pdf()->toFile()): ?>
+            <a href="<?= $pdf->url() ?>" target="_blank">
+              download pdf
+            </a>
+            <!-- <img class="close" src="../assets/img/close.svg"> -->
+        <?php endif ?>
+        <?php if($page->pdflink()->isNotEmpty()): ?>
+
+            <a href="<?= $page->pdflink() ?>" target="_blank">
+              download pdf
+            </a>
+            <!-- <img class="close" src="../assets/img/close.svg"> -->
+        <?php endif ?>
         <?= $page->maincontent()->kirbytext() ?>
       </div>
     </div>

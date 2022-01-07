@@ -311,3 +311,13 @@ img.close{
 .phone{
   display:none;
 }
+
+.projekt-text a{
+  color: #888;
+  text-decoration: underline;
+}
+
+.projekt-text a:hover{
+  color: #000;
+  text-decoration: none;
+}
