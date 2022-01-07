@@ -15,7 +15,7 @@
         <img src="<?= $image->url() ?>" alt="" class="bg">
       <?php endif ?>
       <h1><?= $page->headline() ?></h1>
-      <div class="pdf">
+      <div class="pdflink">
         <?= $page->tags() ?>
         <?php if($pdf = $page->pdf()->toFile()): ?>
             <a href="<?= $pdf->url() ?>" target="_blank">

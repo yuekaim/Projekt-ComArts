@@ -312,7 +312,7 @@ img.close{
   display:none;
 }
 
-.pdf a{
+.pdflink a{
   color: #000;
   background-color: #bbb;
   border-radius: 2rem;
@@ -321,7 +321,7 @@ img.close{
   right: 2rem;
 }
 
-.pdf a:hover{
+.pdflink a:hover{
   /* background-color: #0000; */
   color: #000;
   text-decoration: underline;
