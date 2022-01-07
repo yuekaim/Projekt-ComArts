@@ -9,8 +9,7 @@
 
 var raster = new Raster('gradient');
 raster.position = view.center;
-raster.scale(0.3);
-
+raster.scale(1);
 
 project.currentStyle = {
 	fillColor: 'black'
