@@ -15,7 +15,7 @@
         <img src="<?= $image->url() ?>" alt="" class="bg">
       <?php endif ?>
       <h1><?= $page->headline() ?></h1>
-      <div class="">
+      <div class="pdf">
         <?= $page->tags() ?>
         <?php if($pdf = $page->pdf()->toFile()): ?>
             <a href="<?= $pdf->url() ?>" target="_blank">
@@ -30,8 +30,9 @@
             </a>
             <!-- <img class="close" src="../assets/img/close.svg"> -->
         <?php endif ?>
-        <?= $page->maincontent()->kirbytext() ?>
       </div>
+      <?= $page->maincontent()->kirbytext() ?>
+
     </div>
   </div>
 
