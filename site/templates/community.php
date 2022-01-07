@@ -28,7 +28,7 @@
             <div class="content">
             <?php if ($page->wissenschaftlich()->isNotEmpty()): ?>
             <h1>Wissenschaftliche Bearbeitung und Koordination</h3>
-            <p><?= $page->wissenschaftlich() ?></p>
+            <p><?= $page->wissenschaftlich()->kirbytext() ?></p>
             <?php endif ?>
             </div>
           </div>
