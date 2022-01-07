@@ -14,7 +14,7 @@
     <a href="<?= $site->find('community')->url() ?>">
       <div class="menu-item<?php if($site->find('community')->isActive()) echo ' highlighted"' ?>" id="community">Community</div>
     </a>
-    <a href="<?= $site->find('impressium')->url() ?>">
+    <a href="<?= $site->find('impressum')->url() ?>">
       <div class="menu-item<?php if($site->find('impressium')->isActive()) echo ' highlighted"' ?>" id="impressum">Impressium</div>
     </a>
 
