@@ -3,7 +3,7 @@
   src: url('../fonts/ABCMonumentGroteskMono-Regular.otf');
 }
 html{
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(14px + (26 - 17) * ((100vw - 300px) / (1600 - 300)));
 }
 
 body {
@@ -212,7 +212,7 @@ img.close{
 }
 .about{
   background: #e3e3e3;
-  width:60vw;
+  width:55%;
 }
 .about h1{
   margin: 1rem 4vw;
@@ -222,7 +222,7 @@ img.close{
 }
 .kontakt{
   background: #e3e3e3;
-  width:36vw;
+  width:45%;
 }
 .kontakt .content{
   margin: 0.5rem 3vw;
@@ -326,4 +326,14 @@ img.close{
   color: #000;
   text-decoration: underline;
   transition-duration: 0.5s;
+}
+.preview{
+  position: relative;
+}
+.preview-info{
+  font-size: 0.7rem;
+}
+.preview-info p{
+  position: absolute;
+  right: 2vw;
 }
