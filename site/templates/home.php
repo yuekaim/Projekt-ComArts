@@ -13,7 +13,7 @@
 
           <?php $headlines = $page->children()->published() ?>
           <?php foreach ($headlines as $post): ?>
-            <div>
+            <div class="post">
               <div class="headlineimg">
                 <?php if($image = $post->thumbnail()->toFile()): ?>
                   <img class="preview-img" src="<?= $image->url() ?>" alt="">
