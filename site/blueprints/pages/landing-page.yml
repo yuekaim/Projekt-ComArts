@@ -24,7 +24,7 @@ columns:
           marqueeBottom:
             label: Marquee Bottom
             type: text
-            
+
 
   sidebar:
     width: 1/2
@@ -33,10 +33,10 @@ columns:
         headline: Drafts
         type: pages
         status: draft
-        templates: projekt
+        templates: headline
 
       published:
-        headline: Aktuell
+        headline: Headline
         type: pages
         status: listed
-        templates: projekt
+        templates: headline
