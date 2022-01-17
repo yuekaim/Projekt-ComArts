@@ -349,5 +349,8 @@ span.personen{
   margin: 1rem 5rem;
 }
 .headlindwrapper .post{
-  width:10vw;
+  width:25%;
+}
+.swiper-horizontal{
+  margin: 0 5rem
 }
