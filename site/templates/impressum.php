@@ -2,7 +2,7 @@
 <?php snippet('top') ?>
 
 
-<div class="body-wrapper">
+<div class="body-wrapper vflex">
   <?php snippet('menu') ?>
 
   <div class="body-nomenu hflex">
