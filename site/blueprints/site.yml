@@ -24,7 +24,7 @@ tabs:
             type: pages
             create: false
             template:
-              - landing-page
+              - home
               - community
               - impressum
 
