@@ -14,7 +14,12 @@
       <?php if($image = $page->cover()->toFile()): ?>
         <img src="<?= $image->url() ?>" alt="" class="bg">
       <?php endif ?>
-      <h1><?= $page->headline() ?></h1>
+      <h1 style="font-size:1.7rem"><?= $page->headline() ?></h1>
+      <div class="content">
+        <h3 style="font-size:1rem"><?= $page->subheading()?></h3>
+        <span class="personen"><?= $page->personen()?></span>
+        <p><?= $page->maincontent()->kirbytext() ?></p>
+      </div>
       <div class="pdflink">
         <?= $page->tags() ?>
         <?php if($pdf = $page->pdf()->toFile()): ?>
@@ -31,8 +36,6 @@
             <!-- <img class="close" src="../assets/img/close.svg"> -->
         <?php endif ?>
       </div>
-      <?= $page->maincontent()->kirbytext() ?>
-
     </div>
   </div>
 

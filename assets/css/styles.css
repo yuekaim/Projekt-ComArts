@@ -317,7 +317,8 @@ img.close{
   background-color: #bbb;
   border-radius: 2rem;
   transition-duration: 0.5s;
-
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
   right: 2rem;
 }
 
@@ -339,4 +340,8 @@ img.close{
 }
 .main h3{
   font-size:0.7rem;
+}
+span.personen{
+  background-color: inherit;
+  font-size: 0.7rem;
 }
