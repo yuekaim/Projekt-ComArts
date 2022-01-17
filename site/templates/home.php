@@ -8,7 +8,7 @@
 
     <div class="headline">
       <h1><span>HEADLINE</span></h1>
-      <div class="swiper mySwiper">
+      <div class="swiper myHomeSwiper">
         <div class="swiper-wrapper">
 
 
