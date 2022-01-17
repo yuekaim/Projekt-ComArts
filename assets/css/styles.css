@@ -176,7 +176,8 @@ h1 span, p span{
 img.close{
   width: 30px;
   height: 30px;
-  position: absolute;
+  position: sticky;
+  float: right;
   right: 2%;
   top: 3%;
   padding: 2%;
