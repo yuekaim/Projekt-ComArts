@@ -341,6 +341,7 @@ img.close{
 .main h3{
   font-size:0.7rem;
 }
-.personen span{
+span.personen{
   background-color: inherit;
+  font-size: 0.7rem;
 }
