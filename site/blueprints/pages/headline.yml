@@ -1,26 +1,27 @@
 title: Headline
-  fields:
-    date:
-      label: Datum
-      type: date
-      display: DD.MM
-    headline:
-        label: Headline
-        icon: headline
-        type: text
-    metaInfo:
-        label: Meta info
-        type: textarea
-    thumbnail:
-        label: Thumbnail
-        type: files
-        multiple: false
-        size: tiny
-        empty: field.blocks.gallery.images.empty
-        uploads:
-        template: blocks/image
-        image:
-        ratio: 1/1
-    link:
-      label: Link
-      type: url
+
+fields:
+  date:
+    label: Datum
+    type: date
+    display: DD.MM
+  headline:
+    label: Headline
+    icon: headline
+    type: text
+  metaInfo:
+    label: Meta info
+    type: textarea
+  thumbnail:
+    label: Thumbnail
+    type: files
+    multiple: false
+    size: tiny
+    empty: field.blocks.gallery.images.empty
+    uploads:
+    template: blocks/image
+    image:
+    ratio: 1/1
+  link:
+    label: Link
+    type: url
