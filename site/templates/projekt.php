@@ -27,7 +27,7 @@
         <img src="<?= $image->url() ?>" alt="" class="bg">
       <?php endif ?>
       <h1><?= $page->headline() ?></h1>
-      <div class="">
+      <div class="main">
         <div class="keywords">
           <?php foreach ($page->tags()->split() as $tag): ?>
           <span style="background-color: #bbb;
