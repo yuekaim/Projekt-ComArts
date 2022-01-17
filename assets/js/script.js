@@ -55,6 +55,16 @@ $(".normal").click(function(){
     $(".projekt-image").css('flex','1');
   })
 
+  $(".impressum").click(function(){
+    $(".datenschutz").css('flex','0.5');
+    $(".impressum").css('flex','1');
+  })
+
+  $(".datenschutz").click(function(){
+    $(".impressum").css('flex','0.3');
+    $(".datenschutz").css('flex','1');
+  })
+
   // $("#comarts").addClass("highlighted")
   //
   // $(".menu-item").click(function(){
