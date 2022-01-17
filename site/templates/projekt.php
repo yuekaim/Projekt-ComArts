@@ -34,7 +34,7 @@
     border-radius: 2rem;font-size:0.7rem;border: 0px"><?= $tag ?></span>
           <?php endforeach ?>
         </div>
-        <span style="font-size: 0.7rem;"><?= $page->personen() ?></span>
+        <span style="font-size: 0.7rem;"><?= $page->personen()->kirbytext() ?></span>
         <?= $page->maincontent()->kirbytext() ?>
       </div>
     </div>
