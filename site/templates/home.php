@@ -8,8 +8,8 @@
 
     <div class="headline">
       <h1><span>HEADLINE</span></h1>
-      <div class="hflex">
-        <div class="headlindwrapper">
+
+        <div class="headlindwrapper hflex">
           <?php $headlines = $page->children()->published() ?>
           <?php foreach ($headlines as $post): ?>
             <div class="headlineimg">
@@ -24,7 +24,7 @@
             </div>
           <?php endforeach ?>
         </div>
-      </div>
+
     </div>
 
 
