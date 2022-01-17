@@ -17,7 +17,7 @@ $(document).ready(function(){
       $(this).parent().css("height","29vh");
       $(this).attr('src', oldSrc);
       $(this).parent().find("p, button").css("display","block");
-       $(this).parent().find(".content h1").css({"display":"block","top":"1rem"});
+       $(this).parent().find("h1").css({"position":"unset","top":"1rem"});
     }
     $closed1 = !$closed1;
   })
