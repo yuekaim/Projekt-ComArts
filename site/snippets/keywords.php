@@ -12,7 +12,8 @@
 
 
 
-    <span><?= $site->finde('community')->tags() ?></span>
-
+<?php foreach ($site->finde('community')->tags()->split() as $keyword): ?>
+<span><?= $keyword ?></span>
+<?php endforeach ?>
 
 </div>
