@@ -28,7 +28,12 @@
       <?php endif ?>
       <h1><?= $page->headline() ?></h1>
       <div class="">
-        <?= $page->tags() ?>
+        <div class="keywords">
+          <?php foreach ($page->tags()->split() as $tag): ?>
+          <span style="background-color: #bbb;
+    border-radius: 2rem;"><?= $tag ?></span>
+          <?php endforeach ?>
+        </div>
         <?= $page->maincontent()->kirbytext() ?>
       </div>
     </div>
