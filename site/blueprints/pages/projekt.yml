@@ -61,7 +61,8 @@ tabs:
         width: 2/3
       personen:
         label: Personen
-        type: text
+        type: textarea
+        size: small
         width: 2/3
       maincontent:
         label: Inhalt
