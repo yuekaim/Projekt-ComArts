@@ -47,8 +47,10 @@
         </div>
       </div>
         <div class="news">
-          <h1><span>NEWS</span></h1>
           <img class="close close2" src="assets/img/shrink.svg">
+          <div class="content">
+            <h1><span>NEWS</span></h1>
+        </div>
         </div>
     </div>
 
