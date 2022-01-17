@@ -113,7 +113,8 @@ p{
 }
 .headline{
   /* display:none; */
-  background-image: url("../img/bg.jpg");
+  /* background-image: url("../img/bg.jpg"); */
+  background-color: lightgrey;
   background-size: 100% 100%;
   border: 1px solid black;
   border-radius: 1.3rem;
@@ -124,6 +125,7 @@ p{
   margin-bottom: -29vh;
   flex: 1 !important;
   height: 100%;
+  overflow: hidden;
 }
 
 .short-about{
@@ -267,9 +269,72 @@ img.close{
   background: white;
 }
 
+.headline h1{
+  position: absolute;
+  z-index: 100;
+}
+
+.headline .swiper{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.headline .swipper-wrapper{
+
+}
+
+.background-img{
+  position: absolute;
+  transform:translate(-10em,-15em);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  filter: blur(100px);
+  z-index: -100;
+  pointer-events: none;
+  opacity: 0.6;
+  border-radius: 1.3rem;
+  border: 3px solid red;
+}
+
+.headline .preview-img{
+  width: 10em;
+  height: 10em;
+  z-index: 0;
+  /* padding-top: 5em; */
+}
+
+.insidewrapper{
+   display: flex;
+   flex-direction: row;
+   /* width: 80%; */
+
+   margin-left: 3em;
+   width: 100%;
+}
+
+.headlinewrapper{
+  padding-top: 3em;
+}
+
+.headlineimg{
+  /* padding-top: 1em; */
+}
+
+.headline-info{
+  width: 50vw;
+  margin-left: 3em;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  z-index: 500;
+}
+
 @keyframes moveLeft {
   0% {
-    transform: translateX(0);
+    transform: translateX(0) rotate(0.1deg);
   }
   100% {
     transform: translateX(-3000vw);

@@ -7,25 +7,48 @@
   <div class="body-nomenu">
 
     <div class="headline">
-      <h1><span>HEADLINE</span></h1>
+      <!-- <h1><span>HEADLINE</span></h1> -->
       <div class="swiper myHomeSwiper">
         <div class="swiper-wrapper" style="margin: 0 5rem;">
 
             <?php $headlines = $page->children()->published() ?>
             <?php foreach ($headlines as $post): ?>
               <?php if($post->intendedTemplate() == "headline"): ?>
-              <div class="swiper-slide headlindwrapper">
-                <div class="headlineimg">
-                  <?php if($image = $post->thumbnail()->toFile()): ?>
-                    <img class="preview-img" src="<?= $image->url() ?>" alt="">
-                  <?php endif ?>
+
+              <div class="swiper-slide headlinewrapper">
+
+              <?php if($post->link()->isNotEmpty()): ?>
+                <a href="<?= $post->link()->url() ?>" target="_blank">
+              <?php endif ?>
+                <div class="insidewrapper">
+
+
+                  <div class="headlineimg">
+                    <?php if($image = $post->thumbnail()->toFile()): ?>
+                      <img class="preview-img" src="<?= $image->url() ?>" alt="">
+                      <div class="background-img">
+                        <img class="" src="<?= $image->url() ?>" alt="">
+                      </div>
+                    <?php endif ?>
+                  </div>
+                  <div class="headline-info">
+                    <h3><?= $post->headline()->text() ?></h3>
+                    <p class="metainfo"><?= $post->metaInfo()->text() ?></p>
+                    <div class="time">
+                      <p><?= $post->date()->toDate("d.m.Y") ?></p>
+                    </div>
+                  </div>
+
                 </div>
-                <h3><?= $post->headline()->text() ?></h3>
-                <p class="metainfo"><?= $post->metaInfo()->text() ?></p>
-                <div class="time">
-                  <p><?= $post->date()->toDate("d.m.Y") ?></p>
-                </div>
+
+              <?php if($post->link()->isNotEmpty()): ?>
+
+                </a>
+              <?php endif ?>
+
               </div>
+
+
             <?php endif ?>
             <?php endforeach ?>
         </div>

@@ -4,8 +4,19 @@
       <div class="marquee bottom">
         <span><?= $site->find('home')->marqueeBottom() ?></span> <!-- marquee在其他页面显示不出来应该是这个kirby的路径不对，你看看-->
       </div>
+
   </div>
 </div>
+
+    <!-- JS marquee -->
+    <?= js('assets/js/horizontal-panel.js') ?>
+    <script type="text/javascript">
+      $(window).load( function() {
+        $('#panel').hpanel({
+          duration: 80000
+        });
+      });
+    </script>
 
 <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
