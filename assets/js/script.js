@@ -5,7 +5,7 @@ $(document).ready(function(){
   $closed2 = false;
   var oldSrc = 'assets/img/shrink.svg';
   var newSrc = 'assets/img/normal.svg';
-  $(".close1").click(function(){
+  $(".close").click(function(){
     if($closed1 == false) {
       $(this).parent().css("height","10vh");
       $(this).attr('src', newSrc);

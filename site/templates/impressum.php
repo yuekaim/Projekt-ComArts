@@ -12,7 +12,12 @@
         <p><?= $page->text() ?></p>
       </div>
     </div>
-
+    <div class="datenschutz">
+      <div class="content">
+        <h1>Datenschutzerklärung></h1>
+        <p><?= $page->text2() ?></p>
+      </div>
+    </div>
 
     </div>
 
