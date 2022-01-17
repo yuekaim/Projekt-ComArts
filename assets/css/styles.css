@@ -351,6 +351,6 @@ span.personen{
 .headlindwrapper .post{
   width:25%;
 }
-.swiper-pointer-events{
-  margin: 0 5rem
+.swiper-button-next:after, .swiper-button-prev:after{
+  color:black;
 }
