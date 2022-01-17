@@ -8,20 +8,22 @@
 
     <div class="headline">
       <h1><span>HEADLINE</span></h1>
-      <div class="headlindwrapper">
-        <?php $headlines = $page->children()->published() ?>
-        <?php foreach ($headlines as $post): ?>
-          <div class="headlineimg">
-            <?php if($image = $post->thumbnail()->toFile()): ?>
-              <img class="preview-img" src="<?= $image->url() ?>" alt="">
-            <?php endif ?>
-          </div>
-          <h3><?= $post->headline()->text() ?></h3>
-          <p class="metainfo"><?= $post->metaInfo()->text() ?></p>
-          <div class="time">
-            <p><?= $post->date()->toDate("d.m.Y") ?></p>
-          </div>
-        <?php endforeach ?>
+      <div class="hflex">
+        <div class="headlindwrapper">
+          <?php $headlines = $page->children()->published() ?>
+          <?php foreach ($headlines as $post): ?>
+            <div class="headlineimg">
+              <?php if($image = $post->thumbnail()->toFile()): ?>
+                <img class="preview-img" src="<?= $image->url() ?>" alt="">
+              <?php endif ?>
+            </div>
+            <h3><?= $post->headline()->text() ?></h3>
+            <p class="metainfo"><?= $post->metaInfo()->text() ?></p>
+            <div class="time">
+              <p><?= $post->date()->toDate("d.m.Y") ?></p>
+            </div>
+          <?php endforeach ?>
+        </div>
       </div>
     </div>
 
