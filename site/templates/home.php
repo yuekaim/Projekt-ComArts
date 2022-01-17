@@ -10,6 +10,7 @@
       <h1><span>HEADLINE</span></h1>
 
         <div class="headlindwrapper hflex">
+          <div>
           <?php $headlines = $page->children()->published() ?>
           <?php foreach ($headlines as $post): ?>
             <div class="headlineimg">
@@ -22,6 +23,7 @@
             <div class="time">
               <p><?= $post->date()->toDate("d.m.Y") ?></p>
             </div>
+          </div>
           <?php endforeach ?>
         </div>
 
