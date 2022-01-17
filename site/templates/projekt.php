@@ -31,7 +31,7 @@
         <div class="keywords">
           <?php foreach ($page->tags()->split() as $tag): ?>
           <span style="background-color: #bbb;
-    border-radius: 2rem;font-size:0.7rem"><?= $tag ?></span>
+    border-radius: 2rem;font-size:0.7rem;border: 0px"><?= $tag ?></span>
           <?php endforeach ?>
         </div>
         <?= $page->maincontent()->kirbytext() ?>

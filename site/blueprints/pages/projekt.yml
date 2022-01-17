@@ -59,8 +59,12 @@ tabs:
         label: Tags
         type: tags
         width: 2/3
+      personen:
+        label: Personen
+        type: text
+        width: 2/3
       maincontent:
-        label: content
+        label: Inhalt
         type: textarea
         width: 2/3
       uploadedimages:
