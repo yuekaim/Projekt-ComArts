@@ -31,8 +31,11 @@
             <!-- <img class="close" src="../assets/img/close.svg"> -->
         <?php endif ?>
       </div>
-      <?= $page->maincontent()->kirbytext() ?>
-
+      <div class="content">
+        <h3><?= $page->subheading()?></h3>
+        <span><?= $page->personen()?></span>
+        <p><?= $page->maincontent()->kirbytext() ?></p>
+      </div>
     </div>
   </div>
 
