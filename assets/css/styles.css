@@ -345,6 +345,9 @@ span.personen{
   background-color: inherit;
   font-size: 0.7rem;
 }
+.headlindwrapper.hflex{
+  margin: 1rem 5rem;
+}
 .headlindwrapper .post{
   width:10vw;
 }
