@@ -9,7 +9,7 @@
     <div class="headline">
       <h1><span>HEADLINE</span></h1>
       <div class="swiper myHomeSwiper">
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper" style="margin: 0 5rem;">
 
             <?php $headlines = $page->children()->published() ?>
             <?php foreach ($headlines as $post): ?>
