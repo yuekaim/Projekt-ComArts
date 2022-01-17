@@ -26,7 +26,7 @@
       <?php if($image = $page->cover()->toFile()): ?>
         <img src="<?= $image->url() ?>" alt="" class="bg">
       <?php endif ?>
-      <h1><?= $page->headline()->kirbytext() ?></h1>
+      <h1><?= $page->headline() ?></h1>
       <div class="">
         <?= $page->tags() ?>
         <?= $page->maincontent()->kirbytext() ?>
