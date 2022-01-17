@@ -190,12 +190,10 @@ img.close{
   flex: 0.4;
   overflow: scroll;
 }
-.impressum h1{
-  margin: 1.5rem 12vw;
+.impressum .content, .datenschutz .content{
+  margin: 1.5rem 3rem;
 }
-.impressum p{
-  margin: 1.5rem 12vw;
-}
+
 .datenschutz{
   overflow: scroll;
   background: #e3e3e3;
