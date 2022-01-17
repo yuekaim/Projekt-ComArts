@@ -33,10 +33,10 @@ columns:
         headline: Drafts
         type: pages
         status: draft
-        templates: headline
+        templates: Headline
 
       published:
         headline: Headline
         type: pages
         status: listed
-        templates: headline
+        templates: Headline
