@@ -14,7 +14,7 @@
     </div>
     <div class="datenschutz box">
       <div class="content">
-        <h1>Datenschutzerklärung></h1>
+        <h1>Datenschutzerklärung</h1>
         <p><?= $page->text2() ?></p>
       </div>
     </div>
