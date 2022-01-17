@@ -2,17 +2,22 @@
 <?php snippet('top') ?>
 
 
-<div class="body-wrapper">
+<div class="body-wrapper vflex">
   <?php snippet('menu') ?>
 
-  <div class="body-nomenu">
-    <div class="impressum">
+  <div class="body-nomenu hflex">
+    <div class="impressum box">
       <div class="content">
         <h1><?= $page->title() ?></h1>
         <p><?= $page->text() ?></p>
       </div>
     </div>
-
+    <div class="datenschutz box">
+      <div class="content">
+        <h1>Datenschutzerklärung</h1>
+        <p><?= $page->text2() ?></p>
+      </div>
+    </div>
 
     </div>
 

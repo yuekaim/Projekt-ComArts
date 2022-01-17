@@ -70,8 +70,12 @@
         </div>
       </div>
         <div class="news">
-          <h1><span>NEWS</span></h1>
           <img class="close close2" src="assets/img/shrink.svg">
+<<<<<<< HEAD
+          <div class="content">
+            <h1><span>NEWS</span></h1>
+        </div>
+=======
               <?php $headlines = $page->children()->published() ?>
               <?php foreach ($headlines as $post): ?>
                 <?php if($post->intendedTemplate() == "news"): ?>
@@ -94,6 +98,7 @@
                 </div>
                 <?php endif ?>
               <?php endforeach ?>
+>>>>>>> 809c2c0c50d017fb4f51420053fa7d1b813c1e54
         </div>
     </div>
 

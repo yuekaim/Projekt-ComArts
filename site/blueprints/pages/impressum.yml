@@ -5,3 +5,7 @@ fields:
     label: Impressum
     type: textarea
     size: large
+  text2:
+    label: Datenschutzerklärung
+    type: textarea
+    size: large

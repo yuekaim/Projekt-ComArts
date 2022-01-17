@@ -186,20 +186,26 @@ img.close{
   display:block;
   border: 1px solid black;
   border-radius: 1.3rem;
-  width: 96vw;
+  /*width: 96vw;*/
   background: #e3e3e3;
   /* height: calc(80vh - 2.5rem); */
-  flex: 1;
+  flex: 0.4;
   overflow: scroll;
 }
-.impressum h1{
-  margin: 1.5rem 12vw;
+.impressum .content, .datenschutz .content{
+  margin: 1.5rem 3rem;
 }
-.impressum p{
-  margin: 1.5rem 12vw;
+
+.datenschutz{
+  overflow: scroll;
+  background: #e3e3e3;
+  /* height: calc(80vh - 2.5rem); */
+  flex: 0.6;
 }
 .community{
-    position:absolute;
+  display:block;
+  position:absolute;
+  background: #e3e3e3;
 }
 
 .shrink{

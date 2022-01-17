@@ -5,7 +5,7 @@ $(document).ready(function(){
   $closed2 = false;
   var oldSrc = 'assets/img/shrink.svg';
   var newSrc = 'assets/img/normal.svg';
-  $(".close1").click(function(){
+  $(".close").click(function(){
     if($closed1 == false) {
       $(this).parent().css("height","10vh");
       $(this).attr('src', newSrc);
@@ -53,6 +53,16 @@ $(".normal").click(function(){
   $(".projekt-image").click(function(){
     $(".projekt-text").css('flex','0.3');
     $(".projekt-image").css('flex','1');
+  })
+
+  $(".impressum").click(function(){
+    $(".datenschutz").css('flex','0.5');
+    $(".impressum").css('flex','1');
+  })
+
+  $(".datenschutz").click(function(){
+    $(".impressum").css('flex','0.3');
+    $(".datenschutz").css('flex','1');
   })
 
   // $("#comarts").addClass("highlighted")

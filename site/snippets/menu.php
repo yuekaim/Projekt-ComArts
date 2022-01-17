@@ -19,9 +19,11 @@
     </a>
 
     <!-- <div class="menu-item"> -->
+    <!--
       <label class="switch" class="menu-item">
         <input type="checkbox">
         <span class="slider round"></span>
       </label>
+    -->
     <!-- </div> -->
   </div>
