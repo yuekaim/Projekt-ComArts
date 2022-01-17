@@ -4,6 +4,11 @@
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
   <?php snippet('keywords') ?>
+  <div class="keywords">
+    <?php foreach ($page->tags()->split() as $keyword): ?>
+    <span><?= $keyword ?></span>
+    <?php endforeach ?>
+  </div>
 
   <div class="body-nomenu infos hflex">
 
