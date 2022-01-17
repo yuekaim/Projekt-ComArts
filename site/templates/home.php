@@ -8,9 +8,9 @@
 
     <div class="headline">
       <h1><span>HEADLINE</span></h1>
-      <?php $headlines = $page->children()->published() ?>
-      <?php foreach ($headlines as $post): ?>
-        <div class="headlindwrapper">
+      <div class="headlindwrapper">
+        <?php $headlines = $page->children()->published() ?>
+        <?php foreach ($headlines as $post): ?>
           <div class="headlineimg">
             <?php if($image = $post->thumbnail()->toFile()): ?>
               <img class="preview-img" src="<?= $image->url() ?>" alt="">
@@ -21,8 +21,8 @@
           <div class="time">
             <p><?= $post->date()->toDate("d.m.Y") ?></p>
           </div>
-        </div>
-      <?php endforeach ?>
+        <?php endforeach ?>
+      </div>
     </div>
 
 
