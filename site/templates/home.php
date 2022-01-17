@@ -8,7 +8,6 @@
 
     <div class="headline">
       <h1><span>HEADLINE</span></h1>
-<<<<<<< HEAD
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
 
@@ -28,36 +27,13 @@
                 </div>
               </div>
             <?php endforeach ?>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
 
-        
+
 
       </div>
-=======
-
-        <div class="headlindwrapper hflex">
-
-          <?php $headlines = $page->children()->published() ?>
-          <?php foreach ($headlines as $post): ?>
-            <div class="post">
-              <div class="headlineimg">
-                <?php if($image = $post->thumbnail()->toFile()): ?>
-                  <img class="preview-img" src="<?= $image->url() ?>" alt="">
-                <?php endif ?>
-              </div>
-              <h3><?= $post->headline()->text() ?></h3>
-              <p class="metainfo"><?= $post->metaInfo()->text() ?></p>
-              <div class="time">
-                <p><?= $post->date()->toDate("d.m.Y") ?></p>
-              </div>
-            </div>
-
-          <?php endforeach ?>
-        </div>
-
->>>>>>> d692ce4e57825432bcdab31c03c14789c214ffe1
     </div>
 
 
