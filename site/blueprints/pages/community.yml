@@ -5,6 +5,9 @@ icon: text
 wysiwyg: true
 preview: text
 fields:
+  tags:
+    label: Hashtags
+    type: tags
   about:
     label: About
     type: textarea
