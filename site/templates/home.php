@@ -11,9 +11,9 @@
       <div class="swiper myHomeSwiper">
         <div class="swiper-wrapper" style="margin: 0 5rem;">
 
-
             <?php $headlines = $page->children()->published() ?>
             <?php foreach ($headlines as $post): ?>
+              <?php if($post->intendedTemplate() == "headline"): ?>
               <div class="swiper-slide headlindwrapper">
                 <div class="headlineimg">
                   <?php if($image = $post->thumbnail()->toFile()): ?>
@@ -26,11 +26,11 @@
                   <p><?= $post->date()->toDate("d.m.Y") ?></p>
                 </div>
               </div>
+            <?php endif ?>
             <?php endforeach ?>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-
 
 
       </div>
@@ -48,9 +48,34 @@
       </div>
         <div class="news">
           <img class="close close2" src="assets/img/shrink.svg">
+<<<<<<< HEAD
           <div class="content">
             <h1><span>NEWS</span></h1>
         </div>
+=======
+              <?php $headlines = $page->children()->published() ?>
+              <?php foreach ($headlines as $post): ?>
+                <?php if($post->intendedTemplate() == "news"): ?>
+                <div class="newswrapper">
+                  <div class="newsimg">
+                    <?php if($image = $post->thumbnail()->toFile()): ?>
+                      <img class="preview-img" src="<?= $image->url() ?>" alt="">
+                    <?php endif ?>
+                  </div>
+                  <h3><?= $post->headline()->text() ?></h3>
+                  <p class="metainfo"><?= $post->metaInfo()->text() ?></p>
+                  <div class="time">
+                    <p>
+                      <?= $post->date()->toDate("d.m.Y") ?>
+                      <?php if ($post->enddate()): ?>
+                        - <?= $post->enddate()->toDate("d.m.Y") ?>
+                      <?php endif ?>
+                    </p>
+                  </div>
+                </div>
+                <?php endif ?>
+              <?php endforeach ?>
+>>>>>>> 809c2c0c50d017fb4f51420053fa7d1b813c1e54
         </div>
     </div>
 
