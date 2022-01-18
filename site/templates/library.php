@@ -36,6 +36,7 @@
 
         ?>
         <?php foreach ($posts as $post): ?>
+          <?php if ($post->isPublished()): ?>
           <a href="<?= $post->url() ?>"><div class="activity vflex <?php $post->template() ?>">
               <div class="preview hflex">
                 <?php if($image = $post->cover()->toFile()): ?>
@@ -51,6 +52,7 @@
                 </div>
               </div>
             </div></a>
+          <?php endif ?>
         <?php endforeach; ?>
 
       </div>
