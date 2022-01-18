@@ -26,12 +26,14 @@ $(document).ready(function(){
       $(this).parent().css("height","10vh");
       $(this).attr('src', newSrc);
       $(".newswrapper").css("display","none");
+      $(this).parent().find("h1").css({"position":"absolute","top":"-0.5rem"});
 
     }
     else {
       $(this).parent().css("height","29vh");
       $(this).attr('src', oldSrc);
       $(".newswrapper").css("display","block");
+       $(this).parent().find("h1").css({"position":"initial","top":"1rem"});
     }
     $closed2 = !$closed2;
   })
