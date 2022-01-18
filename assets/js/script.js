@@ -31,7 +31,7 @@ $(document).ready(function(){
     else {
       $(this).parent().css("height","29vh");
       $(this).attr('src', oldSrc);
-      $(."newswrapper").css("display","block");
+      $(".newswrapper").css("display","block");
     }
     $closed2 = !$closed2;
   })
