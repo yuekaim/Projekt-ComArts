@@ -8,29 +8,35 @@ fields:
   tags:
     label: Hashtags (group 1)
     type: tags
+    width: 1/2
   tags2:
     label: Hashtags (group 2)
     type: tags
+    width: 1/2
   tags3:
     label: Hashtags (group 3)
     type: tags
+    width: 1/2
   tags4:
     label: Hashtags (group 4)
     type: tags
+    width: 1/2
   tags5:
     label: Hashtags (group 5)
     type: tags
+    width: 1/2
   tags6:
     label: Hashtags (group 6)
     type: tags
+    width: 1/2
   tags7:
     label: Hashtags (group 7)
     type: tags
+    width: 1/2
   about:
     label: About
     type: textarea
     size: medium
-
   projektleitung:
     label: Projektleitung
     type: writer
