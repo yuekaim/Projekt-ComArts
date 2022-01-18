@@ -15,8 +15,14 @@ project.currentStyle = {
 	fillColor: 'black'
 };
 
-var x = [100, 250, 400, 650, 750, 900, 1000];
-var y = [200, 350, 450, 250, 350, 450, 550];
+var width = window.innerWidth;
+var height = window.innerHeight;
+
+
+var x = [width * 0.1, width * 0.250, width * 0.400,
+	width * 0.550, width * 0.650, width * 0.80, width * 0.85];
+var y = [height * 0.200, height * 0.350, height * 0.450,
+	height * 0.250, height * 0.350, height * 0.450, height * 0.650];
 
 var ballPositions = [[x[0], y[0]], [x[1], y[1]], [x[2], y[2]],
 	[x[3], y[3]], [x[4], y[4]], [x[5], y[5]], [x[6], y[6]]];
@@ -31,7 +37,7 @@ var radius = 50;
 for (var i = 0, l = ballPositions.length; i < l; i++) {
 	var circlePath = new Path.Rectangle({
 		center: ballPositions[i],
-		size: 200,
+		size: width * 0.15,
 		radius: 100,
 		blendMode: 'destination-out'
 	});
@@ -156,7 +162,7 @@ function generateConnections(paths) {
 
 	for (var i = 0, l = paths.length; i < l; i++) {
 		for (var j = i - 1; j >= 0; j--) {
-			var path = metaball(paths[i], paths[j], 0.5, handle_len_rate, 300);
+			var path = metaball(paths[i], paths[j], 0.5, handle_len_rate, width * 0.2 + 50);
 			if (path) {
 				connections.appendTop(path);
 				path.removeOnMove();
@@ -174,9 +180,9 @@ for (var i = 0, l = ballPositions.length; i < l; i++) {
 	});
 	// text.content = letters[i];
 	text.fillColor = "black";
-	text.fontSize = 150;
+	text.fontSize = width * 0.1;
 	text.justification = 'center';
-	text.position.y += 40;
+	text.position.y += width * 0.03;
 	texts.push(text);
 }
 
