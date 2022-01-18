@@ -32,6 +32,8 @@ change('.tag2');
 change('.tag3');
 change('.tag4');
 change('.tag5');
+change('.tag6');
+change('.tag7');
 
 
 // $('.tag').hide();

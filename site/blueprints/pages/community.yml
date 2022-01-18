@@ -20,6 +20,12 @@ fields:
   tags5:
     label: Hashtags (group 5)
     type: tags
+  tags6:
+    label: Hashtags (group 6)
+    type: tags
+  tags7:
+    label: Hashtags (group 7)
+    type: tags
   about:
     label: About
     type: textarea
