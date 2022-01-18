@@ -151,7 +151,6 @@ p{
   /* margin-right: 2vw; */
   height:29vh;
   overflow: scroll;
-  scroll-snap-type: y mandatory;
   /* width:50vw; */
 }
 .newswrapper{
@@ -159,6 +158,9 @@ p{
   margin-bottom: 3rem;
   scroll-snap-align: start;
 
+}
+.news .content{
+    scroll-snap-type: y mandatory;
 }
 .newswrapper h3{
   font-size:0.7rem;
