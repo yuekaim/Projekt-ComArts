@@ -337,8 +337,8 @@ img.close{
 }
 
 .headline-info{
-  width: 50vw;
-  margin-left: 3em;
+  width: 70vw;
+  /*margin-left: 3em;*/
 }
 
 .swiper-button-next, .swiper-button-prev{
