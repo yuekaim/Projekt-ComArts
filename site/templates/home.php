@@ -106,7 +106,7 @@
         <div class="content">
           <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
-          <a href="site/templates/community.php">WEITER LESEN</a>
+          <a href="https://comarts.suborder.center/community">WEITER LESEN</a>
         </div>
     </div>
     <div class="phone news">
