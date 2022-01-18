@@ -20,10 +20,10 @@
     <?php foreach ($page->tags5()->split() as $keyword): ?>
       <span class="tag5"><?= $keyword ?></span>
     <?php endforeach ?>
-    <?php foreach ($page->tags5()->split() as $keyword): ?>
+    <?php foreach ($page->tags6()->split() as $keyword): ?>
       <span class="tag6"><?= $keyword ?></span>
     <?php endforeach ?>
-    <?php foreach ($page->tags5()->split() as $keyword): ?>
+    <?php foreach ($page->tags7()->split() as $keyword): ?>
       <span class="tag7"><?= $keyword ?></span>
     <?php endforeach ?>
 
