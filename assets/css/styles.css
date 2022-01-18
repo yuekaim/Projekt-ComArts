@@ -324,12 +324,12 @@ img.close{
    flex-direction: row;
    /* width: 80%; */
 
-   margin-left: 3em;
+   /*margin-left: 3em;*/
    width: 100%;
 }
 
 .headlinewrapper{
-  padding-top: 3em;
+  /*padding-top: 3em;*/
 }
 
 .headlineimg{
