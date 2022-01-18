@@ -6,19 +6,19 @@ wysiwyg: true
 preview: text
 fields:
   tags:
-    label: Hashtags
+    label: Hashtags (group 1)
     type: tags
   tags2:
-    label: Hashtags
+    label: Hashtags (group 2)
     type: tags
   tags3:
-    label: Hashtags
+    label: Hashtags (group 3)
     type: tags
   tags4:
-    label: Hashtags
+    label: Hashtags (group 4)
     type: tags
   tags5:
-    label: Hashtags
+    label: Hashtags (group 5)
     type: tags
   about:
     label: About

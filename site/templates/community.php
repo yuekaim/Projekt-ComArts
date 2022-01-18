@@ -5,13 +5,20 @@
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
   <div class="keywords">
-    <span class="tag1"><?php $page->tags()->split()[1] ?></span>
-    <?php $tag1 = array() ?>
-    <?php foreach ($page->tags1()->split() as $keyword): ?>
-        <?php array_push($tag1, $keyword) ?>
+    <?php foreach ($page->tags()->split() as $keyword): ?>
+      <span class="tag"><?= $keyword ?></span>
     <?php endforeach ?>
     <?php foreach ($page->tags2()->split() as $keyword): ?>
-    <span><?= $keyword ?></span>
+      <span class="tag2"><?= $keyword ?></span>
+    <?php endforeach ?>
+    <?php foreach ($page->tags3()->split() as $keyword): ?>
+      <span class="tag3"><?= $keyword ?></span>
+    <?php endforeach ?>
+    <?php foreach ($page->tags4()->split() as $keyword): ?>
+      <span class="tag4"><?= $keyword ?></span>
+    <?php endforeach ?>
+    <?php foreach ($page->tags5()->split() as $keyword): ?>
+      <span class="tag5"><?= $keyword ?></span>
     <?php endforeach ?>
 
   </div>
@@ -68,17 +75,7 @@
 
 </div>
 
-
-
-<script type="text/javascript">
-  var tag1lst = <?php echo json_encode($tag1) ?>;
-  $('.tag1').first().click(function() {
-    var temp = tag1lst.pop();
-    $('.tag1').first().html(temp);
-    tag1lst.unshift(temp);
-    console.log(temp);
-  });
-</script>
+<?= js('assets/js/hashtags.js') ?>
 
 <?php snippet('bottom') ?>
 <?= css('assets/css/media-queries.css') ?>
