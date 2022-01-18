@@ -25,7 +25,7 @@ $(document).ready(function(){
     if($closed2 == false) {
       $(this).parent().css("height","10vh");
       $(this).attr('src', newSrc);
-      $(."newswrapper").css("display","none");
+      $(".newswrapper").css("display","none");
 
     }
     else {
