@@ -153,14 +153,17 @@ p{
   overflow: scroll;
   /* width:50vw; */
 }
-.short-about .content{
+.newswrapper h3{
+  font-size:0.7rem;
+}
+.short-about .content, .news .content{
   margin:1rem 5rem;
 }
 .short-about p{
 
 }
 .headline h1, .news h1{
-  margin-left: 5rem;
+
   display: inline-block;
 
 }
