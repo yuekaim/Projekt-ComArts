@@ -7,16 +7,23 @@
 // rect.sendToBack();
 // rect.fillColor = 'white';
 
+Raster.prototype.rescale = function(width, height) {
+    this.scale(width / this.width, height / this.height);
+};
+
+
+
+var width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+var height= Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
 var raster = new Raster('gradient');
 raster.position = view.center;
-raster.scale(1);
+raster.rescale(width, height);
 
 project.currentStyle = {
 	fillColor: 'black'
 };
 
-var width = window.innerWidth;
-var height = window.innerHeight;
 
 
 var x = [width * 0.1, width * 0.250, width * 0.400,
@@ -38,7 +45,7 @@ for (var i = 0, l = ballPositions.length; i < l; i++) {
 	var circlePath = new Path.Rectangle({
 		center: ballPositions[i],
 		size: width * 0.15,
-		radius: 100,
+		radius: width * 0.1,
 		blendMode: 'destination-out'
 	});
 	circlePaths.push(circlePath);
