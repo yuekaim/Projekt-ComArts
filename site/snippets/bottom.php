@@ -1,22 +1,27 @@
-  <?= js('assets/js/marquee.js') ?>
+
 
   <div class="container">
-      <div class="marquee bottom">
-        <span><?= $site->find('home')->marqueeBottom() ?></span> <!-- marquee在其他页面显示不出来应该是这个kirby的路径不对，你看看-->
-      </div>
+    <div class='bottom marquee'><?= $site->find('home')->marqueeBottom()->text() ?></div>
 
   </div>
 </div>
 
-    <!-- JS marquee -->
-    <?= js('assets/js/horizontal-panel.js') ?>
-    <script type="text/javascript">
-      $(window).load( function() {
-        $('#panel').hpanel({
-          duration: 80000
-        });
-      });
-    </script>
+<!-- js marquee -->
+  <?= js('assets/js/jquery.marquee.min.js') ?>
+  <?= js('assets/js/jquery.pause.min.js') ?>
+
+  <script type="text/javascript">
+
+  $('.marquee').marquee({
+  	speed: 50,
+  	gap: 5,
+  	delayBeforeStart: 0,
+  	direction: 'left',
+  	duplicated: true,
+  	pauseOnHover: true
+  });
+
+  </script>
 
 <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

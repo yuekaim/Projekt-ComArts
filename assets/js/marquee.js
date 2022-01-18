@@ -13,31 +13,31 @@ if(document.querySelector('#bottom').innerText != null){
     marqueeBottom.innerHTML = textBottom
   }
 }
-makeMarquee()
-*/
-$(document).ready(function(){
-
-   // 开始写 jQuery 代码...
-   function makeMarquee (){
-     //top
-    const titleTop = $('.top span').text()
-    const textTop = new Array(50).fill(titleTop).join(' ')
-    $('.top span').text(textTop)
-    //bottom
-    const titleBottom = $('.bottom span').text()
-    const textBottom = new Array(50).fill(titleBottom).join(' ')
-    $('.bottom span').text(textBottom)
-  }
-
-
-  //----------------------
-makeMarquee()
-
-$('.marquee span').mouseenter(function(){
-    $(this).css('animation-play-state','paused')
-  })
-  $('.marquee span').mouseleave(function(){
-      $(this).css('animation-play-state','running')
-    })
-
-});
+// makeMarquee()
+// */
+// $(document).ready(function(){
+//
+//    // 开始写 jQuery 代码...
+//    function makeMarquee (){
+//      //top
+//     const titleTop = $('.top span').text()
+//     const textTop = new Array(50).fill(titleTop).join(' ')
+//     $('.top span').text(textTop)
+//     //bottom
+//     const titleBottom = $('.bottom span').text()
+//     const textBottom = new Array(50).fill(titleBottom).join(' ')
+//     $('.bottom span').text(textBottom)
+//   }
+//
+//
+//   //----------------------
+// makeMarquee()
+//
+// $('.marquee span').mouseenter(function(){
+//     $(this).css('animation-play-state','paused')
+//   })
+//   $('.marquee span').mouseleave(function(){
+//       $(this).css('animation-play-state','running')
+//     })
+//
+// });
