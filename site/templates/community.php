@@ -5,7 +5,7 @@
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
   <div class="keywords">
-    <span class="tag1"><?php $page->tags1()->split()[1] ?></span>
+    <span class="tag1"><?php $page->tags()->split()[1] ?></span>
     <?php $tag1 = array() ?>
     <?php foreach ($page->tags1()->split() as $keyword): ?>
         <?php array_push($tag1, $keyword) ?>
