@@ -28,6 +28,9 @@ tabs:
       right:
         width: 1/2
         fields:
+          semester:
+            label: Semester
+            type: tags
           from:
             label: Start
             type: date
