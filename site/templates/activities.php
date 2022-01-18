@@ -27,13 +27,13 @@
                      <span><?= $post->from() ?></span>
                   <?php endif ?>
                   <?php if ($post->fromT()): ?>
-                     <span>-<?= $post->fromT() ?></span>
+                     <span><?= $post->fromT() ?></span>
                   <?php endif ?>
                   <?php if ($post->to()): ?>
-                    <span>-<?= $post->enddate() ?></span>
+                    <span><?= $post->enddate() ?></span>
                   <?php endif ?>
                   <?php if ($post->toT()): ?>
-                    <span>-<?= $post->toT() ?></span>
+                    <span><?= $post->toT() ?></span>
                   <?php endif ?>
 
                   <p><?= $post->metaInfo() ?></p>
