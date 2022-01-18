@@ -340,6 +340,11 @@ img.close{
   z-index: 500;
 }
 
+.js-marquee-wrapper{
+  position: relative;
+  left: -100%;
+}
+
 @keyframes moveLeft {
   0% {
     transform: translateX(0) rotate(0.1deg);
