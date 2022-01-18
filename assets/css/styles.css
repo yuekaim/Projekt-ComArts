@@ -157,11 +157,12 @@ p{
 .newswrapper{
   margin-top:1rem;
   margin-bottom: 3rem;
+  scroll-snap-align: start;
 
 }
 .newswrapper h3{
   font-size:0.7rem;
-
+scroll-snap-align: start;
 }
 .short-about .content, .news .content{
   margin:1rem 5rem;
