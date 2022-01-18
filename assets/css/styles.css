@@ -434,3 +434,6 @@ span.personen{
 .swiper-button-next:after, .swiper-button-prev:after{
   color:black;
 }
+.headline-info h3{
+  font-size: 1.7rem;
+}
