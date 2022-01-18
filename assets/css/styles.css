@@ -151,10 +151,12 @@ p{
   /* margin-right: 2vw; */
   height:29vh;
   overflow: scroll;
+  scroll-snap-type: y mandatory;
   /* width:50vw; */
 }
 .newswrapper{
   margin-bottom: 2rem;
+  scroll-snap-align: start;
 }
 .newswrapper h3{
   font-size:0.7rem;
