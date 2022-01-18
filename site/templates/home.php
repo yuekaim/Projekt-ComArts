@@ -66,7 +66,7 @@
         <div class="content">
           <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
-          <button type="button">WEITER LESEN</button>
+          <button type="button"><a href="https://comarts.suborder.center/community">WEITER LESEN</a></button>
         </div>
       </div>
         <div class="news">
@@ -74,7 +74,7 @@
 
           <div class="content">
             <h1><span>NEWS</span></h1>
-        </div>
+
               <?php $headlines = $page->children()->published() ?>
               <?php foreach ($headlines as $post): ?>
                 <?php if($post->intendedTemplate() == "news"): ?>
@@ -97,6 +97,7 @@
                 </div>
                 <?php endif ?>
               <?php endforeach ?>
+            </div>
         </div>
     </div>
 
@@ -105,7 +106,7 @@
         <div class="content">
           <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
-          <button type="button">WEITER LESEN</button>
+          <button><a href="https://comarts.suborder.center/community">WEITER LESEN</a></button>
         </div>
     </div>
     <div class="phone news">

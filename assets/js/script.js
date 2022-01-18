@@ -5,7 +5,7 @@ $(document).ready(function(){
   $closed2 = false;
   var oldSrc = 'assets/img/shrink.svg';
   var newSrc = 'assets/img/normal.svg';
-  $(".close").click(function(){
+  $(".close1").click(function(){
     if($closed1 == false) {
       $(this).parent().css("height","10vh");
       $(this).attr('src', newSrc);
@@ -25,15 +25,15 @@ $(document).ready(function(){
     if($closed2 == false) {
       $(this).parent().css("height","10vh");
       $(this).attr('src', newSrc);
-      $(this).parent().find("p, button").css("display","none");
-      //$(this).parent().find(".content").css("display":"inline-block","position":"absolute","left":"9%","top":"-20%")
+      $(".newswrapper").css("display","none");
+      $(this).parent().find("h1").css({"position":"absolute","top":"-0.5rem"});
 
     }
     else {
       $(this).parent().css("height","29vh");
       $(this).attr('src', oldSrc);
-      $(this).parent().find("p, button").css("display","block");
-      // $(this).parent().find(".content").css();
+      $(".newswrapper").css("display","block");
+       $(this).parent().find("h1").css({"position":"initial","top":"1rem"});
     }
     $closed2 = !$closed2;
   })

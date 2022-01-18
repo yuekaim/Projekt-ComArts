@@ -20,10 +20,22 @@
                 <div class="preview-info">
                   <h1><?= $post->headline() ?></h1>
                   <span><?= $post->person() ?></span>
-                  <span><?= $post->from() ?></span>
-                  <span><?= $post->fromT() ?></span>
-                  <span><?= $post->to() ?></span>
-                  <span><?= $post->toT() ?></span>
+                  <?php if ($post->semester()): ?>
+                     <span><?= $post->semester() ?></span>
+                  <?php endif ?>
+                  <?php if ($post->from()): ?>
+                     <span><?= $post->from() ?></span>
+                  <?php endif ?>
+                  <?php if ($post->fromT()): ?>
+                     <span><?= $post->fromT() ?></span>
+                  <?php endif ?>
+                  <?php if ($post->to()): ?>
+                    <span><?= $post->enddate() ?></span>
+                  <?php endif ?>
+                  <?php if ($post->toT()): ?>
+                    <span><?= $post->toT() ?></span>
+                  <?php endif ?>
+
                   <p><?= $post->metaInfo() ?></p>
                 </div>
               </div>
