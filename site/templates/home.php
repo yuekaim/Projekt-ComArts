@@ -66,7 +66,7 @@
         <div class="content">
           <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
-          <button type="button">WEITER LESEN</button>
+          <button type="button"><a href="https://comarts.suborder.center/community">WEITER LESEN</a></button>
         </div>
       </div>
         <div class="news">
