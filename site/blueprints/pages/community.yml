@@ -5,7 +5,19 @@ icon: text
 wysiwyg: true
 preview: text
 fields:
-  tags:
+  tags1:
+    label: Hashtags
+    type: tags
+  tags2:
+    label: Hashtags
+    type: tags
+  tags3:
+    label: Hashtags
+    type: tags
+  tags4:
+    label: Hashtags
+    type: tags
+  tags5:
     label: Hashtags
     type: tags
   about:

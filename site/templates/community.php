@@ -1,12 +1,19 @@
 
 <?php snippet('header') ?>
 <?php snippet('top') ?>
+
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
   <div class="keywords">
-    <?php foreach ($page->tags()->split() as $keyword): ?>
+    <span class="tag1"><?php $page->tags1()->split()[0] ?></span>
+    <?php $tag1 = array() ?>
+    <?php foreach ($page->tags1()->split() as $keyword): ?>
+        <?php array_push($tag1, $keyword) ?>
+    <?php endforeach ?>
+    <?php foreach ($page->tags2()->split() as $keyword): ?>
     <span><?= $keyword ?></span>
     <?php endforeach ?>
+
   </div>
 
   <div class="body-nomenu infos hflex">
@@ -60,6 +67,18 @@
 
 
 </div>
+
+
+
+<script type="text/javascript">
+  var tag1lst = <?php echo json_encode($tag1) ?>;
+  $('.tag1').first().click(function() {
+    var temp = tag1lst.pop();
+    $('.tag1').first().html(temp);
+    tag1lst.unshift(temp);
+    console.log(temp);
+  });
+</script>
 
 <?php snippet('bottom') ?>
 <?= css('assets/css/media-queries.css') ?>
