@@ -21,10 +21,10 @@
                   <h1><?= $post->headline() ?></h1>
                   <span><?= $post->person() ?></span>
                   <?php if ($post->semester()): ?>
-                    - <span><?= $post->semester() ?></span>
+                     <span><?= $post->semester() ?></span>
                   <?php endif ?>
                   <?php if ($post->from()): ?>
-                    - <span><?= $post->from() ?></span>
+                     <span><?= $post->from() ?></span>
                   <?php endif ?>
                   <?php if ($post->fromT()): ?>
                     - <span><?= $post->fromT() ?></span>
