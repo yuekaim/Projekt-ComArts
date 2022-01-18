@@ -36,22 +36,23 @@
 
         ?>
         <?php foreach ($posts as $post): ?>
-          <?php if ($post->isPublished()): ?>
-          <a href="<?= $post->url() ?>"><div class="activity vflex <?php $post->template() ?>">
-              <div class="preview hflex">
-                <?php if($image = $post->cover()->toFile()): ?>
-                  <img class="preview-img" src="<?= $image->url() ?>" alt="">
-                <?php endif ?>
-                <div class="preview-info">
-                  <p><?= $post->template() ?></p>
+          <?php if ($post->isUnlisted() != true): ?>
+            <a href="<?= $post->url() ?>"><div class="activity vflex <?php $post->template() ?>">
+                <div class="preview hflex">
+                  <?php if($image = $post->cover()->toFile()): ?>
+                    <img class="preview-img" src="<?= $image->url() ?>" alt="">
+                  <?php endif ?>
+                  <div class="preview-info">
+                    <p><?= $post->template() ?></p>
 
-                  <h1><?= $post->headline() ?></h1>
-                  <span><?= $post->person() ?></span>
-                  <span><?= $post->date() ?></span>
-                  <p><?= $post->metaInfo() ?></p>
+                    <h1><?= $post->headline() ?></h1>
+                    <span><?= $post->person() ?></span>
+                    <span><?= $post->date() ?></span>
+                    <p><?= $post->metaInfo() ?></p>
+                  </div>
                 </div>
               </div>
-            </div></a>
+            </a>
           <?php endif ?>
         <?php endforeach; ?>
 
