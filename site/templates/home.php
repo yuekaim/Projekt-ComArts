@@ -67,7 +67,7 @@
           <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
           <!-- url-->
-          <button type="button"><a href="https://comarts.suborder.center/community">WEITER LESEN</a></button>
+          <button type="button"><a href="https://comarts.suborder.center/library/was-bedeutet-community-arts">WEITER LESEN</a></button>
         </div>
       </div>
         <div class="news">
@@ -107,7 +107,7 @@
         <div class="content">
           <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
-          <button><a href="https://comarts.suborder.center/community">WEITER LESEN</a></button>
+          <button><a href="https://comarts.suborder.center/library/was-bedeutet-community-arts">WEITER LESEN</a></button>
         </div>
     </div>
     <div class="phone news">

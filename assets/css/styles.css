@@ -449,3 +449,9 @@ span.personen{
 .headline-info h3{
   font-size: 1.7rem;
 }
+p a:{
+  transition: 0.3s;
+}
+p a:hover{
+  font-style: italic;
+}
