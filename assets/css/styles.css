@@ -449,7 +449,7 @@ span.personen{
 .headline-info h3{
   font-size: 1.7rem;
 }
-p a:{
+p a{
   opacity: 0.5;
   transition: 0.3s;
 }
