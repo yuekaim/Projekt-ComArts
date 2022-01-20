@@ -9,13 +9,13 @@
     <div class="impressum box">
       <div class="content">
         <h1><?= $page->title() ?></h1>
-        <p><?= $page->text() ?></p>
+        <p><?= $page->text()->kirbytext() ?></p>
       </div>
     </div>
     <div class="datenschutz box">
       <div class="content">
         <h1>Datenschutzerklärung</h1>
-        <p><?= $page->text2() ?></p>
+        <p><?= $page->text2()->kirbytext() ?></p>
       </div>
     </div>
 
