@@ -34,7 +34,7 @@
         <div class="about box">
 
             <h1>About</h1>
-            <p><?= $page->about() ?></p>
+            <p><?= $page->about()->kirbytext() ?></p>
 
         </div>
         <div class="kontakt">
