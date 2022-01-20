@@ -450,8 +450,10 @@ span.personen{
   font-size: 1.7rem;
 }
 p a:{
+  opacity: 0.5;
   transition: 0.3s;
 }
 p a:hover{
   font-style: italic;
+  opacity: 1;
 }
