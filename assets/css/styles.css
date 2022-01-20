@@ -354,8 +354,14 @@ img.close{
 
 .js-marquee-wrapper{
   position: relative;
+  left: -150%;
+}
+
+.js-marquee-wrapper:first-child{
   left: -100%;
 }
+
+
 
 @keyframes moveLeft {
   0% {

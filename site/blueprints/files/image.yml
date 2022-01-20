@@ -1,0 +1,14 @@
+title: image
+
+# optional accept option
+
+accept: 
+  type: image
+
+
+# optional fields
+
+fields:
+  alt:
+    label: Alt Text
+    type: text

@@ -14,12 +14,13 @@
 
   $('.marquee').marquee({
   	speed: 50,
-  	gap: 5,
+  	gap: 30,
   	delayBeforeStart: 0,
   	direction: 'left',
   	duplicated: true,
   	pauseOnHover: true
   });
+
 
   </script>
 
