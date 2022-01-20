@@ -12,7 +12,12 @@
     <?php if($page->image()): ?>
       <div class="swiper mySwiper projekt-image box">
         <div class="swiper-wrapper">
-          <?php foreach($page->images() as $image): ?>
+          <div class="swiper-slide">
+            <img src="<?= $page->cover()->toFile()->url() ?>" alt="">
+          </div>
+          <?php $images = $page->uploadedimages()->toFiles();
+            foreach($images as $image):
+          ?>
             <div class="swiper-slide">
               <img src="<?= $image->url() ?>" alt="">
             </div>

@@ -14,7 +14,7 @@ $(document).ready(function(){
 
     }
     else {
-      $(this).parent().css("height","29vh");
+      $(this).parent().css("height","45vh");
       $(this).attr('src', oldSrc);
       $(this).parent().find("p, button").css("display","block");
        $(this).parent().find("h1").css({"position":"initial","top":"1rem"});
@@ -30,7 +30,7 @@ $(document).ready(function(){
 
     }
     else {
-      $(this).parent().css("height","29vh");
+      $(this).parent().css("height","45vh");
       $(this).attr('src', oldSrc);
       $(".newswrapper").css("display","block");
        $(this).parent().find("h1").css({"position":"initial","top":"1rem"});

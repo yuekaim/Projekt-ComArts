@@ -137,7 +137,7 @@ p{
   background-size: 100% 100%;
   /* margin-left: 2vw; */
   /* margin-right: 2vw; */
-  height:29vh;
+  height:45vh;
   overflow: scroll;
   /* width:50vw; */
 }
@@ -149,7 +149,7 @@ p{
   border-radius: 1.3rem;
   /* margin-left: 2vw; */
   /* margin-right: 2vw; */
-  height:29vh;
+  height:45vh;
   overflow: scroll;
   /* width:50vw; */
 }
@@ -320,10 +320,11 @@ img.close{
 }
 
 .headline .preview-img{
-  width: 10em;
-  height: 10em;
+  width: 8em;
+  height: 8em;
   z-index: 0;
-  /* padding-top: 5em; */
+  padding-top: 2em;
+  padding-right: 2em;
 }
 
 .insidewrapper{
@@ -348,8 +349,9 @@ img.close{
   /*margin-left: 3em;*/
 }
 
-.swiper-button-next, .swiper-button-prev{
+.headline .swiper-button-next, .headline .swiper-button-prev{
   z-index: 500;
+  transform: translatey(-6em);
 }
 
 .js-marquee-wrapper{

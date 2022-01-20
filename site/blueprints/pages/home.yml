@@ -30,18 +30,29 @@ columns:
     width: 1/2
     sections:
       drafts:
-        headline: Drafts
+        headline: Headline Drafts
         type: pages
         status: drafts
         templates:
           - headline
-          - news
-
 
       published:
-        headline: Headline & News
+        headline: Headline Published
         type: pages
         status: published
         templates:
           - headline
+
+      draftsnews:
+        headline: News Drafts
+        type: pages
+        status: drafts
+        templates:
+          - news
+
+      publishednews:
+        headline: News Published
+        type: pages
+        status: published
+        templates:
           - news
