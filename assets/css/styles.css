@@ -455,3 +455,14 @@ span.personen{
 .headline-info h3{
   font-size: 1.7rem;
 }
+p a{
+  opacity: 0.5;
+  transition: 0.3s;
+}
+p a:hover{
+  font-style: italic;
+  opacity: 1;
+}
+p+p{
+  margin-bottom:calc(line-height)
+}

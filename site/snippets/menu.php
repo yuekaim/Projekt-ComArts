@@ -6,10 +6,10 @@
       <div class="menu-item<?php if($site->find('home')->isActive()) echo ' highlighted"' ?>" id="comarts">ComArts</div>
     </a>
     <a href="<?= $site->find('activities')->url() ?>">
-      <div class="menu-item<?php if($site->find('activities')->isOpen()) echo ' highlighted"' ?>" id="activities">Activities</div>
+      <div class="menu-item<?php if($site->find('activities')->isOpen()) echo ' highlighted"' ?>" id="activities">Aktivitäten</div>
     </a>
     <a href="<?= $site->find('library')->url() ?>">
-      <div class="menu-item<?php if($site->find('library')->isOpen()) echo ' highlighted"' ?>" id="library">Library</div>
+      <div class="menu-item<?php if($site->find('library')->isOpen()) echo ' highlighted"' ?>" id="library">Wohnzimmer</div>
     </a>
     <a href="<?= $site->find('community')->url() ?>">
       <div class="menu-item<?php if($site->find('community')->isActive()) echo ' highlighted"' ?>" id="community">Community</div>
