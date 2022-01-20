@@ -111,7 +111,7 @@
         </div>
     </div>
     <div class="phone news">
-      <h1><span>NEWS</span></h1>
+      <h1><span>Termine</span></h1>
       <img class="close close2" src="assets/img/shrink.svg">
     </div>
   </div>
