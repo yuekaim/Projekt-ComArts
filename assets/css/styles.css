@@ -457,3 +457,6 @@ p a:hover{
   font-style: italic;
   opacity: 1;
 }
+p+p{
+  margin-bottom:calc(line-height)
+}
