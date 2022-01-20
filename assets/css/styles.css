@@ -354,6 +354,14 @@ img.close{
   transform: translatey(-6em);
 }
 
+.swiper-button-next::after, .swiper-button-prev::after{
+  color: white !important;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  mix-blend-mode: difference;
+}
+
 .js-marquee-wrapper{
   position: relative;
   left: -150%;
