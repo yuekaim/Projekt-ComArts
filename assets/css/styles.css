@@ -354,6 +354,14 @@ img.close{
   transform: translatey(-6em);
 }
 
+.swiper-button-next::after, .swiper-button-prev::after{
+  color: white !important;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  mix-blend-mode: difference;
+}
+
 .js-marquee-wrapper{
   position: relative;
   left: -150%;
@@ -436,6 +444,11 @@ img.close{
 }
 .preview-info p{
   position: absolute;
+  right: 2vw;
+}
+.preview-info span{
+  position: relative;
+  float: right;
   right: 2vw;
 }
 .main h3{

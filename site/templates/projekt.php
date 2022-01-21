@@ -39,6 +39,7 @@
     border-radius: 2rem;font-size:0.7rem;border: 0px"><?= $tag ?></span>
           <?php endforeach ?>
         </div>
+        <br>
         <span class="personen"><?= $page->personen() ?></span>
         <?= $page->maincontent()->kirbytext() ?>
       </div>
