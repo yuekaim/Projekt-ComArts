@@ -38,26 +38,44 @@ fields:
     type: textarea
     size: medium
   block-1-title:
-    label: Title
+    label: Title (block 1)
     type: text
+    width: 1/2
   block-1-content:
-    label: Content
+    label: Content (block 1)
     type: writer
     nodes: false
     default: "span"
     placeholder: field.blocks.text.placeholder
-  wissenschaftlich:
-    label: Wissenschaftliche Bearbeitung und Koordination
+    width: 1/2
+  block-2-title:
+    label: Title (block 2)
+    type: text
+    width: 1/2
+  block-2-content:
+    label: Content (block 2)
     type: writer
     nodes: false
     placeholder: field.blocks.text.placeholder
-  fands:
-    label: Freie & Studierendenmitarbeiter:innen
+    width: 1/2
+  block-3-title:
+    label: Title (block 3)
+    type: text
+    width: 1/2
+  block-3-content:
+    label: Content (block 3)
     type: writer
     nodes: false
     placeholder: field.blocks.text.placeholder
-  netzwerk:
-    label: Netzwerk
+    width: 1/2
+
+  block-4-title:
+    label: Title (block 4)
+    type: text
+    width: 1/2
+  block-4-content:
+    label: Content (block 4)
     type: writer
     nodes: false
     placeholder: field.blocks.text.placeholder
+    width: 1/2
