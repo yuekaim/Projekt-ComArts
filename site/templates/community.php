@@ -45,7 +45,7 @@
             <?php if ($page->bt1()->isNotEmpty()): ?>
               <h1 lang="de"><?= $page->bt1() ?></h3>
               <p><?= $page->bc1()->kirbytext() ?></p>
-
+            <?php endif ?>
           </div>
           </div>
           <div class="wissenschaftlich box">
