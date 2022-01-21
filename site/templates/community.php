@@ -40,11 +40,11 @@
         <div class="kontakt">
 
             <!-- <h1>Kontakt</h1> -->
-          <div class="projektleitung box">
+          <div class="block-1 box">
             <div class="content">
-            <?php if ($page->projektleitung()->isNotEmpty()): ?>
-            <h1 lang="de">Projektleitung</h3>
-            <p><?= $page->projektleitung() ?></p>
+            <?php if ($page->bt1()->isNotEmpty()): ?>
+            <h1 lang="de"><? php ($page->bt1() ?></h3>
+            <p><?= $page->bc1()->kirbytext() ?></p>
             <?php endif ?>
           </div>
           </div>
