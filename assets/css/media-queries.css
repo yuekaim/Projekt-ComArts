@@ -25,6 +25,13 @@
     width:40%;
     object-fit: cover;
   }
+  .preview-info p{
+    width: 50vw;
+    padding-top: 10pt;
+  }
+  .preview-info span{
+    /* font-size: 13pt; */
+  }
   .about, .kontakt{
     overflow: unset;
     width: unset;
