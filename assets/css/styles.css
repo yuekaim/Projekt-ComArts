@@ -443,8 +443,8 @@ img.close{
   font-size: 0.7rem;
 }
 .preview-info p{
-  position: relative;
-  float: right;
+  position: absolute;
+  /* float: right; */
   right: 2vw;
 }
 .preview-info span{
