@@ -10,14 +10,14 @@ $(document).ready(function(){
       $(this).parent().animate({height:'10vh'},"slow");
       $(this).attr('src', newSrc);
       $(this).parent().find("p, button").animate({display:'none'},"slow");
-      $(this).parent().find("h1").animate({position:'absolute',top:'-0.5rem'},"slow");
+      $(this).parent().find("h1").css({"position":"absolute","top":"-0.5rem"});
 
     }
     else {
       $(this).parent().animate({height:'40vh'},"slow");
       $(this).attr('src', oldSrc);
       $(this).parent().find("p, button").animate({display:'block'},"slow");
-       $(this).parent().find("h1").animate({position:'initial',top:'1rem'},"slow");
+       $(this).parent().find("h1").css({"position":"initial","top":"1rem"});
     }
     $closed1 = !$closed1;
   })
