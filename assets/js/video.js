@@ -1,12 +1,17 @@
 $(document).ready(function(){
+  $expanded = false;
   $('.expand').click(function(){
     // $(".projekt-text").css("width");
-    $(".projekt-text").show();
-
+    if ($expanded == false) {
+      $(".projekt-text").show();
+      $expanded = true;
+      $('.expand').html('-');
+    }else{
+      $('.projekt-text').hide();
+      $expanded = false;
+      $('.expand').html('+');
+    }
   })
 
-  $(".projekt-text").click(function(){
-    $(this).hide(300);
-  })
 
 });

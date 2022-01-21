@@ -2,19 +2,30 @@ iframe{
   border: 1px solid black;
   border-radius: 2em;
   transition-duration: 0.5s;
-  flex-grow: 1;
+  /* flex-grow: 1; */
+}
+
+.body-nomenu{
 }
 
 .projekt-text{
   display: none;
+  background-color: #e3e3e3;
+  /* width: 20vw; */
 }
 
 .expand{
-  display: block;
-  position: fixed;
+  /* display: block; */
+  /* position: fixed; */
   z-index: 1000;
   font-size: 5rem;
-  color: white;
+  color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
   right: 0rem;
-  top: 40vh;
+  /* top: 40vh; */
+  height: 100%;
+  max-width: 3rem;
+  background-color: #e3e3e3;
 }

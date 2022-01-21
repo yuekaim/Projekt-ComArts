@@ -21,9 +21,11 @@
         <?= $page->maincontent()->kt() ?>
       </div>
     </div>
-    <!-- <div class="expand">
-      +
-    </div> -->
+    <div class="expand box">
+        <div class="">
+          +
+        </div>
+    </div>
   </div>
 
 </div>
