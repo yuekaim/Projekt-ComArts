@@ -44,9 +44,6 @@ fields:
   bc1:
     label: Content (block 1)
     type: textarea
-    nodes: false
-    default: "span"
-    placeholder: field.blocks.text.placeholder
     width: 2/3
   bt2:
     label: Title (block 2)
@@ -55,8 +52,6 @@ fields:
   bc2:
     label: Content (block 2)
     type: textarea
-    nodes: false
-    placeholder: field.blocks.text.placeholder
     width: 2/3
   bt3:
     label: Title (block 3)
@@ -65,8 +60,6 @@ fields:
   bc3:
     label: Content (block 3)
     type: textarea
-    nodes: false
-    placeholder: field.blocks.text.placeholder
     width: 2/3
 
   bt4:
