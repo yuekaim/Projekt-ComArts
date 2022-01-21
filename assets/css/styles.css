@@ -496,6 +496,10 @@ p a{
   opacity: 0.5;
   transition: 0.3s;
 }
+.kontakt a{
+  opacity: 1;
+  transition: 0.3s;
+}
 p a:hover{
   font-style: italic;
   opacity: 1;
