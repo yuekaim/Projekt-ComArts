@@ -43,45 +43,52 @@
           <div class="block-1 box">
             <div class="content">
             <?php if ($page->bt1()->isNotEmpty()): ?>
-              <h1 lang="de"><?= $page->bt1() ?></h3>
+              <h1 lang="de"><?= $page->bt1() ?></h1>
             <?php endif ?>
             <?php if ($page->bc1()->isNotEmpty()): ?>
               <?= $page->bc1()->kirbytext() ?>
             <?php endif ?>
+            </div>
           </div>
-          </div>
-          <div class="wissenschaftlich box">
+
+          <div class="block-2 box">
             <div class="content">
-            <?php if ($page->wissenschaftlich()->isNotEmpty()): ?>
-            <h1>Wissenschaftliche Bearbeitung und Koordination</h3>
-            <p><?= $page->wissenschaftlich()->kirbytext() ?></p>
+            <?php if ($page->bt2()->isNotEmpty()): ?>
+              <h1 lang="de"><?= $page->bt2() ?></h1>
+            <?php endif ?>
+            <?php if ($page->bc2()->isNotEmpty()): ?>
+              <?= $page->bc2()->kirbytext() ?>
             <?php endif ?>
             </div>
           </div>
-          <div class="fands box">
+
+          <div class="block-3 box">
             <div class="content">
-            <?php if ($page->fands()->isNotEmpty()): ?>
-            <h1>Freie & Studierendenmitarbeiter:innen</h3>
-            <p><?= $page->fands() ?></p>
+            <?php if ($page->bt3()->isNotEmpty()): ?>
+              <h1 lang="de"><?= $page->bt3() ?></h3>
+            <?php endif ?>
+            <?php if ($page->bc3()->isNotEmpty()): ?>
+              <?= $page->bc3()->kirbytext() ?>
             <?php endif ?>
             </div>
           </div>
-          <div class="netzwerk box">
+          <div class="block-4 box">
             <div class="content">
-            <?php if ($page->netzwerk()->isNotEmpty()): ?>
-            <h1>Netzwerk</h3>
-            <p><?= $page->netzwerk() ?></p>
+            <?php if ($page->bt4()->isNotEmpty()): ?>
+              <h1 lang="de"><?= $page->bt4() ?></h3>
+            <?php endif ?>
+            <?php if ($page->bc4()->isNotEmpty()): ?>
+              <?= $page->bc4()->kirbytext() ?>
             <?php endif ?>
             </div>
           </div>
+        </div>
 
             <!-- <p><?= $page->teamKontakt() ?></p> -->
 
         </div>
     </div>
 
-
-</div>
 
 <?= js('assets/js/hashtags.js') ?>
 
