@@ -23,14 +23,14 @@ $(document).ready(function(){
   })
   $(".close2").click(function(){
     if($closed2 == false) {
-      $(this).parent().css("height","10vh");
+      $(this).parent().animate({height:'10vh'},"slow");
       $(this).attr('src', newSrc);
       $(".newswrapper").css("display","none");
       $(this).parent().find("h1").css({"position":"absolute","top":"-0.5rem"});
 
     }
     else {
-      $(this).parent().css("height","40vh");
+      $(this).parent().animate({height:'40vh'},"slow");
       $(this).attr('src', oldSrc);
       $(".newswrapper").css("display","block");
        $(this).parent().find("h1").css({"position":"initial","top":"1rem"});
