@@ -442,7 +442,7 @@ img.close{
 .preview-info{
   font-size: 0.7rem;
 }
-.preview-info p{
+.preview-info p, .preview-info span{
   position: absolute;
   /* float: right; */
   right: 2vw;
