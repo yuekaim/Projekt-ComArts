@@ -33,7 +33,7 @@ $(document).ready(function(){
       $(this).parent().animate({height:'40vh'},"slow");
       $(this).attr('src', oldSrc);
       $(".newswrapper").animate({display:'block'},"slow");
-       $(this).parent().find("h1")..animate({position:'initial',top:'1rem'},"slow");
+       $(this).parent().find("h1").animate({position:'initial',top:'1rem'},"slow");
     }
     $closed2 = !$closed2;
   })
