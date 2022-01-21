@@ -447,7 +447,7 @@ img.close{
   /* float: right; */
   right: 2vw;
   margin-top: 1.2rem;
-  max-width: 50vw;
+  max-width: calc(90vw - 300px);
   text-align: right;
 }
 .preview-info span{
