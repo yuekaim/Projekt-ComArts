@@ -443,7 +443,13 @@ img.close{
   font-size: 0.7rem;
 }
 .preview-info p{
-  position: absolute;
+  position: relative;
+  float: right;
+  right: 2vw;
+}
+.preview-info span{
+  position: relative;
+  float: right;
   right: 2vw;
 }
 .main h3{
