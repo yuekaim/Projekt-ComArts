@@ -16,8 +16,8 @@
       <?php endif ?>
       <h1 style="font-size:1.7rem"><?= $page->headline() ?></h1>
       <div class="content">
-        <h3 style="font-size:1rem"><?= $page->subheading()?></h3>
-        <span class="personen"><?= $page->personen()?></span>
+        <h3 style="font-size:1rem"><?= $page->personon()?></h3>
+        <span class="personen"><?= $page->subheading()?></span>
         <p style=" margin: 2rem 0rem;"><?= $page->maincontent()->kirbytext() ?></p>
       </div>
       <div class="pdflink">

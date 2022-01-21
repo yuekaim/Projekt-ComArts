@@ -47,11 +47,11 @@ tabs:
       tags:
         label: Tags
         type: tags
-      subheading:
-        label: Subheading
-        type: text
       personen:
         label: Personen
+        type: text
+      subheading:
+        label: Subheading
         type: text
       maincontent:
         label: content
