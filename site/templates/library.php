@@ -46,9 +46,9 @@
                     <p><?= $post->template() ?></p>
 
                     <h1><?= $post->headline() ?></h1>
-                    <span><?= $post->person() ?></span>
-                    <span><?= $post->date() ?></span>
-                    <p><?= $post->metaInfo() ?></p>
+                    <span class="libraryinfo"><?= $post->person() ?></span>
+                    <span class="libraryinfo"><?= $post->date() ?></span>
+                    <p class="libraryinfo"><?= $post->metaInfo() ?></p>
                   </div>
                 </div>
               </div>

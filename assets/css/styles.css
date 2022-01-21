@@ -459,6 +459,16 @@ img.close{
   /* position: relative;
   float: right; */
 }
+span.libraryinfo, p.libraryinfo{
+  position: relative;
+  float: left;
+  right: auto;
+  text-align: left;
+  width: 80vw;
+}
+span.libraryinfo{
+  font-size: 1rem;
+}
 /* .preview-info span::after{
   content: "\a";
   white-space: pre;
