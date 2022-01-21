@@ -44,7 +44,9 @@
             <div class="content">
             <?php if ($page->bt1()->isNotEmpty()): ?>
               <h1 lang="de"><?= $page->bt1() ?></h3>
-              <p><?= $page->bc1()->kirbytext() ?></p>
+            <?php endif ?>
+            <?php if ($page->bc1()->isNotEmpty()): ?>
+              <?= $page->bc1()->kirbytext() ?>
             <?php endif ?>
           </div>
           </div>
