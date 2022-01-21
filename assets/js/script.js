@@ -7,7 +7,7 @@ $(document).ready(function(){
   var newSrc = 'assets/img/normal.svg';
   $(".close1").click(function(){
     if($closed1 == false) {
-      $(this).parent().css({"height":"10vh"},"slow");
+      $(this).parent().animation({"height":"10vh"},"slow");
       $(this).attr('src', newSrc);
       $(this).parent().find("p, button").css("display","none");
       $(this).parent().find("h1").css({"position":"absolute","top":"-0.5rem"},"slow");
