@@ -40,42 +40,40 @@ fields:
   block-1-title:
     label: Title (block 1)
     type: text
-    width: 1/2
+    width: 1/3
   block-1-content:
     label: Content (block 1)
     type: writer
     nodes: false
     default: "span"
     placeholder: field.blocks.text.placeholder
-    width: 1/2
+    width: 2/3
   block-2-title:
     label: Title (block 2)
     type: text
-    width: 1/2
+    width: 1/3
   block-2-content:
     label: Content (block 2)
     type: writer
     nodes: false
     placeholder: field.blocks.text.placeholder
-    width: 1/2
+    width: 2/3
   block-3-title:
     label: Title (block 3)
     type: text
-    width: 1/2
+    width: 1/3
   block-3-content:
     label: Content (block 3)
     type: writer
     nodes: false
     placeholder: field.blocks.text.placeholder
-    width: 1/2
+    width: 2/3
 
   block-4-title:
     label: Title (block 4)
     type: text
-    width: 1/2
+    width: 1/3
   block-4-content:
     label: Content (block 4)
-    type: writer
-    nodes: false
-    placeholder: field.blocks.text.placeholder
-    width: 1/2
+    type: textarea
+    width: 2/3
