@@ -37,8 +37,11 @@ fields:
     label: About
     type: textarea
     size: medium
-  projektleitung:
-    label: Projektleitung
+  block-1-title:
+    label: Title
+    type: text
+  block-1-content:
+    label: Content
     type: writer
     nodes: false
     default: "span"
