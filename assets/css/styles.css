@@ -444,6 +444,12 @@ img.close{
 }
 .preview-info p{
   position: absolute;
+  /* float: right; */
+  right: 2vw;
+}
+.preview-info span{
+  position: relative;
+  float: right;
   right: 2vw;
 }
 .preview-info span{
