@@ -442,21 +442,20 @@ img.close{
 .preview-info{
   font-size: 0.7rem;
 }
-.preview-info p, .preview-info span{
+.preview-info p{
   position: absolute;
   /* float: right; */
   right: 2vw;
 }
-/* .preview-info span{
-  position: relative;
-  float: right;
+.preview-info span{
+  position: absolute;
   right: 2vw;
-} */
-/* .preview-info span{
-  position: relative;
-  float: right;
-  right: 2vw;
-} */
+  font-size: 0.7rem;
+}
+span.preview-info::after{
+  content: "\a";
+  white-space: pre;
+}
 .main h3{
   font-size:0.7rem;
 }
