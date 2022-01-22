@@ -24,7 +24,7 @@ sections:
     label: Publikationen
     type: pages
     status: listed
-    templates: publikation
+    templates: lesen
     sortBy: date desc
     sortable: true
     layout: cards
