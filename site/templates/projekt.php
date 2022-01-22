@@ -40,7 +40,7 @@
           <?php endforeach ?>
         </div>
         <br>
-        <span class="personen"><?= $page->personen() ?></span>
+        <span class="personen"><b><?= $page->personen() ?></b></span>
         <?= $page->maincontent()->kirbytext() ?>
       </div>
     </div>

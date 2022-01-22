@@ -70,6 +70,10 @@ tabs:
         label: Inhalt
         type: textarea
         width: 2/3
+      content2:
+        label: Inhalt 2(Bio)
+        type: textarea
+        width: 2/3
       uploadedimages:
         label: Image Files
         type: files
