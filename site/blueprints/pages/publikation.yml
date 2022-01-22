@@ -54,6 +54,10 @@ tabs:
         label: Subheading
         type: text
       maincontent:
-        label: content
+        label: Inhalt
+        type: textarea
+        size: large
+      content2:
+        label: Inhalt 2(Bio)
         type: textarea
         size: large
