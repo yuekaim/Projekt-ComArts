@@ -40,7 +40,7 @@
             <a href="<?= $post->url() ?>"><div class="activity vflex <?php $post->template() ?>">
                 <div class="preview hflex">
                   <?php if($image = $post->cover()->toFile()): ?>
-                    <img class="preview-img" src="<?= $image->url() ?>" alt="">
+                    <img class="preview-img" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
                   <?php endif ?>
                   <div class="preview-info">
                     <p><?= $post->blueprint()->title() ?></p>

@@ -14,7 +14,7 @@
 
     <?php if($image = $page->cover()->toFile()): ?>
       <div class="projekt-image box">
-        <img src="<?= $image->url() ?>" alt="">
+        <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
       </div>
     <?php endif ?>
     <div class="projekt-text box">
