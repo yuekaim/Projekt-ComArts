@@ -32,10 +32,10 @@
                     <?php endif ?>
                   </div>
                   <div class="headline-info">
-                    <h3><?= $post->headline()->text() ?></h3>
-                    <p class="metainfo"><?= $post->metaInfo()->text() ?></p>
+                    <h3><span><?= $post->headline()->text() ?></span></h3>
+                    <p class="metainfo"><span><?= $post->metaInfo()->text() ?></span></p>
                     <div class="time">
-                      <p><?= $post->date()->toDate("d.m.Y") ?></p>
+                      <p><span><?= $post->date()->toDate("d.m.Y") ?></span></p>
                     </div>
                   </div>
 
@@ -85,15 +85,15 @@
                       <img class="preview-img" src="<?= $image->url() ?>" alt="">
                     <?php endif ?>
                   </div>
-                  <h3><?= $post->headline()->text() ?></h3>
-                  <p class="metainfo"><?= $post->metaInfo()->text() ?></p>
+                  <h3><span><?= $post->headline()->text() ?></span></h3>
+                  <p class="metainfo"><span><?= $post->metaInfo()->text() ?><span></p>
                   <div class="time">
-                    <p>
+                    <p><span>
                       <?= $post->date()->toDate("d.m.Y") ?>
                       <?php if ($post->enddate()): ?>
                         - <?= $post->enddate()->toDate("d.m.Y") ?>
                       <?php endif ?>
-                    </p>
+                    </span></p>
                   </div>
                 </div>
                 <?php endif ?>
@@ -102,6 +102,7 @@
         </div>
     </div>
 
+<!--phone to be styled-->
     <div class="phone short-about">
         <img class="close close1" src="assets/img/shrink.svg">
         <div class="content">

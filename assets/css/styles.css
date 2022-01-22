@@ -176,8 +176,8 @@ scroll-snap-align: start;
 
 
 }
-h1 span, p span{
-  /*background-color: white;*/
+.short-about span, .news span, .headline-info span{
+  background-color: white;
 }
 .short-about button{
   background-color: white;
