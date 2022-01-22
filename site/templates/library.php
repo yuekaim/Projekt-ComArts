@@ -43,7 +43,7 @@
                     <img class="preview-img" src="<?= $image->url() ?>" alt="">
                   <?php endif ?>
                   <div class="preview-info">
-                    <p><?= $post->template() ?></p>
+                    <p><?= $post->blueprint()->title() ?></p>
 
                     <h1><?= $post->headline() ?></h1>
                     <span class="libraryinfo"><?= $post->person() ?></span>
