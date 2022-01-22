@@ -33,7 +33,7 @@
 
         <div class="about box">
 
-            <h1>About</h1>
+            
             <p><?= $page->about()->kirbytext() ?></p>
 
         </div>
