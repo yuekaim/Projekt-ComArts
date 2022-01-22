@@ -7,18 +7,18 @@ sections:
     type: pages
     status: draft
     templates:
-      - publikation
-      - podcast
-      - video
+      - lesen
+      - hören
+      - schauen
 
   unlisted:
     label: Unlisted
     type: pages
     status: unlisted
     templates:
-      - publikation
-      - podcast
-      - video
+      - lesen
+      - hören
+      - schauen
 
   Publikationen:
     label: Publikationen
@@ -33,7 +33,7 @@ sections:
     label: podcasts
     type: pages
     status: listed
-    templates: podcast
+    templates: hören
     sortBy: date desc
     sortable: true
     layout: cards
@@ -42,7 +42,7 @@ sections:
     label: videos
     type: pages
     status: listed
-    templates: video
+    templates: schauen
     sortBy: date desc
     sortable: true
     layout: cards
