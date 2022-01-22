@@ -21,7 +21,7 @@
           if ($query == "publikations="){
             $posts = page('library')
               ->children()
-              ->filterBy('template', 'publikation');
+              ->filterBy('template', 'lesen');
           };
           if ($query == "podcasts="){
             $posts = page('library')

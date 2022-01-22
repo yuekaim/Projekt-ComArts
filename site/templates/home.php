@@ -74,7 +74,7 @@
           <img class="close close2" src="assets/img/shrink.svg">
 
           <div class="content">
-            <h1><span>NEWS</span></h1>
+            <h1><span>Termine</span></h1>
 
               <?php $headlines = $page->children()->published() ?>
               <?php foreach ($headlines as $post): ?>

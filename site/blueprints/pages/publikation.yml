@@ -1,4 +1,4 @@
-title: Publikation
+title: lesen
 tabs:
   preview:
     columns:
@@ -60,4 +60,3 @@ tabs:
       content2:
         label: Inhalt 2(Bio)
         type: textarea
-        size: large
