@@ -19,6 +19,7 @@
         <h3 style="font-size:1rem"><?= $page->personen()?></h3>
         <span class="personen"><b><?= $page->subheading()?></b></span>
         <p style=" margin: 2rem 0rem;"><?= $page->maincontent()->kirbytext() ?></p>
+        <p style=" margin: 2rem 0rem;"><?= $page->content2()->kirbytext() ?></p>
       </div>
       <div class="pdflink">
         <?= $page->tags() ?>
