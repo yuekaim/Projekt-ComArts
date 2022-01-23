@@ -60,7 +60,7 @@
     </div>
 
 
-    <div class="desktop home-info hflex normal">
+    <div class="home-info hflex normal">
       <div class="short-about">
         <img class="close close1" src="assets/img/shrink.svg">
         <div class="content">
