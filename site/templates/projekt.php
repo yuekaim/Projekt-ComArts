@@ -12,14 +12,12 @@
     <?php if($page->image()): ?>
       <div class="swiper mySwiper projekt-image box">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="<?= $page->cover()->toFile()->url() ?>" alt="">
-          </div>
+          
           <?php $images = $page->uploadedimages()->toFiles();
             foreach($images as $image):
           ?>
             <div class="swiper-slide">
-              <img src="<?= $image->url() ?>" alt="">
+              <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
             </div>
           <?php endforeach ?>
         </div>
@@ -29,7 +27,7 @@
     <?php endif ?>
     <div class="projekt-text box" id="mask">
       <?php if($image = $page->cover()->toFile()): ?>
-        <img src="<?= $image->url() ?>" alt="" class="bg">
+        <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>" class="bg">
       <?php endif ?>
       <h1><?= $page->headline() ?></h1>
       <div class="main">

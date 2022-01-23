@@ -12,7 +12,7 @@
   <div class="body-nomenu flex">
     <div class="projekt-text box" id="mask">
       <?php if($image = $page->cover()->toFile()): ?>
-        <img src="<?= $image->url() ?>" alt="" class="bg">
+        <img src="<?= $image->url() ?>" alt="<?= $image->alt() ?>" class="bg">
       <?php endif ?>
       <h1 style="font-size:1.7rem"><?= $page->headline() ?></h1>
       <div class="content">

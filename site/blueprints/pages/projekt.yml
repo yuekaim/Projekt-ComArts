@@ -11,7 +11,7 @@ tabs:
             multiple: false
             size: tiny
             empty: field.blocks.gallery.images.empty
-            uploads:
+            uploads: false
             template: blocks/image
             image:
             ratio: 1/1

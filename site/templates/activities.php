@@ -15,7 +15,7 @@
           <a href="<?= $post->url() ?>"><div class="activity vflex">
               <div class="preview hflex">
                 <?php if($image = $post->cover()->toFile()): ?>
-                  <img class="preview-img" src="<?= $image->url() ?>" alt="">
+                  <img class="preview-img" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
                 <?php endif ?>
                 <div class="preview-info">
                   <h1><?= $post->headline() ?></h1>

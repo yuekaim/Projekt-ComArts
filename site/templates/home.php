@@ -25,9 +25,9 @@
 
                   <div class="headlineimg">
                     <?php if($image = $post->thumbnail()->toFile()): ?>
-                      <img class="preview-img" src="<?= $image->url() ?>" alt="">
+                      <img class="preview-img" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
                       <div class="background-img">
-                        <img class="" src="<?= $image->url() ?>" alt="">
+                        <img class="" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
                       </div>
                     <?php endif ?>
                   </div>
@@ -82,7 +82,7 @@
                 <div class="newswrapper">
                   <div class="newsimg">
                     <?php if($image = $post->thumbnail()->toFile()): ?>
-                      <img class="preview-img" src="<?= $image->url() ?>" alt="">
+                      <img class="preview-img" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
                     <?php endif ?>
                   </div>
                   <h3><span><?= $post->headline()->text() ?></span></h3>
