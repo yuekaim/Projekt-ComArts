@@ -14,6 +14,23 @@
   .menu-item{
     font-size: 1rem;
   }
+  .preview{
+    height: 32vh;
+  }
+  .activity .preview{
+    height: 35vh;
+  }
+  .lib .preview{
+    height: 16vh;
+  }
+  .filter{
+    padding-top: 41pt;
+  }
+  .preview-info span, .preview-info p{
+    font-size: 1rem;
+    right:0;
+    text-align: left;
+  }
 .desktop{
   display:none;
 }
@@ -27,8 +44,8 @@
     margin-bottom: 0;
     height: 70%;
   }
-  .short-about .content{
-    margin: 1rem 2rem;
+  .short-about .content, .news .content{
+    margin: 1rem 2.5rem;
 
   }
   .preview-img{
