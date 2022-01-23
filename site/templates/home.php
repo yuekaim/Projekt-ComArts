@@ -103,6 +103,7 @@
     </div>
 
 <!--phone to be styled-->
+<!--
     <div class="phone short-about">
         <img class="close close1" src="assets/img/shrink.svg">
         <div class="content">
@@ -115,6 +116,7 @@
       <h1><span>Termine</span></h1>
       <img class="close close2" src="assets/img/shrink.svg">
     </div>
+  -->
   </div>
   </div>
 
