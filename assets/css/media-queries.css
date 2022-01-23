@@ -3,10 +3,16 @@
     height: 90vh;
   }
   h1{
-    font-size:17pt;
+    font-size:2rem
   }
   p{
-    font-size:13pt;
+    font-size:1rem;
+  }
+  .newswrapper h3{
+    font-size: 1.2rem;
+  }
+  .menu-item{
+    font-size: 1rem;
   }
 .desktop{
   display:none;
@@ -20,6 +26,10 @@
   .headline{
     margin-bottom: 0;
     height: 70%;
+  }
+  .short-about .content{
+    margin: 1rem 2rem;
+
   }
   .preview-img{
     width:40%;
