@@ -60,7 +60,7 @@
     </div>
 
 
-    <div class="home-info hflex normal">
+    <div class="desktop home-info hflex normal">
       <div class="short-about">
         <img class="close close1" src="assets/img/shrink.svg">
         <div class="content">
@@ -103,20 +103,49 @@
     </div>
 
 <!--phone to be styled-->
-<!--
-    <div class="phone short-about">
+
+
+      <div class="phone short-about">
         <img class="close close1" src="assets/img/shrink.svg">
         <div class="content">
           <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
-          <button><a href="https://comarts.suborder.center/library/was-bedeutet-community-arts">WEITER LESEN</a></button>
+          <!-- url-->
+          <button type="button"><a href="https://comarts.suborder.center/library/was-bedeutet-community-arts">WEITER LESEN</a></button>
         </div>
-    </div>
-    <div class="phone news">
-      <h1><span>Termine</span></h1>
-      <img class="close close2" src="assets/img/shrink.svg">
-    </div>
-  -->
+      </div>
+
+      <div class="phone news">
+        <img class="close close2" src="assets/img/shrink.svg">
+
+        <div class="content">
+          <h1><span>Termine</span></h1>
+
+            <?php $headlines = $page->children()->published() ?>
+            <?php foreach ($headlines as $post): ?>
+              <?php if($post->intendedTemplate() == "news"): ?>
+              <div class="newswrapper">
+                <div class="newsimg">
+                  <?php if($image = $post->thumbnail()->toFile()): ?>
+                    <img class="preview-img" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
+                  <?php endif ?>
+                </div>
+                <h3><span><?= $post->headline()->text() ?></span></h3>
+                <p class="metainfo"><span><?= $post->metaInfo()->text() ?><span></p>
+                <div class="time">
+                  <p><span>
+                    <?= $post->date()->toDate("d.m.Y") ?>
+                    <?php if ($post->enddate()): ?>
+                      - <?= $post->enddate()->toDate("d.m.Y") ?>
+                    <?php endif ?>
+                  </span></p>
+                </div>
+              </div>
+              <?php endif ?>
+            <?php endforeach ?>
+          </div>
+      </div>
+
   </div>
   </div>
 

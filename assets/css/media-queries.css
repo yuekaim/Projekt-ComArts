@@ -14,7 +14,7 @@
 .phone{
   display:block;
 }
-.projekt.hflex, .infos.hflex, .imp.hflex, .home-info.hflex{
+.projekt.hflex, .infos.hflex, .imp.hflex{
   flex-direction: column;
 }
   .headline{
