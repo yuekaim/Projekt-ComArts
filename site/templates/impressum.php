@@ -5,7 +5,7 @@
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
 
-  <div class="body-nomenu hflex">
+  <div class="body-nomenu imp hflex">
     <div class="impressum box">
       <div class="content">
         <h1><?= $page->title() ?></h1>
