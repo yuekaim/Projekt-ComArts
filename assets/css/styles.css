@@ -144,7 +144,7 @@ p{
 .news{
   /* display:none; */
   position: relative;
-  background-color: lightgrey;
+  background-image: url("../img/bg.jpg");
   border: 1px solid black;
   border-radius: 1.3rem;
   /* margin-left: 2vw; */
@@ -503,9 +503,6 @@ p a{
 p a:hover{
   font-style: italic;
   opacity: 1;
-}
-p+p{
-  margin-bottom:calc(line-height)
 }
 .box img{
   display: block;
