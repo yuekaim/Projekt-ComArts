@@ -1,6 +1,6 @@
 @media (max-width: 480px){
   .body-flex{
-    height: 93vh;
+    height: 95vh;
   }
   h1{
     font-size:2rem
@@ -52,7 +52,7 @@
 }
   .headline{
     margin-bottom: 0;
-    height: 85%;
+    height: 90%;
   }
   .projekt-text h1{
     font-size: 1.7rem;
