@@ -15,7 +15,10 @@
     font-size: 1rem;
   }
   .preview{
-    height: 32vh;
+    height: unset;
+  }
+  .preview-image{
+    height:unset;
   }
   .activity .preview{
     height: 35vh;
