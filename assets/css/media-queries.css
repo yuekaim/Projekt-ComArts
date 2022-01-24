@@ -27,7 +27,7 @@
   flex-direction: column;
   }
   .headlinewrapper{
-    margin-right:unset;
+    margin-right:0;
   }
   .swiper-wrapper{
     margin: 0px 2.5rem;
