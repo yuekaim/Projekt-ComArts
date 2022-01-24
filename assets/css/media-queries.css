@@ -87,7 +87,7 @@
     overflow: unset;
     width: unset;
   }
-}
+
 .imp.hflex{
   overflow-x: hidden;
 }
@@ -100,6 +100,7 @@
 .video .projekt-text{
   max-width: unset;
   display: block;
+}
 }
 @media (max-width: 992px){
 
