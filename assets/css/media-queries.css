@@ -8,7 +8,7 @@
   p{
     font-size:1rem;
   }
-.menu{
+.menu, .filter{
   z-index: 100;
 }
   .newswrapper h3{
