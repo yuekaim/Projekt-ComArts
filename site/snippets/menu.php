@@ -5,8 +5,8 @@
     <a href="<?= $site->find('home')->url() ?>">
       <div class="menu-item<?php if($site->find('home')->isActive()) echo ' highlighted"' ?>" id="comarts">ComArts</div>
     </a>
-    <a href="<?= $site->find('aktivitaeten')->url() ?>">
-      <div class="menu-item<?php if($site->find('aktivitaeten')->isOpen()) echo ' highlighted"' ?>" id="activities">Aktivitäten</div>
+    <a href="<?= $site->find('aktivitaten')->url() ?>">
+      <div class="menu-item<?php if($site->find('aktivitaten')->isOpen()) echo ' highlighted"' ?>" id="activities">Aktivitäten</div>
     </a>
     <a href="<?= $site->find('wohnzimmer')->url() ?>">
       <div class="menu-item<?php if($site->find('wohnzimmer')->isOpen()) echo ' highlighted"' ?>" id="library">Wohnzimmer</div>
