@@ -18,10 +18,10 @@
     height: unset;
   }
   .preview-image{
-    height:unset;
+
   }
   .activity .preview{
-    height: 35vh;
+
   }
   .lib .preview{
     height: 16vh;
@@ -55,6 +55,7 @@
   .preview-img{
     width:40%;
     object-fit: cover;
+    height:unset;
   }
   .preview-info p{
     width: 50vw;
