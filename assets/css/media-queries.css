@@ -23,11 +23,9 @@
   .activity .preview{
 
   }
-  .lib .preview{
-    height: 16vh;
-  }
+
   .filter{
-    padding-top: 41pt;
+    
   }
   .preview-info span, .preview-info p{
     font-size: 1rem;
