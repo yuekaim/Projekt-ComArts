@@ -1,6 +1,6 @@
 @media (max-width: 992px){
   .body-flex{
-    height: 95vh;
+    height: 90vh;
   }
   h1{
     font-size:2rem
@@ -102,9 +102,7 @@
   display: block;
 }
 @media (max-width: 992px){
-  .body-flex{
-    height: 95vh;
-  }
+
 }
 
 ...
