@@ -5,7 +5,7 @@
     <a href="<?= $site->find('home')->url() ?>">
       <div class="menu-item<?php if($site->find('home')->isActive()) echo ' highlighted"' ?>" id="comarts">ComArts</div>
     </a>
-    <a href="<?= $site->find('aktiviteaten')->url() ?>">
+    <a href="<?= $site->find('aktivitaeten')->url() ?>">
       <div class="menu-item<?php if($site->find('aktivitaeten')->isOpen()) echo ' highlighted"' ?>" id="activities">Aktivitäten</div>
     </a>
     <a href="<?= $site->find('wohnzimmer')->url() ?>">
