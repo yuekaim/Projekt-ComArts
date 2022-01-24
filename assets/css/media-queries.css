@@ -23,7 +23,12 @@
   .activity .preview{
 
   }
-
+  .insidewrapper{
+  flex-direction: column;
+  }
+  .headlinewrapper{
+    margin-right:unset;
+  }
   .swiper-wrapper{
     margin: 0px 2.5rem;
   }
