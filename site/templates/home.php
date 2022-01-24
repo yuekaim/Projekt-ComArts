@@ -67,7 +67,7 @@
           <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
           <!-- url-->
-          <button type="button"><a href="https://comarts.suborder.center/library/was-bedeutet-community-arts">WEITER LESEN</a></button>
+          <button type="button"><a href="https://comarts.suborder.center/wohnzimmer/was-bedeutet-community-arts">WEITER LESEN</a></button>
         </div>
       </div>
         <div class="news">
@@ -111,7 +111,7 @@
           <h1><span>PROJEKT COMARTS</span></h1>
           <p><span><?= $page->text() ?></span></p>
           <!-- url-->
-          <button type="button"><a href="https://comarts.suborder.center/library/was-bedeutet-community-arts">WEITER LESEN</a></button>
+          <button type="button"><a href="https://comarts.suborder.center/wohnzimmer/was-bedeutet-community-arts">WEITER LESEN</a></button>
         </div>
       </div>
 
