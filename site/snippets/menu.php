@@ -5,10 +5,10 @@
     <a href="<?= $site->find('home')->url() ?>">
       <div class="menu-item<?php if($site->find('home')->isActive()) echo ' highlighted"' ?>" id="comarts">ComArts</div>
     </a>
-    <a href="<?= $site->find('activities')->url() ?>">
+    <a href="<?= $site->find('aktivitaeten')->url() ?>">
       <div class="menu-item<?php if($site->find('aktivitaeten')->isOpen()) echo ' highlighted"' ?>" id="activities">Aktivitäten</div>
     </a>
-    <a href="<?= $site->find('library')->url() ?>">
+    <a href="<?= $site->find('wohnzimmer')->url() ?>">
       <div class="menu-item<?php if($site->find('wohnzimmer')->isOpen()) echo ' highlighted"' ?>" id="library">Wohnzimmer</div>
     </a>
     <a href="<?= $site->find('community')->url() ?>">
