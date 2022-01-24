@@ -29,7 +29,7 @@
               ->filterBy('template', 'podcast');
           };
           if ($query == "videos="){
-            $posts = page('wohnzimmer)
+            $posts = page('wohnzimmer')
               ->children()
               ->filterBy('template', 'video');
           };
