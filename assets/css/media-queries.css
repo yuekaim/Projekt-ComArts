@@ -29,7 +29,7 @@
   .headlinewrapper{
 
   }
-  .headline-info{
+  .headline-info, .headline .preview-img{
     margin-left: -34px;
   }
   .swiper-wrapper{
