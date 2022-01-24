@@ -27,7 +27,10 @@
   flex-direction: column;
   }
   .headlinewrapper{
-    margin-right:-7px;
+
+  }
+  .headline-info{
+    margin-left: -34px;
   }
   .swiper-wrapper{
     margin: 0px 2.5rem;
