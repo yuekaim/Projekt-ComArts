@@ -30,6 +30,7 @@
     font-size: 1rem;
     right:0;
     text-align: left;
+    position: relative;
   }
 .desktop{
   display:none;
