@@ -65,7 +65,7 @@
         <img class="close close1" src="assets/img/shrink.svg">
         <div class="content">
           <h1><span>PROJEKT COMARTS</span></h1>
-          <p><span><?= $page->text()->kirbytext() ?></span></p>
+          <span><?= $page->text()->kirbytext() ?></span>
           <!-- url-->
           <button type="button"><a href="https://comarts.suborder.center/wohnzimmer/was-bedeutet-community-arts">WEITER LESEN</a></button>
         </div>
