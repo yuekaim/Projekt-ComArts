@@ -24,8 +24,8 @@
 
   }
 
-  .filter{
-
+  .swiper-wrapper{
+    margin: 0px 2.5rem;
   }
   .preview-info span, .preview-info p{
     font-size: 1rem;
