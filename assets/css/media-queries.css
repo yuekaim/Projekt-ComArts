@@ -52,7 +52,7 @@
   .short-about, .news{
     height: unset;
   }
-  .short-about .content, .news .content{
+  .short-about .content, .news .content, .impressum .content, .datenschutz .content{
     margin: 1rem 2.5rem;
 
   }
@@ -77,15 +77,20 @@
     width: unset;
   }
 }
+.imp.hflex{
+  overflow-x: hidden;
+}
 .impressum, .datenschutz{
   overflow: unset;
-}
-.video .projekt-text{
-  max-width: unset;
 }
 .expand{
   display:none;
 }
+.video .projekt-text{
+  max-width: unset;
+  display: block;
+}
+
 /* 2532x1170 pixels at 460ppi iphone 12 pro*/
 @media only screen
     and (device-width: 390px)
