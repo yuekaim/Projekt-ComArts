@@ -9,7 +9,7 @@ html{
 body {
   margin: 0;
   padding: 0;
-
+  hyphens: auto;
   width: 100%;
   height: 100vh;
   font-family: 'ABC';
@@ -252,9 +252,7 @@ img.close{
 }
 .kontakt p{
 }
-h1{
-  hyphens: auto;
-}
+
 .marquee{
   /* position: absolute; */
   /* margin-top: 0.5rem; */
