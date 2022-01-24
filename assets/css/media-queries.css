@@ -39,7 +39,7 @@
 .phone{
   display:block;
 }
-.projekt.hflex, .infos.hflex, .imp.hflex{
+.projekt.hflex, .infos.hflex, .imp.hflex, .video.hflex{
   flex-direction: column;
 }
   .headline{
@@ -58,6 +58,7 @@
   }
   .projekt-text {
     padding:1rem 2.5rem;
+    overflow-x: hidden;
   }
   .preview-img{
     width:40%;
@@ -78,6 +79,12 @@
 }
 .impressum, .datenschutz{
   overflow: unset;
+}
+.video .projekt-text{
+  max-width: unset;
+}
+.expand{
+  display:none;
 }
 /* 2532x1170 pixels at 460ppi iphone 12 pro*/
 @media only screen

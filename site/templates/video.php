@@ -10,7 +10,7 @@
 
 <div class="body-wrapper vflex">
   <?php snippet('menu') ?>
-  <div class="body-nomenu hflex">
+  <div class="body-nomenu video hflex">
     <?php if ($page->vimeoyoutube()->value() == "youtube") : ?>
       <?= youtube($page->link()->url()) ?>
     <?php else : ?>
