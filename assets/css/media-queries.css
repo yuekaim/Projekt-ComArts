@@ -52,7 +52,7 @@
 }
   .headline{
     margin-bottom: 0;
-    height: 90%;
+    height: unset;
   }
   .projekt-text h1{
     font-size: 1.7rem;
