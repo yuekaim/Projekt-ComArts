@@ -19,17 +19,17 @@
           $query = Url::query(Url::current());
           $posts = $page->children()->published();
           if ($query == "publikations="){
-            $posts = page('library')
+            $posts = page('wohnzimmer')
               ->children()
               ->filterBy('template', 'publikation');
           };
           if ($query == "podcasts="){
-            $posts = page('library')
+            $posts = page('wohnzimmer')
               ->children()
               ->filterBy('template', 'podcast');
           };
           if ($query == "videos="){
-            $posts = page('library')
+            $posts = page('wohnzimmer)
               ->children()
               ->filterBy('template', 'video');
           };
