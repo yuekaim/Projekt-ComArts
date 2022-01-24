@@ -254,7 +254,6 @@ img.close{
 }
 h1{
   hyphens: auto;
-  display: inline;
 }
 .marquee{
   /* position: absolute; */
