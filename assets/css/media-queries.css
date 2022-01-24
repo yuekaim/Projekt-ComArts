@@ -46,12 +46,18 @@
     margin-bottom: 0;
     height: 70%;
   }
+  .projekt-text h1{
+    font-size: 1.7rem;
+  }
   .short-about, .news{
     height: unset;
   }
   .short-about .content, .news .content{
     margin: 1rem 2.5rem;
 
+  }
+  .projekt-text {
+    padding:1rem 2.5rem;
   }
   .preview-img{
     width:40%;
