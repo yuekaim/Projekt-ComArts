@@ -49,7 +49,7 @@
   .short-about, .news{
     height: unset;
   }
-  .short-about .content, .news .content, .projekt-text{
+  .short-about .content, .news .content{
     margin: 1rem 2.5rem;
 
   }
