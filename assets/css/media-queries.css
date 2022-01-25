@@ -31,7 +31,6 @@
   }
   .body-wrapper{
     flex: 1 1 auto !important;
-    overflow: unset;
   }
   .preview{
     height: unset;
