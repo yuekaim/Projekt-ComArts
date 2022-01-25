@@ -21,11 +21,13 @@
   .newswrapper h3{
     font-size: 1.2rem;
   }
-  /*
+
   .menu-item{
     font-size: 1rem;
   }
-  */
+  .body-wrapper{
+    flex: 1 1 auto !important;
+  }
   .preview{
     height: unset;
   }
