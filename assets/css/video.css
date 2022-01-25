@@ -1,7 +1,16 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 iframe{
   border: 1px solid black;
   border-radius: 2em;
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
   /* flex-grow: 1; */
 }
 
@@ -21,8 +30,12 @@ iframe{
   font-size: 5rem;
   color: black;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   right: 0rem;
   /* top: 40vh; */
   height: 100%;

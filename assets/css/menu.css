@@ -1,3 +1,10 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @font-face {
   font-family: 'ABC';
   src: url('../fonts/ABCMonumentGroteskMono-Regular.otf');
@@ -5,12 +12,22 @@
 
 
 .menu{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   /* column-gap: 1em; */
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   /* margin-left: 2vw; */
   /* margin-right: 2vw; */
   position: relative;
@@ -20,7 +37,9 @@
 }
 
 .menu > *{
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .menu-item{
@@ -73,6 +92,7 @@ a{
   background-color: white;
   border: 1px solid black;
   -webkit-transition: .4s;
+  -o-transition: .4s;
   transition: .4s;
 }
 
@@ -86,6 +106,7 @@ a{
   bottom: 3px;
   background-color: black;
   -webkit-transition: .4s;
+  -o-transition: .4s;
   transition: .4s;
 }
 
@@ -94,7 +115,8 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
 }
 
 input:checked + .slider:before {
@@ -104,6 +126,7 @@ input:checked + .slider:before {
   left: calc(100% - 36px);
   /* right: 4px; */
   -webkit-transition: .4s;
+  -o-transition: .4s;
   transition: .4s;
 }
 
@@ -119,13 +142,20 @@ input:checked + .slider:before {
 /* top and bottom */
 .body-flex{
   top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: calc(100vh - 1rem);
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: calc(100vw - 4vw);
 }
 
@@ -138,7 +168,9 @@ input:checked + .slider:before {
 .menu-item:hover{
   background-color: black !important;
   color:white;
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 /*
 .paused {
