@@ -1,5 +1,12 @@
 @media (max-width: 992px){
-  .body-flex{
+  /*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.body-flex{
     height: 90vh;
   }
   h1{
@@ -27,7 +34,10 @@
 
   }
   .insidewrapper{
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   }
   .headlinewrapper{
 
@@ -51,7 +61,10 @@
   display:block;
 }
 .projekt.hflex, .infos.hflex, .imp.hflex, .video.hflex{
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
   .headline{
     margin-bottom: 0;
@@ -73,7 +86,8 @@
   }
   .preview-img{
     width:40%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height:unset;
   }
   .preview-info p{
