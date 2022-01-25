@@ -21,9 +21,11 @@
   .newswrapper h3{
     font-size: 1.2rem;
   }
+  /*
   .menu-item{
     font-size: 1rem;
   }
+  */
   .preview{
     height: unset;
   }
