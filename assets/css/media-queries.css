@@ -17,6 +17,7 @@
   }
 .menu, .filter{
   z-index: 100;
+  position: unset;
 }
   .newswrapper h3{
     font-size: 1.2rem;
