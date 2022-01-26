@@ -70,13 +70,13 @@
 }
 
 .projekt.hflex, .infos.hflex, .imp.hflex, .video.hflex{
-  flex-wrap: wrap;
-  /*
+
+
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-          */
+          
 }
 
   .headline{
