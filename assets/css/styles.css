@@ -493,7 +493,7 @@ img.close{
           align-items: stretch;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  position: relative;
+  /*position: relative;*/
 }
 .keywords span{
   padding: 0rem 1rem;
