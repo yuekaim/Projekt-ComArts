@@ -16,7 +16,7 @@
     font-size:1rem;
   }
   .menu{
-    
+
   }
 .menu, .filter{
   z-index: 100;
@@ -68,12 +68,14 @@
 .phone{
   display:block;
 }
+/*
 .projekt.hflex, .infos.hflex, .imp.hflex, .video.hflex{
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
+*/
   .headline{
     margin-bottom: 0;
     height: unset;
