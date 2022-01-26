@@ -9,6 +9,9 @@
 .body-flex{
     height: 90vh;
   }
+  .body-wrapper.vflex{
+    display:unset;
+  }
   h1{
     font-size:2rem
   }
@@ -76,7 +79,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-          
+
 }
 
   .headline{
