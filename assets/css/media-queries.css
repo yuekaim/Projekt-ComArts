@@ -66,10 +66,6 @@
     position: relative;
     align-self: unset;
   }
-  p.filter{
-    padding-top: 0;
-    margin-top: 0;
-  }
 .desktop{
   display:none;
 }
@@ -114,6 +110,10 @@
   .preview-info p{
     width: 50vw;
     padding-top: 10pt;
+  }
+  p.filter{
+    padding-top: 0;
+    margin-top: 0;
   }
   .preview-info span{
     /* font-size: 13pt; */
