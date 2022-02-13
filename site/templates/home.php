@@ -18,7 +18,7 @@
               <div class="swiper-slide headlinewrapper">
 
               <?php if($post->link()->isNotEmpty()): ?>
-                <a href="<?= $post->link()->url() ?>" target="_blank">
+                <a href="<?= $post->link()->url() ?>">
               <?php endif ?>
                 <div class="insidewrapper">
 
