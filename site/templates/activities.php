@@ -12,7 +12,8 @@
       <div class="post-list">
         <?php $posts = $page->children()->published() ?>
         <?php foreach ($posts as $post): ?>
-          <a href="<?= $post->url() ?>"><div class="activity vflex">
+          <a href="<?= $post->url() ?>">
+            <div class="activity vflex">
               <div class="preview hflex">
                 <?php if($image = $post->cover()->toFile()): ?>
                   <img class="preview-img" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">
