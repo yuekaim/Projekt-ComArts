@@ -54,10 +54,9 @@
   font-size: 0.7rem;
 
 }
-.lib.preview-info span{
+.lib .preview-info span{
   align-self: unset;
   font-size: 0.7rem;
-
 }
 p.filter{
   top: 1em;
