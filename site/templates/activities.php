@@ -24,7 +24,7 @@
                      <span><?= $post->semester() ?></span>
                   <?php endif ?>
                   <?php if ($post->from()): ?>
-                     <span><?= $post->from()->toDate('Y.m.d') ?></span>
+                     <span><?= $post->from()->toDate('d.m.Y') ?></span>
                   <?php endif ?>
                   <?php if ($post->fromT()): ?>
                      <span><?= $post->fromT() ?></span>
@@ -36,7 +36,7 @@
                     <span><?= $post->toT() ?></span>
                   <?php endif ?>
 
-                  <p><?= $post->metaInfo() ?></p>
+                  <span><?= $post->metaInfo() ?></span>
                 </div>
               </div>
             </div></a>

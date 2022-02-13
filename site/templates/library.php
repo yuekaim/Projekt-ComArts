@@ -48,7 +48,7 @@
                     <h1><?= $post->headline() ?></h1>
                     <span class="libraryinfo"><?= $post->person() ?></span>
                     <span class="libraryinfo"><?= $post->date() ?></span>
-                    <p class="libraryinfo"><?= $post->metaInfo() ?></p>
+                    <!-- <p class="libraryinfo"><?= $post->metaInfo() ?></p> -->
                   </div>
                 </div>
               </div>
