@@ -535,9 +535,9 @@ img.close{
   font-size: 0.7rem;
   overflow: scroll;
 }
+/*
 .preview-info p{
   position: absolute;
-  /* float: right; */
   right: 2vw;
   margin-top: 1.2rem;
   width: calc(90vw - 300px);
@@ -548,9 +548,10 @@ img.close{
   position: absolute;
   right: 2vw;
   font-size: 0.7rem;
-  /* position: relative;
-  float: right; */
-}
+  align-self: end;
+
+}*/
+
 span.libraryinfo, p.libraryinfo{
   position: relative;
   float: left;

@@ -30,12 +30,30 @@
   max-height: 23em;
   margin: 1em;
   overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .preview-info h1{
   font-size: 1.2rem;
 }
 
+.preview-info p{
+  position: absolute;
+  /* float: right; */
+  right: 2vw;
+  margin-top: 1.2rem;
+  width: calc(90vw - 300px);
+  text-align: right;
+  overflow: scroll;
+}
+.preview-info span{
+
+
+  align-self: end;
+  font-size: 0.7rem;
+}
 ::-webkit-scrollbar{
   display: none;
 }
