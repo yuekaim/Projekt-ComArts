@@ -36,7 +36,7 @@
                     <span><?= $post->toT() ?></span>
                   <?php endif ?>
 
-                  <span><?= $post->metaInfo() ?></span>
+                  <p><?= $post->metaInfo() ?></p>
                 </div>
               </div>
             </div></a>
