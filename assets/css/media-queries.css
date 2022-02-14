@@ -69,8 +69,8 @@
     position: relative;
     align-self: unset;
   }
-  .keywords span, span.personen, .main h3{
-    font-size: 1rem !important;
+  .main .keywords span, span.personen, .main h3{
+    font-size: 1rem;
   }
 .desktop{
   display:none;
