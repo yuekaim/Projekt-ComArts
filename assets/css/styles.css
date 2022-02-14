@@ -611,4 +611,5 @@ p a:hover{
   margin-right: auto;
   max-width: 100%;
   border-radius: 1.3rem;
+  box-sizing: content-box;
 }
