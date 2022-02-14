@@ -28,10 +28,10 @@
                      <span><?= $post->from()->toDate('d.m.Y') ?></span>
                   <?php endif ?>
                   <?php if ($post->fromT()): ?>
-                     <span><?= $post->fromT() ?></span>
+                     <span><?= $post->fromT()?></span>
                   <?php endif ?>
                   <?php if ($post->to()): ?>
-                    <span><?= $post->enddate() ?></span>
+                    <span><?= $post->enddate()->toDate('d.m.Y') ?></span>
                   <?php endif ?>
                   <?php if ($post->toT()): ?>
                     <span><?= $post->toT() ?></span>
