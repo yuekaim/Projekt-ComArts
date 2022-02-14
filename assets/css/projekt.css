@@ -89,7 +89,10 @@ body{
   /* mix-blend-mode: difference; */
   color: black !important;
 }
-
+.box img{
+  border-radius: 1.3rem;
+  box-sizing: content-box;
+}
 
 /*
 .swiper-slide img {
