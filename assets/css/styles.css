@@ -19,7 +19,6 @@ body {
   width: 100%;
   height: 100vh;
   font-family: 'ABC';
-  box-sizing: border-box;
 
   background: #e3e3e3;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(.1em, rgba(0, 0, 0, .1)), color-stop(.1em, transparent)), -webkit-gradient(linear, left top, right top, color-stop(.1em, rgba(0, 0, 0, .1)), color-stop(.1em, transparent));
@@ -31,6 +30,7 @@ body {
 .box{
   border: 1px solid black;
   border-radius: 1.3rem;
+  box-sizing: border-box;
   -webkit-transition-duration: 0.5s;
        -o-transition-duration: 0.5s;
           transition-duration: 0.5s;
