@@ -69,7 +69,7 @@
     position: relative;
     align-self: unset;
   }
-  .keywords span, span.personen{
+  .keywords span, span.personen, .main h3{
     font-size: 1rem !important;
   }
 .desktop{
