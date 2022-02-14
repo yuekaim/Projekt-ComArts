@@ -64,6 +64,7 @@
   }
   .preview-info span, .preview-info p{
     font-size: 1rem;
+    margin-top: 0.2rem;
     right:0;
     text-align: left;
     position: relative;
