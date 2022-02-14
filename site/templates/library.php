@@ -37,7 +37,7 @@
         ?>
         <?php foreach ($posts as $post): ?>
           <?php if ($post->isUnlisted() != true): ?>
-            <a href="<?= $post->url() ?>"><div class="activity lib vflex <?php $post->template() ?>">
+            <a href="<?= $post->url() ?>"><div class="activity lib vflex box <?php $post->template() ?>">
                 <div class="preview hflex">
                   <?php if($image = $post->cover()->toFile()): ?>
                     <img class="preview-img" src="<?= $image->url() ?>" alt="<?= $image->alt() ?>">

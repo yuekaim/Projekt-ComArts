@@ -6,7 +6,7 @@
 
   <div class="body-nomenu">
 
-    <div class="headline">
+    <div class="headline box">
       <!-- <h1><span>HEADLINE</span></h1> -->
       <div class="swiper myHomeSwiper">
         <div class="swiper-wrapper" style="margin: 0 5rem;">
