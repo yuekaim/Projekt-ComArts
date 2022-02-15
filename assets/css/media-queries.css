@@ -82,6 +82,9 @@
 .phone{
   display:block;
 }
+div.keywords.phone{
+  display:block;
+}
 
 .projekt.hflex, .infos.hflex, .imp.hflex, .video.hflex{
 
