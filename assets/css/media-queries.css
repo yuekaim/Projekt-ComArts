@@ -24,7 +24,7 @@
 
   }
 .menu, .filter{
-  z-index: 100;
+
   position: unset;
 }
   .newswrapper h3{
@@ -82,9 +82,7 @@
 .phone{
   display:block;
 }
-div.keywords.phone{
-  display:block;
-}
+
 
 .projekt.hflex, .infos.hflex, .imp.hflex, .video.hflex{
 

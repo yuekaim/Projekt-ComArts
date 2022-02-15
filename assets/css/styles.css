@@ -275,7 +275,7 @@ img.close{
 }
 .about, .kontakt{
   /* height: calc(80vh - 2.5rem); */
-  overflow: scroll;
+
   /* height: 100%; */
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;

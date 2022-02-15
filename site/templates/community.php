@@ -30,7 +30,7 @@
   </div>
 
   <div class="body-nomenu infos hflex">
-    <div class="keywords phone">
+    <div class="keywords ">
       <?php foreach ($page->tags()->split() as $keyword): ?>
         <span class="tag"><?= $keyword ?></span>
       <?php endforeach ?>
