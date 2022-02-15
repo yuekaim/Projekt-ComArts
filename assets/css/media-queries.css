@@ -7,8 +7,10 @@
 */
 
 .body-flex{
-    height: 90vh;
-  }
+  /* height: 90vh; */
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+}
   .body-wrapper.vflex{
     display:flex;
     position: relative;
