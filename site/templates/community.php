@@ -30,7 +30,7 @@
   </div>
 
   <div class="body-nomenu infos hflex">
-    <div class="keywords phone">
+    <div class="test phone">
       <h1>test test</h2>
       <?php endforeach ?>
 
