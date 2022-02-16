@@ -3,7 +3,7 @@
 <?php snippet('top') ?>
 <?php snippet('menu') ?>
 <div class="body-wrapper vflex">
-  <?php snippet('menu') ?>
+  
   <div class="keywords phone">
     <?php foreach ($page->tags()->split() as $keyword): ?>
       <span class="tag"><?= $keyword ?></span>
