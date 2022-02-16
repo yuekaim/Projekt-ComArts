@@ -78,8 +78,8 @@
 
           <!-- <p><?= $page->teamKontakt() ?></p> -->
 
-      </div>
-  </div>
+
+
 
   <div class="body-nomenu infos hflex desktop">
     <div class="about box">
