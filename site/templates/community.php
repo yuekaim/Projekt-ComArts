@@ -30,9 +30,31 @@
   </div>
 
   <div class="body-nomenu infos hflex">
-    <div class="about box">
-        <p><?= $page->about()->kirbytext() ?></p>
+    <div class="keywords phone">
+      <?php foreach ($page->tags()->split() as $keyword): ?>
+        <span class="tag"><?= $keyword ?></span>
+      <?php endforeach ?>
+      <?php foreach ($page->tags2()->split() as $keyword): ?>
+        <span class="tag2"><?= $keyword ?></span>
+      <?php endforeach ?>
+      <?php foreach ($page->tags3()->split() as $keyword): ?>
+        <span class="tag3"><?= $keyword ?></span>
+      <?php endforeach ?>
+      <?php foreach ($page->tags4()->split() as $keyword): ?>
+        <span class="tag4"><?= $keyword ?></span>
+      <?php endforeach ?>
+      <?php foreach ($page->tags5()->split() as $keyword): ?>
+        <span class="tag5"><?= $keyword ?></span>
+      <?php endforeach ?>
+      <?php foreach ($page->tags6()->split() as $keyword): ?>
+        <span class="tag6"><?= $keyword ?></span>
+      <?php endforeach ?>
+      <?php foreach ($page->tags7()->split() as $keyword): ?>
+        <span class="tag7"><?= $keyword ?></span>
+      <?php endforeach ?>
+
     </div>
+
     <div class="about box">
         <p><?= $page->about()->kirbytext() ?></p>
     </div>
