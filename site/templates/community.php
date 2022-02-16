@@ -30,7 +30,9 @@
   </div>
 
   <div class="body-nomenu infos hflex">
-    
+    <div class="about box">
+        <p><?= $page->about()->kirbytext() ?></p>
+    </div>
     <div class="about box">
         <p><?= $page->about()->kirbytext() ?></p>
     </div>
