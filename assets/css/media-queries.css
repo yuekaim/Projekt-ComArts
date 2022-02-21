@@ -6,6 +6,9 @@
 * Browsers: last 4 version
 */
 
+body{
+  overflow: hidden;
+}
 .body-flex{
   /* height: 90vh; */
   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
